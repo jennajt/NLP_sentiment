@@ -14,3 +14,5 @@ def preprocessing(df):
     stopwords = [word for word in HTML if word not in (stop_words)]
                                              
     return " ".join(element for element in stopwords)
+
+
