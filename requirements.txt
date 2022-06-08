@@ -22,8 +22,7 @@ gcsfs
 google-cloud-storage
 mlflow
 s3fs
-snscrape.modules.twitter
-
+snscrape
 
 # utilities
 six>=1.14
