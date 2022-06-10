@@ -30,3 +30,8 @@ six>=1.14
 joblib
 memoized-property
 termcolor
+
+# Tweet Trained RoBERTa
+matplotlib
+scipy
+Transformers
