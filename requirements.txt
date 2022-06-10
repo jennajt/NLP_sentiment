@@ -9,6 +9,7 @@ numpy
 pandas
 scikit-learn
 top2vec
+seaborn
 
 # tests/linter
 black
