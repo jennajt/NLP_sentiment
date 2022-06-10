@@ -9,6 +9,7 @@ numpy
 pandas
 scikit-learn
 top2vec
+seaborn
 
 # tests/linter
 black
@@ -22,7 +23,7 @@ gcsfs
 google-cloud-storage
 mlflow
 s3fs
-
+snscrape
 
 # utilities
 six>=1.14
