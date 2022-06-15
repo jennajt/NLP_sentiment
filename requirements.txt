@@ -35,3 +35,8 @@ termcolor
 matplotlib
 scipy
 Transformers
+
+# Streamlit
+streamlit
+streamlit-wordcloud
+emoji
