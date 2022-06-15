@@ -58,3 +58,5 @@ def fig_4(data_4):
     fig.update_yaxes(title='Positivity score' )
     fig.update_xaxes(title='Year' )
     fig.show()
+
+

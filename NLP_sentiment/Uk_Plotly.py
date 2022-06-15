@@ -59,3 +59,8 @@ def fig_4(data_4):
     fig.update_xaxes(title='Date' )
     fig.update_yaxes( title='Optimism score' )
     fig.show()
+
+fig_1(data_1)
+fig_2(data_2)
+fig_3(data_3)
+fig_4(data_4)
