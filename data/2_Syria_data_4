@@ -1,0 +1,569 @@
+,Tweet,Newspaper,Like Count,Joy,Optimism,Anger,Sadness,Positive,Neutral,Negative,Date,Emotion,Sentiment,year
+0,US troops DIDN'T commit war crimes or deliberately cause civilian deaths during airstrikes on Syria in 2019 http,Daily Mail,36,0.0082,0.0425,0.8903,0.059,0.0136,0.3379,0.6485,2022-05-18,Anger,Negative,2022
+1,Benedict Cumberbatch vows to put up Ukrainian refugees after previously saying he couldn’t house a Syrian asylum seeker http,Daily Mail,26,0.0645,0.365,0.2336,0.3369,0.0254,0.9355,0.0391,2022-03-14,Optimism,Neutral,2022
+2,"Mosque leader, 53, who lost two sons to the war in Syria denies telling congregation that 'Jihad is compulsory' http",Daily Mail,6,0.0153,0.1039,0.5046,0.3762,0.0046,0.1916,0.8038,2021-11-27,Anger,Negative,2021
+3,EXCLUSIVE: Suicide bomber who died when device blew up outside UK hospital is Syrian asylum seeker http,Daily Mail,336,0.0134,0.0176,0.1233,0.8457,0.0063,0.3067,0.687,2021-11-16,Sadness,Negative,2021
+4,"EXCLUSIVE: Suicide bomber who died when his device blew up outside Liverpool hospital is Syrian asylum seeker, http http",Daily Mail,207,0.0131,0.0186,0.1068,0.8615,0.007,0.316,0.677,2021-11-15,Sadness,Negative,2021
+5,EXCLUSIVE: Suicide bomber who died when his device blew up outside Liverpool hospital is Syrian asylum http,Daily Mail,29,0.0142,0.0202,0.1218,0.8438,0.008,0.3178,0.6742,2021-11-15,Sadness,Negative,2021
+6,What is Putin up to? Russia and Turkey stage joint drills on Syrian border - conflict fear http,Daily Express,6,0.0188,0.0715,0.6528,0.2569,0.0158,0.7367,0.2475,2021-08-26,Anger,Neutral,2021
+7,"British girl trafficked to Syria aged 12, who was raped by her jihadi 'husband' is among dozens trapped in refugee camps, charity claims http",Daily Mail,9,0.0137,0.0213,0.0681,0.8968,0.0067,0.348,0.6452,2021-04-30,Sadness,Negative,2021
+8,Syria's British first lady Asma al-Assad 'faces war crimes prosecution in UK' http,Daily Mail,23,0.0213,0.0563,0.5955,0.3269,0.0105,0.6429,0.3467,2021-03-14,Anger,Neutral,2021
+9,Denmark becomes the first European country to send Syrian migrants back to their home country http,Daily Mail,136,0.1362,0.1544,0.1448,0.5646,0.0382,0.9373,0.0246,2021-03-03,Sadness,Neutral,2021
+10,"Thousands of adults and children have been tortured and raped during Syria’s civil war, UN report finds http",Daily Mail,7,0.0112,0.0389,0.525,0.4248,0.005,0.1612,0.8339,2021-03-02,Anger,Negative,2021
+11,"Barred from Britain: ISIS bride Shamima Begum, 21, breaks cover in refugee camp in Syria http",Daily Mail,8,0.0229,0.0671,0.3478,0.5621,0.0079,0.4057,0.5864,2021-02-26,Sadness,Negative,2021
+12,Barred from Britain: ISIS bride Shamima Begum is seen in refugee camp in Syria as Supreme Court rules she CAN'T return to http,Daily Mail,38,0.0133,0.0498,0.3306,0.6063,0.0067,0.3131,0.6801,2021-02-26,Sadness,Negative,2021
+13,EXPOSED: The shadowy Islamic State cell looking to free Western jihadi brides from Kurdish refugee camps in Syria http http,Daily Mail,17,0.0262,0.0838,0.6194,0.2706,0.0157,0.8166,0.1677,2020-11-29,Anger,Neutral,2020
+14,"Gods help us: Syrian refugees take shelter in 1,900-year-old temple dedicated to Zeus http http",Daily Mail,42,0.1466,0.661,0.0518,0.1406,0.7543,0.2405,0.0052,2020-11-12,Optimism,Positive,2020
+15,Syrian refugees withdraw legal claim for damages against Qatari bank they say funded terror group's torturers http,Daily Mail,10,0.0045,0.0173,0.9163,0.0619,0.0055,0.2734,0.7211,2020-11-12,Anger,Negative,2020
+16,"BBC war reporter who claimed she was bullied into taking 'unnecessary' trip to Syria and left with 'severe' PTSD wins £40,000 payout from corporation http",Daily Mail,9,0.024,0.0368,0.3249,0.6144,0.0165,0.3204,0.6631,2020-09-29,Sadness,Negative,2020
+17,Bafta-winning Syrian activist who worked as NHS cleaner slams ‘myth’ that migrants flock to Britain for benefits http,Daily Mail,18,0.0316,0.1451,0.7571,0.0662,0.0173,0.4408,0.5419,2020-08-10,Anger,Negative,2020
+18,Syrian 'war criminal' has his $100m property empire confiscated by French court http,Daily Mail,28,0.0152,0.0429,0.8361,0.1058,0.0086,0.3528,0.6385,2020-06-17,Anger,Negative,2020
+19,Turkish plan to invade Greece at the height of the Syrian war in 2014 is revealed in leaked documents http,Daily Mail,61,0.0855,0.0999,0.6682,0.1464,0.0109,0.5549,0.4342,2020-06-17,Anger,Neutral,2020
+20,Turkey shoots down two Syrian war planes and destroys 100 tanks http,Daily Mail,65,0.0167,0.0368,0.8464,0.1001,0.0065,0.1556,0.8379,2020-03-01,Anger,Negative,2020
+21,"Turkish president Erdogan vows to keep doors open for Syrian refugees heading for Europe as first 18,000 cross Greek border and migrants clash again with guards http",Daily Mail,29,0.0178,0.0985,0.7277,0.156,0.057,0.9205,0.0225,2020-03-01,Anger,Neutral,2020
+22,"18,000 Syrian refugees cross Greek border amid fresh tear gas clashes with guards after Turkish president Erdogan vowed to open doors to Europe http",Daily Mail,18,0.011,0.0375,0.9059,0.0456,0.0116,0.5058,0.4826,2020-03-01,Anger,Neutral,2020
+23,"New refugee crisis as 30,000 migrants from countries including Syria mass on Turkish borders with Greece and Bulgaria http",Daily Mail,103,0.0146,0.0308,0.148,0.8066,0.0152,0.4913,0.4936,2020-02-29,Sadness,Negative,2020
+24,World War 3 fears as Russia sends cruise missile-laden warships to Syria http,The Sun,20,0.0234,0.0613,0.7739,0.1414,0.0095,0.3358,0.6546,2020-02-28,Anger,Negative,2020
+25,World war 3: Turkey asks for US assistance as Erdogan faces all out conflict with http http,Daily Express,3,0.0107,0.0455,0.8635,0.0803,0.0178,0.4536,0.5286,2020-02-21,Anger,Negative,2020
+26,Syria's tiny victims: Harrowing images reveal heartbreaking human cost of the Syrian civil war http,Daily Mail,30,0.0087,0.0268,0.1317,0.8328,0.0064,0.1662,0.8275,2020-02-13,Sadness,Negative,2020
+27,World War 3: Missile strike kills eight pro-Iranian militia members on Syria http http,Daily Express,19,0.0183,0.0392,0.8526,0.0899,0.0093,0.2596,0.731,2020-01-10,Anger,Negative,2020
+28,Syria war: Turkey can't handle 'refugee wave' warns Erdogan as thousands head to http http,Daily Express,3,0.0131,0.0498,0.7548,0.1823,0.0065,0.2129,0.7806,2019-12-23,Anger,Negative,2019
+29,Macron and Turkey clash over terrorism after Syria conflict 'No consensus http http,Daily Express,3,0.0111,0.0527,0.8418,0.0944,0.0119,0.5991,0.389,2019-12-06,Anger,Neutral,2019
+30,How Abu Bakr al-Baghdadi took advantage of Syria's civil war to push for a medieval-style Islamic State known for gruesome massacres and beheadings http,Daily Mail,12,0.0123,0.0264,0.9272,0.0341,0.0083,0.266,0.7257,2019-10-27,Anger,Negative,2019
+31,Kurdish fighters in Syria thank Russia for shielding them from the 'scourge of war' http,Daily Mail,18,0.0378,0.334,0.529,0.0992,0.2876,0.6886,0.0239,2019-10-24,Anger,Neutral,2019
+32,"Putin's troops 'will not allow' Syria and Turkey to enter direct conflict, says Moscow http",Daily Mail,18,0.0133,0.0502,0.8824,0.0541,0.0106,0.5489,0.4406,2019-10-15,Anger,Neutral,2019
+33,Turkey defies Trump as Erdogan goes on war path in Syria ‘We will not http http,Daily Express,4,0.0098,0.0695,0.8677,0.053,0.0186,0.5165,0.4648,2019-10-12,Anger,Neutral,2019
+34,Syrian asylum seeker jailed for nine-and-a-half years for stabbing a man to death in Germany http,Daily Mail,20,0.0193,0.0167,0.8373,0.1267,0.0068,0.2287,0.7645,2019-08-22,Anger,Negative,2019
+35,Syrian asylum seeker is convicted of manslaughter and jailed for nine-and-a-half years for stabbing a man to death in Germany http,Daily Mail,25,0.0175,0.0168,0.848,0.1177,0.0059,0.1631,0.831,2019-08-22,Anger,Negative,2019
+36,Syria's war horse: Foal is fitted with a prosthetic limb after losing its leg when Assad shelled its field in Aleppo http,Daily Mail,107,0.032,0.0548,0.2655,0.6477,0.0152,0.4542,0.5306,2019-08-08,Sadness,Negative,2019
+37,Malta agrees to relocate 65 migrants on board German rescue ship named after Syrian boy Alan Kurdi after stand-off with Italian authorities http,Daily Mail,13,0.0857,0.1421,0.2784,0.4938,0.0351,0.9375,0.0274,2019-07-07,Sadness,Neutral,2019
+38,Cyprus caught in crossfire of Israeli-Syria conflict as Russian missile lands near http http,Daily Express,1,0.0171,0.0515,0.7352,0.1962,0.016,0.8464,0.1376,2019-07-01,Anger,Neutral,2019
+39,German court lifts city's ban on tburkini after Syrian asylum seeker complained it prevented her from swimming http,Daily Mail,25,0.0157,0.0498,0.604,0.3305,0.0133,0.5247,0.462,2019-06-14,Anger,Neutral,2019
+40,Moment Pope gives eight migrant children from Syria and Africa a joyride on his Popemobile through St Peter’s Square http,Daily Mail,30,0.9222,0.0447,0.0112,0.0219,0.6192,0.3754,0.0054,2019-05-16,Joy,Positive,2019
+41,ISIS-supporting Syrian asylum seeker who planned to carry out terror attack with bomb is convicted in Denmark http,Daily Mail,38,0.0117,0.0238,0.8929,0.0717,0.0068,0.2175,0.7757,2019-04-12,Anger,Negative,2019
+42,"Europe will soon be hit by new 'migrant waves' because Lebanon cannot cope with the influx of Syrian refugees, Beirut warns http",Daily Mail,32,0.0137,0.0725,0.2316,0.6823,0.0097,0.2915,0.6987,2019-03-28,Sadness,Negative,2019
+43,ISIS bride Shamima Begum’s lawyer blocked from seeing her as Syria refugee camp put in ‘security lockdown’ http,The Sun,14,0.0145,0.042,0.421,0.5226,0.0079,0.4093,0.5829,2019-03-18,Sadness,Negative,2019
+44,"Syria's eight year civil war has left 370,000 people dead, including more than 21,000 children http",Daily Mail,38,0.0146,0.0267,0.2733,0.6854,0.0048,0.0962,0.8991,2019-03-15,Sadness,Negative,2019
+45,"Iraq agrees to take back 20,000 ISIS wives and their children being held at refugee camps in Syria http",Daily Mail,26,0.0289,0.1613,0.3874,0.4224,0.0203,0.7259,0.2538,2019-03-12,Sadness,Neutral,2019
+46,Defiant jihadi bride refugees vow revenge as last outpost of their Syrian 'caliphate' faces defeat by Kurdish forces http,Daily Mail,23,0.0119,0.0515,0.8891,0.0474,0.0093,0.3032,0.6874,2019-03-10,Anger,Negative,2019
+47,Ex-wife of hapless ISIS fighter reveals he was addicted to war video games before he fled to Syria - and says he is a 'very soft man' who 'needed love' http,Daily Mail,14,0.0721,0.0267,0.0341,0.8671,0.0482,0.5261,0.4257,2019-03-05,Sadness,Neutral,2019
+48,Syria's Assad meets Iran's supreme leader to thank him for his support during the eight-year civil war http,Daily Mail,29,0.2058,0.277,0.4027,0.1145,0.1122,0.8528,0.035,2019-02-26,Anger,Neutral,2019
+49,Iran REFUSE to rule out CONFLICT with Israel after bombing campaign in http http,Daily Express,1,0.0058,0.0243,0.9437,0.0261,0.0104,0.3545,0.6351,2019-02-20,Anger,Negative,2019
+50,World War 3 warning: Iran threatens to ‘DESTROY’ Israel if it continues to strike Syria  http,Daily Express,5,0.0109,0.0463,0.8988,0.044,0.0077,0.1879,0.8044,2019-02-01,Anger,Negative,2019
+51,Israeli strikes on Iran in Syria could lead to ALL OUT WAR warns US intelligence http,Daily Express,6,0.0117,0.0399,0.9083,0.04,0.0079,0.3177,0.6744,2019-01-31,Anger,Negative,2019
+52,WW3 WARNING: ‘Israel and Iran ON BRINK of war in Syria’ claims expert after deadly strikes http http,Daily Express,3,0.0142,0.0542,0.8562,0.0754,0.0094,0.3274,0.6633,2019-01-30,Anger,Negative,2019
+53,WORLD WAR 3 fears: Israel deploys FEARSOME missile systems amid Syria threat http http,Daily Express,3,0.0176,0.0689,0.7404,0.1732,0.0125,0.3262,0.6613,2019-01-24,Anger,Negative,2019
+54,World War 3: Russia tells Israel strikes on Syria ‘MUST END’ amid fears of ‘new http,Daily Express,3,0.0133,0.0762,0.8373,0.0732,0.0107,0.4495,0.5398,2019-01-24,Anger,Negative,2019
+55,"World War 3 FEARS: Syria threatens missile attack on Tel Aviv, Israel - ‘We will STRIKE!’ http http",Daily Express,1,0.0144,0.0547,0.8939,0.037,0.0108,0.1888,0.8004,2019-01-23,Anger,Negative,2019
+56,Germany car attack: Man ploughs into Syrian refugees in ‘targeted attack’ http http,The Sun,16,0.0125,0.0245,0.8772,0.0858,0.0103,0.41,0.5797,2019-01-01,Anger,Negative,2019
+57,#Trump quitting Syria to create 'POWER VACUUM' fuelling Iran-Israel http http,Daily Express,2,0.0087,0.0542,0.8905,0.0466,0.0238,0.7422,0.234,2018-12-26,Anger,Neutral,2018
+58,Germany considers deporting Syrian migrants convicted of crimes or deemed a danger to the public http,Daily Mail,106,0.0108,0.0529,0.6611,0.2753,0.01,0.4822,0.5078,2018-11-16,Anger,Negative,2018
+59,Russian TAKEOVER in Middle East? US fears MISSILES may suppress key ally in Syria http,Daily Express,3,0.0138,0.0695,0.673,0.2437,0.0087,0.3435,0.6478,2018-11-08,Anger,Negative,2018
+60,500 protesters march through German town after seven Syrian migrants are arrested for gang-rape of 18-year-old student http,Daily Mail,19,0.0121,0.0204,0.9263,0.0411,0.0066,0.2387,0.7547,2018-10-30,Anger,Negative,2018
+61,Seven Syrian migrants and one German are arrested for gang-raping a girl outside a nightclub http,Daily Mail,20,0.0319,0.0205,0.8256,0.122,0.0075,0.2932,0.6993,2018-10-29,Anger,Negative,2018
+62,"Syria crisis: Putin, Merkel, Macron and Erdogan demand 'lasting ceasefire' to brutal civil war http http",Daily Express,3,0.0393,0.1755,0.6076,0.1776,0.0273,0.7666,0.2061,2018-10-27,Anger,Neutral,2018
+63,Syrian man living the real life 'The Terminal' after being stranded in a Malaysian airport will now be deported back http,Daily Mail,4,0.0118,0.0134,0.1697,0.805,0.0081,0.4441,0.5478,2018-10-02,Sadness,Negative,2018
+64,World War 3 fears as Russia BREAKS promise with Israel by sending missiles to Syria http http,Daily Express,5,0.0151,0.0667,0.7792,0.1391,0.0104,0.3807,0.6089,2018-09-25,Anger,Negative,2018
+65,"US braced for STAND OFF with Iran in Syria as Trump recommits troops, risking World War 3 http http",Daily Express,0,0.0129,0.0671,0.8662,0.0537,0.0218,0.601,0.3772,2018-09-25,Anger,Neutral,2018
+66,Russia and US BRACE for conflict in Syria as tensions boil over sparking ALL-OUT WAR fears http http,Daily Express,2,0.0094,0.0465,0.8805,0.0635,0.012,0.6152,0.3729,2018-08-29,Anger,Neutral,2018
+67,US and Russia prepare to launch FRESH conflict in Syria WITHOUT support of China http http,Daily Express,5,0.0133,0.044,0.8801,0.0625,0.0245,0.8165,0.159,2018-08-21,Anger,Neutral,2018
+68,"Russia flexes its military might in Olympics-style War Games against China, Iran and Syria - after showing off hypersonic super-missile following Trump meeting http",Daily Mail,12,0.2063,0.1152,0.6478,0.0307,0.2193,0.7509,0.0298,2018-08-04,Anger,Neutral,2018
+69,"Russia goes head-to-head with China, Iran and Syria in war games as NATO troops take part in war games in neighbouring Georgia http http",Daily Express,7,0.0612,0.0931,0.8008,0.0449,0.0226,0.9048,0.0726,2018-08-04,Anger,Neutral,2018
+70,Russia vows to REBUILD Syria after civil war in chilling post-WW2 East Germany http http,Daily Express,4,0.0624,0.1997,0.5977,0.1403,0.0362,0.8998,0.0641,2018-07-26,Anger,Neutral,2018
+71,World War 3 COULD break out following ANOTHER chemical attack in Syria – ex-diplomat WARNS http http,Daily Express,0,0.0118,0.0271,0.8998,0.0613,0.0099,0.3461,0.644,2018-07-13,Anger,Negative,2018
+72,"Israel rushes to secure its border and 'prevent entry of refugees' as 120,000 Syrians flee Assad's onslaught http",Daily Mail,34,0.0264,0.1937,0.596,0.1838,0.0634,0.8557,0.0808,2018-06-29,Anger,Neutral,2018
+73,World War 3: US airstrike ‘KILLS 8 people’ in Syria as regime violates de-escalation pact http http,Daily Express,4,0.0129,0.0342,0.8536,0.0993,0.0073,0.1908,0.8019,2018-06-23,Anger,Negative,2018
+74,World War 3: Benjamin Netanyahu says Israel will 'DESTROY SYRIA' if Iran does not withdraw http http,Daily Express,8,0.0093,0.0372,0.9079,0.0456,0.0099,0.2553,0.7347,2018-06-10,Anger,Negative,2018
+75,US launch fresh AIRSTRIKES against President Assad's Syria regime as civil war RAGES on http #Syria #Airstrike #USA #Assad,Daily Express,3,0.0105,0.0217,0.9325,0.0354,0.0116,0.2682,0.7203,2018-05-24,Anger,Negative,2018
+76,Syrian refugees given jobs turning life jackets they wore as they fled to Europe into bags and dresses http,Daily Mail,23,0.1912,0.2149,0.1715,0.4225,0.0542,0.8918,0.054,2018-05-22,Sadness,Neutral,2018
+77,Syria news: Syrian capital is FREE FROM ISIS for first time since civil war began http http,Daily Express,4,0.2138,0.328,0.2992,0.1589,0.381,0.6039,0.0151,2018-05-22,Optimism,Neutral,2018
+78,Syria claims victory in the war on ISIS http,Daily Mail,24,0.1405,0.5279,0.2816,0.05,0.2544,0.7111,0.0344,2018-05-21,Optimism,Neutral,2018
+79,"Syrian war could escalate into World War Three, Assad warns http",Daily Mail,17,0.0145,0.0711,0.8159,0.0985,0.0093,0.3335,0.6572,2018-05-11,Anger,Negative,2018
+80,Turkey vows to ESCALATE Syria WAR to eliminate 'terrorist' Kurdish fighters amid WW3 fears http #Syria #Turkey #WW3 #Kurdish #YPG,Daily Express,1,0.0095,0.0358,0.8933,0.0614,0.0302,0.6435,0.3263,2018-05-09,Anger,Neutral,2018
+81,"Russian war plane crashes in Syria, killing both pilots, 'after bird strike' http http",Daily Mail,9,0.0178,0.0293,0.2382,0.7146,0.0064,0.3034,0.6903,2018-05-03,Sadness,Negative,2018
+82,World War 3: Turkey DENIES BLASTING US-led Syria attacks in meeting with Russia and Iran http http,Daily Express,2,0.0099,0.0329,0.9206,0.0367,0.0143,0.4868,0.4989,2018-05-02,Anger,Negative,2018
+83,EXCLUSIVE: 'Syria war will NOT stop' – Middle East expert warns of MORE airstrikes to come http #Syria #Iran #Israel #Airstrikes,Daily Express,14,0.0212,0.0602,0.8594,0.0592,0.008,0.2114,0.7806,2018-04-28,Anger,Negative,2018
+84,Iran and Israel WAR in Syria 'VERY likely' warns US Pentagon chief James Mattis http #WW3 #Israel #Iran #JamesMattis #Syria #USA,Daily Express,4,0.0189,0.0972,0.779,0.1049,0.0157,0.6641,0.3202,2018-04-28,Anger,Neutral,2018
+85,Russia ‘DISABLING' American aircraft in Syrian airspace – claims US commander http #Russia #USA #Putin #Trump #Syria #War,Daily Express,0,0.0122,0.027,0.903,0.0578,0.0124,0.5569,0.4307,2018-04-27,Anger,Neutral,2018
+86,SYRIA WAR: Locals secretly bury chemical attack victims to PRESERVE evidence against Assad http http,Daily Express,2,0.0102,0.0351,0.8757,0.0789,0.0101,0.3073,0.6827,2018-04-21,Anger,Negative,2018
+87,Russia ‘CONFIDENT’ World War 3 will NOT break out with Donald Trump after Syria attack http http,Daily Express,3,0.0082,0.0274,0.9144,0.0499,0.0247,0.4565,0.5187,2018-04-21,Anger,Negative,2018
+88,World War 3: Theresa May BLASTS RUSSIA for SPREADING LIES in Britain after Syria attack http http,Daily Express,5,0.0108,0.0198,0.9464,0.023,0.0092,0.2662,0.7246,2018-04-20,Anger,Negative,2018
+89,World War 3: Iran BLASTED for ‘TRYING TO STRANGLE’ Israel amid heightening Syria fears http http,Daily Express,2,0.0087,0.0309,0.9216,0.0388,0.0121,0.3503,0.6376,2018-04-19,Anger,Negative,2018
+90,Syria war: ‘They will be slaughtered!’ Senator Graham warns USA troops must http http,Daily Express,0,0.0118,0.0715,0.823,0.0936,0.0059,0.1156,0.8785,2018-04-18,Anger,Negative,2018
+91,World War 3 alert: Israel issues MENACING threat to Iran as tensions SOAR over Syria http http,Daily Express,5,0.0117,0.0484,0.8976,0.0423,0.0181,0.5525,0.4295,2018-04-18,Anger,Neutral,2018
+92,World War 3: Russia launches SCATHING ATTACK on Trump for 'RECKLESS ACTIONS' in Syria http http,Daily Express,1,0.0075,0.0168,0.9577,0.018,0.0109,0.2515,0.7376,2018-04-18,Anger,Negative,2018
+93,World on brink of World War 3: North Korea TEAMS UP with Syria to defend ‘just http http,Daily Express,2,0.0158,0.1552,0.7469,0.082,0.0219,0.5524,0.4257,2018-04-17,Anger,Neutral,2018
+94,‘We are NOT America’s lapdog!’ Stop the War demonstrators denounce Syria strikes at Westminster rally http http,Daily Express,6,0.0058,0.0445,0.9202,0.0295,0.0137,0.2427,0.7436,2018-04-16,Anger,Negative,2018
+95,‘We are NOT America’s lapdog!’ Stop the War protestors denounce Syria strikes at Westminster rally http http,Daily Express,2,0.0055,0.042,0.9235,0.0291,0.0117,0.202,0.7863,2018-04-16,Anger,Negative,2018
+96,World War 3: Corbyn warns Syria airstrikes could be ‘precursor to WIDER military action’ http http,Daily Express,2,0.0219,0.0613,0.823,0.0939,0.0155,0.5744,0.4102,2018-04-16,Anger,Neutral,2018
+97,Russian WARSHIPS on way to Syria as part of MILITARY buildup amid World War 3 fears http #WW3 #Russia #Syria,Daily Express,8,0.0209,0.0706,0.8116,0.0969,0.0284,0.7715,0.2001,2018-04-16,Anger,Neutral,2018
+98,World War 3: Putin warns of 'INTERNATIONAL CHAOS' if more Syria attacks are carried out http http,Daily Express,8,0.0108,0.0301,0.9184,0.0407,0.0087,0.2599,0.7313,2018-04-16,Anger,Negative,2018
+99,"Macron says US, UK and French strikes on Syria were not a 'declaration of war against Assad'... after Putin's warning of 'consequences' http",Daily Mail,42,0.0126,0.0559,0.8507,0.0808,0.029,0.8127,0.1582,2018-04-15,Anger,Neutral,2018
+100,#Syria attack: ASTONISHING arsenal of weapons deployed by forces during conflict: http,Daily Express,2,0.012,0.0323,0.9136,0.0421,0.0077,0.3481,0.6442,2018-04-14,Anger,Negative,2018
+101,World War 3: Donald Trump announces Syria airstrikes - Read his full speech here http http,Daily Express,3,0.1544,0.0851,0.707,0.0535,0.0464,0.8182,0.1354,2018-04-14,Anger,Neutral,2018
+102,Syria attack LIVE: Theresa May says strikes are WARNING to Russia - is World War 3 on way? http http,Daily Express,9,0.0246,0.0538,0.7375,0.1841,0.016,0.5045,0.4794,2018-04-14,Anger,Neutral,2018
+103,Russia vows REVENGE against Donald Trump for Syria airstrikes as World War 3 fears BREW http http,Daily Express,14,0.02,0.0879,0.7654,0.1267,0.0269,0.7562,0.2168,2018-04-14,Anger,Neutral,2018
+104,BREAKING: Trump ORDERS Syria AIRSTRIKES in MAJOR ANNOUNCEMENT as World War 3 fears grow http http,Daily Express,7,0.0258,0.101,0.6146,0.2586,0.026,0.5375,0.4364,2018-04-14,Anger,Neutral,2018
+105,BREAKING: Trump to make MAJOR announcement on Syria ‘IMMINENTLY’ as World War 3 fears grow http http,Daily Express,11,0.0327,0.1845,0.47,0.3127,0.0321,0.7371,0.2308,2018-04-14,Anger,Neutral,2018
+106,Kate Garraway CALLED OUT by Vince Cable in Good Morning Britain Syria war debate http http,Daily Express,1,0.0186,0.0176,0.9058,0.058,0.0161,0.7492,0.2347,2018-04-13,Anger,Neutral,2018
+107,Trump prepares for Syria WAR: US Navy warships head to the Med in HUGE show of http http,Daily Express,1,0.0262,0.0566,0.8658,0.0514,0.0459,0.7796,0.1745,2018-04-13,Anger,Neutral,2018
+108,REVEALED: why Brexit is the REAL reason UK WILL join US and France into the war in Syria http http,Daily Express,2,0.0157,0.1483,0.6369,0.1991,0.016,0.6276,0.3563,2018-04-13,Anger,Neutral,2018
+109,Will the UK join in on World War 3 in Syria? Will Theresa May back Trump? http http,Daily Express,7,0.0232,0.1815,0.6888,0.1064,0.016,0.6573,0.3267,2018-04-13,Anger,Neutral,2018
+110,Ready for war: #UK Navy Destroyer edges closer to #Syria for ‘air defence’ against #Russia: http,Daily Express,3,0.0499,0.1552,0.6932,0.1018,0.0791,0.9036,0.0173,2018-04-13,Anger,Neutral,2018
+111,#Iran threatens to ‘DESTROY ISRAEL’ as #Syria conflict escalates: http,Daily Express,9,0.007,0.0305,0.931,0.0315,0.0058,0.2033,0.7909,2018-04-13,Anger,Negative,2018
+112,"Syrian refugees in Germany are being SMUGGLED to Turkey, report http http",Daily Express,0,0.0102,0.0305,0.5531,0.4062,0.0156,0.774,0.2104,2018-04-13,Anger,Neutral,2018
+113,'War is at our DOORSTEP' – Salisbury resident WARNS Syria and Russia conflict has STARTED http #bbcqt #Syria #Russia #airstrike,Daily Express,0,0.0124,0.0202,0.9101,0.0573,0.017,0.6391,0.344,2018-04-13,Anger,Neutral,2018
+114,'We WON'T be fooled again!' - ANGRY QT audience member likens Syria airstrikes to Iraq war http #bbcqt #Syria #IraqWar,Daily Express,5,0.0061,0.0099,0.9664,0.0177,0.0064,0.1036,0.8901,2018-04-13,Anger,Negative,2018
+115,REVEALED: The West's multibillion dollar war chest threatening to bear down on Syria and Russia http http,Daily Express,5,0.0207,0.1291,0.6564,0.1938,0.0178,0.6581,0.3241,2018-04-12,Anger,Neutral,2018
+116,REVEALED: The West's multibillion war chest threatening to bear down on Syria and Russia http http,Daily Express,0,0.0198,0.1454,0.6523,0.1826,0.0167,0.6341,0.3492,2018-04-12,Anger,Neutral,2018
+117,UK emergency war cabinet to assemble today - what time will May and MPs meet today to discuss Syria?https://t.co/JHyO3ihkRL http,Daily Express,1,0.0737,0.2171,0.4517,0.2576,0.0224,0.9452,0.0324,2018-04-12,Anger,Neutral,2018
+118,World War 3: BIGGER loss of life if US and UK don't join Syria war warns former MI6 chief http http,Daily Express,0,0.0129,0.0673,0.73,0.1898,0.0086,0.2239,0.7675,2018-04-12,Anger,Negative,2018
+119,World War 3: THIS is the reason why UK is likely to follow US and France into Syria war http http,Daily Express,0,0.0139,0.0582,0.8263,0.1016,0.0158,0.4672,0.517,2018-04-12,Anger,Negative,2018
+120,UK war cabinet convenes as British subs move within striking distance of Syria  http,Daily Express,2,0.0189,0.0565,0.8713,0.0533,0.0252,0.917,0.0578,2018-04-12,Anger,Neutral,2018
+121,Theresa May convenes ‘war cabinet’ tomorrow as she prepares to brush aside MPs’ demands for a vote before joining military action against Assad in Syria http http,Daily Mail,11,0.0154,0.0881,0.8414,0.055,0.0291,0.9078,0.0631,2018-04-11,Anger,Neutral,2018
+122,World War 3: Russia’s missile killer – does Putin already have next generation defences in place? http #Syria #SyriaStrikes http,Daily Express,1,0.0146,0.0395,0.8811,0.0649,0.013,0.2891,0.698,2018-04-11,Anger,Negative,2018
+123,"Are the Russians jamming US drones? Will World War 3 break out over Syria?
+ http http",Daily Express,1,0.0173,0.0397,0.8397,0.1033,0.0096,0.2957,0.6947,2018-04-11,Anger,Negative,2018
+124,World War 3: The awesome firepower the USA is bringing to Syria and the Mediterranean http #SyriaStrike http,Daily Express,4,0.1234,0.1838,0.6604,0.0324,0.9103,0.0842,0.0055,2018-04-11,Anger,Positive,2018
+125,'That's WAR!' UK General REVEALS exactly how Russia will retaliate if US strikes Syria http,Daily Express,6,0.0085,0.0232,0.9525,0.0158,0.0104,0.3448,0.6448,2018-04-11,Anger,Negative,2018
+126,Syria prepares for WAR: Assad moves military jets in response to Trump missile http http,Daily Express,0,0.0146,0.0467,0.9011,0.0376,0.0219,0.7402,0.2379,2018-04-11,Anger,Neutral,2018
+127,World War 3: Russia’s missile killer – does Putin already have new countermeasures in place? http #Syria #SyriaStrikes http,Daily Express,6,0.0133,0.0352,0.9026,0.0488,0.0133,0.3625,0.6242,2018-04-11,Anger,Negative,2018
+128,World War 3: Iran vows to stand by Syria in fight against US as Trump threatens MISSILES: http http,Daily Express,2,0.0116,0.0476,0.8765,0.0643,0.0531,0.762,0.1849,2018-04-11,Anger,Neutral,2018
+129,World War 3: Russia’s missile killer – does Putin already have new defences in place? http #SyriaStrikes #Syria #Syria http,Daily Express,12,0.0136,0.0343,0.8986,0.0535,0.0127,0.3333,0.654,2018-04-11,Anger,Negative,2018
+130,Donald Trump warned Russia will launch World War 3 if Putin ‘put in a corner’ over Syria http,Daily Express,12,0.012,0.0541,0.8692,0.0646,0.013,0.4715,0.5156,2018-04-11,Anger,Negative,2018
+131,'We will support either MONSTERS or MANIACS' - Tory MP warns amid talk of UK WAR on Syria http #BBC #Newsnight #Syria #War,Daily Express,2,0.0133,0.0652,0.8485,0.073,0.0188,0.6128,0.3684,2018-04-11,Anger,Neutral,2018
+132,Pope Francis calls for an end to war in Syria in Easter message http,The Sun,12,0.0734,0.6625,0.1503,0.1138,0.1195,0.8651,0.0154,2018-04-01,Optimism,Neutral,2018
+133,World War 3: Turkey prepares to INVADE IRAQ to clear Kurdish 'terrorists' http #WW3 #Turkey #Iraq #Syria #Kurdish,Daily Express,2,0.0155,0.0466,0.8756,0.0624,0.0166,0.4871,0.4963,2018-03-31,Anger,Negative,2018
+134,Syrian refugees trying to cross from Turkey to Greece are being ‘beaten by Turkish coastguards wielding batons’ http,Daily Mail,28,0.0104,0.0313,0.8835,0.0748,0.0078,0.3436,0.6486,2018-03-26,Anger,Negative,2018
+135,Woman fighting for life after Syrian asylum seeker children 'follow her home and stab her' http http,Daily Express,2,0.0144,0.0383,0.6112,0.3361,0.0068,0.18,0.8132,2018-03-26,Anger,Negative,2018
+136,"Woman, 24, fights for life after being ambushed and stabbed by three child Syrian refugees http",Daily Mail,40,0.0151,0.0374,0.73,0.2176,0.0103,0.3113,0.6784,2018-03-26,Anger,Negative,2018
+137,.@KlassMyleene is moved to tears as she meets the young refugees robbed of their childhood by the war in Syria http @user,The Sun,3,0.016,0.0093,0.0078,0.9668,0.0156,0.2243,0.7601,2018-03-16,Sadness,Negative,2018
+138,Lions rescued from zoos in Syria and Iraq’s war zones are safe after arriving in South Africa http,Daily Mail,57,0.1726,0.5416,0.0685,0.2173,0.1285,0.8538,0.0177,2018-02-27,Optimism,Neutral,2018
+139,"World War 3: Turkey using 'CHEMICAL WEAPONS against CIVILIANS', claims human rights group http #WW3 #Syria #Turkey #ChemicalWeapons",Daily Express,1,0.0093,0.0281,0.9204,0.0423,0.0093,0.2422,0.7485,2018-02-19,Anger,Negative,2018
+140,"World War 3: Israel and Iran traded blows now WAR an increasing possibility, expert warns http #WW3 #Iran #Israel #Syria",Daily Express,4,0.0153,0.0559,0.8499,0.0789,0.0118,0.3843,0.6039,2018-02-15,Anger,Negative,2018
+141,World War 3: US troops kill one HUNDRED Russian fighters in Syria through airstrikes http #Russia #USA #Syria,Daily Express,3,0.0162,0.0364,0.8609,0.0866,0.008,0.197,0.795,2018-02-14,Anger,Negative,2018
+142,World War 3: Israel will 'BITE HARD' to 'DEFEND interests' after lethal attack on Syria http #WW3 #Iran #Syria #Russia #Israel,Daily Express,4,0.0128,0.0398,0.9137,0.0337,0.0291,0.513,0.4579,2018-02-14,Anger,Neutral,2018
+143,Turkey and US to hold SHOWDOWN talks following escalation of WAR of words over Syria http http,Daily Express,0,0.0104,0.0305,0.8891,0.07,0.0276,0.9256,0.0468,2018-02-10,Anger,Neutral,2018
+144,Threat of WAR: Turkey to 'target' US troops in Syria for supporting Kurdish ‘terrorists’ http http,Daily Express,3,0.0099,0.037,0.897,0.0561,0.0068,0.265,0.7281,2018-02-05,Anger,Negative,2018
+145,BREAKING: Russian war plane 'SHOT DOWN by rebels' claim Syrian activists http #BREAKING #Russia #Syria,Daily Express,6,0.0331,0.0425,0.627,0.2973,0.0101,0.4439,0.546,2018-02-03,Anger,Negative,2018
+146,Angelina Jolie calls on world powers to end Syrian war as she tours refugee camp in http,Daily Mail,307,0.1096,0.4986,0.1509,0.241,0.2273,0.7573,0.0155,2018-01-28,Optimism,Neutral,2018
+147,ISIS could be preparing to form new home in Afghanistan after losing war in Iraq and Syria http http,Daily Express,2,0.0271,0.1324,0.4634,0.3771,0.0154,0.5415,0.4431,2017-12-13,Anger,Neutral,2017
+148,British ISIS fanatics could soon be waging war in Afghanistan after being blasted from their Iraq and Syria terror strongholds http,The Sun,2,0.0138,0.0384,0.9145,0.0334,0.0071,0.1805,0.8124,2017-12-12,Anger,Negative,2017
+149,Boris Johnson says Britain can help end the Syrian war http,Daily Mail,1,0.0746,0.6998,0.1401,0.0855,0.1841,0.8014,0.0144,2017-12-07,Optimism,Neutral,2017
+150,World War 3: Kim Jong-un working with Syria on chemical weapons and missile technologies http http,Daily Express,2,0.0239,0.0498,0.871,0.0553,0.0172,0.535,0.4478,2017-11-27,Anger,Neutral,2017
+151,BREAKING: Putin greeted Syrian WAR criminal President al Assad in Russia for secret http http,Daily Express,4,0.1336,0.1064,0.589,0.171,0.0302,0.8537,0.1161,2017-11-21,Anger,Neutral,2017
+152,‘Where are European politicians?’ FURY at EU ignorance while Russia &amp; Turkey discuss Syria and migrant crisis http http,Daily Express,2,0.0086,0.0213,0.8225,0.1476,0.0168,0.8328,0.1504,2017-11-15,Anger,Neutral,2017
+153,Russian military training in Syria for future space war http,Daily Express,3,0.2412,0.2435,0.3891,0.1262,0.0351,0.9278,0.0371,2017-11-04,Anger,Neutral,2017
+154,Syrian refugee who ‘launched sex attacks on six women claims he was suffering PTSD from conflict in his homeland’ http,Daily Mail,4,0.0096,0.0192,0.3941,0.5771,0.0057,0.2708,0.7234,2017-10-10,Sadness,Negative,2017
+155,Lebanon faces calls to expel all Syrian refugees after young woman was raped and murdered by migrant http,Daily Mail,26,0.0101,0.0313,0.6139,0.3447,0.0049,0.1648,0.8303,2017-09-28,Anger,Negative,2017
+156,Benedict Cumberbatch considered housing Syrian refugees but didn’t as he has a baby http http,Daily Express,4,0.1114,0.3027,0.06,0.5259,0.0229,0.8958,0.0813,2017-09-22,Sadness,Neutral,2017
+157,'This is war' First British woman to join fight against ISIS vows to continue battle against jihadis in Syria http http,Daily Express,17,0.0328,0.4944,0.427,0.0458,0.0599,0.8422,0.0978,2017-09-01,Optimism,Neutral,2017
+158,Fake Syrian asylum seeker who murdered ‘peace-loving’ carer is jailed for 26 years http,Daily Mail,11,0.0249,0.0342,0.5385,0.4025,0.0056,0.1222,0.8722,2017-08-24,Anger,Negative,2017
+159,'Traumatised' zoo animals including starved lions and tigers who escaped horrors of Syrian war begin their new lives http,Daily Mail,116,0.0097,0.0217,0.0719,0.8967,0.0077,0.227,0.7653,2017-08-11,Sadness,Negative,2017
+160,Syrian refugees are beaten and made to dress in lingerie by Turkish soldiers intent on humiliating them http,Daily Mail,32,0.0079,0.0129,0.9364,0.0428,0.0048,0.1235,0.8718,2017-08-04,Anger,Negative,2017
+161,'Conflict breeds conflict' Expert predicts more war in Iraq &amp; Syria after ISIS is crushed  http http,Daily Express,0,0.0183,0.1089,0.6681,0.2047,0.0094,0.2892,0.7014,2017-07-11,Anger,Negative,2017
+162,Thousands call on Home Office to issue visa so parents can attend funeral for Syrian victim of #GrenfellTragedy http,Daily Mail,34,0.0107,0.0222,0.055,0.9121,0.0348,0.763,0.2022,2017-06-17,Sadness,Neutral,2017
+163,Syrian conflict: Assad government troops launch campaign to cripple rebel forces http http,Daily Express,4,0.0178,0.0658,0.805,0.1114,0.0097,0.3964,0.5939,2017-06-12,Anger,Negative,2017
+164,Merkel ally compares US to Syria in war of words with Donald Trump over Paris Agreement http http,Daily Express,3,0.0166,0.0711,0.7996,0.1127,0.0237,0.8973,0.0791,2017-06-01,Anger,Neutral,2017
+165,Teenage Syrian asylum seeker is arrested for 'plotting a suicide attack on Berlin' http,Daily Mail,39,0.0255,0.0358,0.7109,0.2278,0.0059,0.2878,0.7063,2017-05-30,Anger,Negative,2017
+166,"Lib Dems say they will DOUBLE the number of Syrian refugees Britain will take in to 50,000 costing around £4billion http http",Daily Mail,2,0.0155,0.0702,0.7028,0.2115,0.0359,0.8405,0.1237,2017-05-11,Anger,Neutral,2017
+167,BREAKING NEWS: Damascus airport rocked by 'huge explosion' as Syria conflict continues http http,Daily Express,3,0.0402,0.0498,0.4898,0.4202,0.0136,0.4418,0.5446,2017-04-27,Anger,Negative,2017
+168,Former Obama aid PRAISES Trump for Syria strike as he warns Putin is 'GAMBLING' with war http,Daily Express,3,0.0173,0.0536,0.8963,0.0327,0.0288,0.6872,0.2841,2017-04-10,Anger,Neutral,2017
+169,World War 3 fears as #Russia and Iran threaten to respond to US 'aggression' after #syriastrike #DonaldTrump syria http http,Daily Express,1,0.0105,0.0302,0.9047,0.0546,0.0086,0.2992,0.6923,2017-04-10,Anger,Negative,2017
+170,EXCLUSIVE: Russia warns of war against the West over Syria http http,The Sun,8,0.0592,0.1591,0.557,0.2247,0.0134,0.6794,0.3072,2017-04-09,Anger,Neutral,2017
+171,TRUMP’S MESSAGE TO KIM: US missile strike on Syria was WARNING to North Korea to halt nuclear war programme http http,Daily Express,1,0.0355,0.1257,0.755,0.0838,0.0281,0.8443,0.1276,2017-04-08,Anger,Neutral,2017
+172,'ESCALATING war!' Emily Thornberry blasts #DonaldTrump for launching strikes 'without ANY evidence' #Syria http http,Daily Express,4,0.0067,0.0136,0.967,0.0127,0.0083,0.2777,0.714,2017-04-08,Anger,Negative,2017
+173,Syria map: Where is Syria and why is there a war in http http,Daily Express,1,0.0195,0.0586,0.6238,0.2981,0.0133,0.7803,0.2063,2017-04-07,Anger,Neutral,2017
+174,Boris Johnson says Bashar al-Assad will be guilty of a war crime if he is behind the toxic chemical attack in Syria http http,The Sun,6,0.0115,0.0451,0.8843,0.0591,0.0089,0.3064,0.6847,2017-04-04,Anger,Negative,2017
+175,Revealed: How many Europe's 1.2million asylum seekers are from Syria? You're going to be surprised by the answer http http,The Sun,3,0.1785,0.3014,0.2211,0.299,0.1218,0.7991,0.0791,2017-03-16,Optimism,Neutral,2017
+176,Syrian War 'leaves child dead EVERY HOUR' as furious conflict becomes longer than WWII http http,Daily Express,3,0.0108,0.0137,0.9481,0.0275,0.0089,0.2054,0.7858,2017-03-15,Anger,Negative,2017
+177,Syrian refugees move into six-bedroom home worth at least £500k in Kent as council can’t find a local family http,Daily Mail,8,0.0452,0.118,0.1178,0.7189,0.0181,0.6572,0.3247,2017-03-13,Sadness,Neutral,2017
+178,Asylum seeker jailed for life in Sweden for participating in execution of seven men in Syria http http,Daily Mail,38,0.0169,0.0244,0.7067,0.252,0.0063,0.2386,0.7551,2017-02-17,Anger,Negative,2017
+179,Syrian asylum seeker is jailed for life in Sweden http,Daily Mail,41,0.0292,0.0283,0.2181,0.7244,0.0078,0.2759,0.7163,2017-02-16,Sadness,Negative,2017
+180,"Some of the refugees from Syria's civil war are 'definitely' terrorists, claims President Assad http",Daily Mail,53,0.0126,0.0456,0.7949,0.147,0.0055,0.2114,0.7831,2017-02-10,Anger,Negative,2017
+181,"Some of Syrian refugees in the West are ‘DEFINITELY’ terrorists, President Assad claims http http",Daily Express,6,0.0107,0.0513,0.8002,0.1378,0.0067,0.2753,0.718,2017-02-10,Anger,Negative,2017
+182,SYRIA CONFLICT: A fresh offensive to capture Raqqa from IS launched http,Daily Express,2,0.026,0.0767,0.8418,0.0555,0.0252,0.8,0.1748,2017-02-04,Anger,Neutral,2017
+183,Have you ever gone hungry Donald? Aleppo war child sends video message to Trump from Syria http http,Daily Express,1,0.0183,0.0228,0.1502,0.8087,0.0212,0.4327,0.5462,2017-02-02,Sadness,Negative,2017
+184,"Actor Kal Penn helps to raise $580,000 for Syrian refugees after 'racist' online troll hate: http http",Daily Express,3,0.0114,0.0354,0.8967,0.0566,0.0974,0.7766,0.126,2017-01-30,Anger,Neutral,2017
+185,"Actor Kal Penn helps to raise $575,000 for Syrian refugees after 'racist' online troll hate: http http",Daily Express,3,0.0123,0.0369,0.8865,0.0643,0.0908,0.7776,0.1316,2017-01-30,Anger,Neutral,2017
+186,"Actor @user helps raise $560,000 for Syrian refugees after 'racist' online troll hate: http http",Daily Express,3,0.0116,0.0329,0.898,0.0575,0.1845,0.7575,0.058,2017-01-30,Anger,Neutral,2017
+187,"'All our hopes and dreams vanished': Syrian refugees shocked, sad as Trump bans them from the US http",Daily Mail,28,0.0055,0.0065,0.019,0.969,0.0086,0.1694,0.822,2017-01-29,Sadness,Negative,2017
+188,Syrian refugee 'brutally killed by gang of migrants in savage attack in Germany' http http,Daily Express,6,0.0158,0.0207,0.7585,0.205,0.0075,0.2224,0.7701,2017-01-09,Anger,Negative,2017
+189,London jihadi charged with war crimes as footage of him at mass execution in Syria emerges http,Daily Mail,4,0.0159,0.0182,0.8924,0.0735,0.0053,0.1865,0.8082,2017-01-07,Anger,Negative,2017
+190,"Russia prepares for WAR: Putin's men tested HUNDREDS of new weapons in Syria, Kremlin says http http",Daily Express,3,0.034,0.0639,0.863,0.0391,0.0222,0.6769,0.301,2016-12-28,Anger,Neutral,2016
+191,Father of Syrian family locked in visa battle with Belgium's immigration minister is accused of fraud http,Daily Mail,14,0.0109,0.0287,0.6354,0.325,0.0086,0.3548,0.6366,2016-12-27,Anger,Negative,2016
+192,Syrian asylum seeker who escaped jail with prison guard lover caged AGAIN for child rape http http,Daily Express,4,0.0254,0.0173,0.3609,0.5963,0.0057,0.2254,0.7689,2016-12-22,Sadness,Negative,2016
+193,Syrian asylum seeker who broke out of Swiss jail is convicted of raping 15-year-old girl http,Daily Mail,21,0.0682,0.0357,0.3294,0.5666,0.0086,0.3776,0.6138,2016-12-22,Sadness,Negative,2016
+194,Refugee who fled Syrian war for new life in UK is stabbed to death in Birmingham http,Daily Mail,2,0.0168,0.0313,0.7106,0.2412,0.0094,0.2866,0.704,2016-12-19,Anger,Negative,2016
+195,Brave British war photographer to return to Syria with medical equipment despite million-dollar bounty on his head http http,The Sun,3,0.1606,0.3753,0.2424,0.2217,0.2078,0.7532,0.039,2016-12-17,Optimism,Neutral,2016
+196,"Britain terror attacks MORE LIKELY because of Syrian war, says counter terrorism expert http http",Daily Express,1,0.0413,0.1879,0.5426,0.2282,0.0239,0.5793,0.3968,2016-12-15,Anger,Neutral,2016
+197,'Russia and Syria could be orchestrating migrant sex attacks to swing German elections' http,Daily Mail,13,0.014,0.0355,0.8379,0.1126,0.0082,0.3659,0.6259,2016-12-14,Anger,Negative,2016
+198,Tunisian boat captain &amp; his Syrian first mate JAILED after 700 migrants drown in the Med http http,Daily Express,0,0.0158,0.0256,0.2771,0.6814,0.0069,0.2578,0.7353,2016-12-14,Sadness,Negative,2016
+199,Syrian-born political scientist says migrants see German woman as ‘fair game’ to be raped: http http,Daily Express,15,0.0495,0.1048,0.4882,0.3575,0.0141,0.5229,0.463,2016-12-09,Anger,Neutral,2016
+200,Putin's hardline refugee stance: Russia rejects asylum seekers ‘because Syria is SAFE': http http,Daily Express,12,0.0406,0.2574,0.4059,0.2961,0.0268,0.7173,0.256,2016-12-09,Anger,Neutral,2016
+201,Migrants who break the law in Germany must be deported... says Syrian refugee http,Daily Mail,39,0.0082,0.0254,0.8826,0.0838,0.0083,0.3179,0.6738,2016-12-07,Anger,Negative,2016
+202,"Fears for girl, 7, tweeting about Syria war as government forces advance into Aleppo #whereisBana: http http",Daily Express,1,0.0147,0.0391,0.207,0.7393,0.0102,0.3772,0.6126,2016-12-05,Sadness,Negative,2016
+203,Syrian migrants attend classes on how to PICK UP WOMEN by Germany’s ‘MR FLIRT’ http http,Daily Express,1,0.3844,0.2805,0.2219,0.1132,0.0295,0.9009,0.0696,2016-11-30,Joy,Neutral,2016
+204,Syrian migrants are being taught how to PICK UP WOMEN by Germany’s ‘MR FLIRT’ http http,Daily Express,0,0.1029,0.1037,0.5833,0.2101,0.029,0.8237,0.1473,2016-11-29,Anger,Neutral,2016
+205,Syrian migrants attend workshop on how to PICK UP WOMEN by Germany’s ‘MR FLIRT’ http http,Daily Express,2,0.39,0.3925,0.1326,0.0849,0.0409,0.9239,0.0352,2016-11-29,Optimism,Neutral,2016
+206,Christmas cards place traditional nativity scenes in war-torn Syria to raise awareness for the conflict zone http http,The Sun,11,0.2376,0.3731,0.0311,0.3582,0.045,0.8817,0.0733,2016-11-27,Optimism,Neutral,2016
+207,Syrian couple who named their child Angela Merkel have their asylum application REJECTED http http,The Sun,2,0.0185,0.0322,0.5032,0.4461,0.0065,0.2691,0.7245,2016-11-25,Anger,Negative,2016
+208,EU gives Syrian refugees '£5K A YEAR' to not come to Europe in free debit card scheme http http,Daily Express,2,0.0235,0.0584,0.714,0.2041,0.0311,0.7037,0.2652,2016-11-25,Anger,Neutral,2016
+209,Syrian migrants who named baby Angela Merkel have German asylum application REJECTED http http,Daily Mail,30,0.0174,0.0258,0.3535,0.6033,0.0082,0.2895,0.7023,2016-11-24,Sadness,Negative,2016
+210,'Bounty hunter' faces four-year jail term for capturing and detaining Syrian refugees http http,Daily Express,1,0.0314,0.0468,0.5857,0.3361,0.0081,0.3766,0.6153,2016-11-18,Anger,Negative,2016
+211,Donald Trump promises to STOP Syrian refugees coming to USA http http,Daily Express,7,0.0146,0.0606,0.7771,0.1476,0.0392,0.7201,0.2407,2016-11-02,Anger,Neutral,2016
+212,Bailiffs order Belgium government to pay almost £4k a DAY until Syrian family given visa http http,Daily Express,2,0.0161,0.0297,0.846,0.1082,0.0237,0.7739,0.2024,2016-11-02,Anger,Neutral,2016
+213,One in two Russians fears the Syrian conflict will lead to World War Three http,Daily Mail,30,0.0139,0.0828,0.5666,0.3366,0.0086,0.3274,0.664,2016-10-31,Anger,Negative,2016
+214,WW3 FEARS: Almost half of Russians feel Syria crisis could spark new global conflict http http,Daily Express,1,0.0236,0.2124,0.413,0.3511,0.0086,0.2107,0.7806,2016-10-31,Anger,Negative,2016
+215,Asylum cases launched FROM SYRIA: Family granted EU visa and Belgium FINED if denied http http,Daily Express,3,0.0166,0.0696,0.6384,0.2754,0.0345,0.8653,0.1002,2016-10-28,Anger,Neutral,2016
+216,"Hillary Clinton will spark a THIRD WORLD WAR with her plans for Syria, Donald Trump warns http http",Daily Express,2,0.0122,0.0545,0.844,0.0892,0.0079,0.1979,0.7941,2016-10-26,Anger,Negative,2016
+217,Outrage as US town votes unanimously to BAN Syrian refugees due to 'poor vetting system' http http,Daily Express,4,0.0059,0.0169,0.9356,0.0416,0.005,0.1502,0.8447,2016-10-25,Anger,Negative,2016
+218,Queen Mathilde of Belgium meets refugees fleeing the Syrian conflict http http,Daily Mail,22,0.1535,0.204,0.0572,0.5852,0.0346,0.9442,0.0211,2016-10-24,Sadness,Neutral,2016
+219,Syrian doctor who begged to be deported arrested at Home Office building http http,Daily Express,1,0.0175,0.0251,0.4572,0.5002,0.0106,0.3692,0.6203,2016-10-20,Sadness,Negative,2016
+220,Russia's largest navy deployment since Cold War heads to Syria http http,Daily Mail,30,0.1995,0.1994,0.4783,0.1228,0.0629,0.9211,0.0159,2016-10-20,Anger,Neutral,2016
+221,THIS IS WAR: Putin sends largest fleet of Russian ships since Cold War to Syria: http http,Daily Express,2,0.0164,0.0182,0.9474,0.0179,0.0287,0.6373,0.334,2016-10-20,Anger,Neutral,2016
+222,Turkey warns World War Three is INEVITABLE because of US &amp; Russia tensions over Syria http http,Daily Express,4,0.0174,0.0895,0.6491,0.244,0.012,0.276,0.712,2016-10-18,Anger,Negative,2016
+223,Turkey warns that World War Three is inevitable if the Syrian conflict continues http,Daily Mail,25,0.0126,0.0756,0.7742,0.1376,0.0072,0.1785,0.8144,2016-10-17,Anger,Negative,2016
+224,Three Syrian refugees are CLEARED of sexually assaulting two schoolgirls in a park http http,Daily Mail,5,0.0471,0.0424,0.71,0.2005,0.0085,0.3489,0.6425,2016-10-13,Anger,Negative,2016
+225,Labour MP hits out at his own party for failing to condemn Russian 'war crimes' in http http,Daily Express,4,0.0062,0.0274,0.9212,0.0453,0.0058,0.223,0.7712,2016-10-11,Anger,Negative,2016
+226,Boris Johnson calls for PROTESTS outside Russian embassy over Syria war during heated Commons debate http http,Daily Express,2,0.01,0.033,0.9113,0.0456,0.0388,0.9323,0.0289,2016-10-11,Anger,Neutral,2016
+227,"Demonstrations needed outside Russia's embassy to stop the war in Syria, says Boris Johnson http",Daily Mail,4,0.0114,0.1113,0.8197,0.0575,0.0261,0.8803,0.0936,2016-10-11,Anger,Neutral,2016
+228,Have-a-go-hero Syrian refugees tackled and tied up a suspected ISIS terrorist after he gave special forced the slip http http,The Sun,3,0.1041,0.3155,0.4968,0.0836,0.0178,0.5397,0.4425,2016-10-11,Anger,Neutral,2016
+229,Turkey shuts its doors on Syrian migrants as it vows to build a wall  http http,Daily Express,2,0.0282,0.1084,0.5443,0.3192,0.0196,0.7033,0.2771,2016-10-10,Anger,Neutral,2016
+230,EXCLUSIVE: 'Russia is committing war crimes in Syria' - @user tells Sun http http,The Sun,10,0.0427,0.0654,0.7539,0.138,0.0076,0.3356,0.6569,2016-10-01,Anger,Negative,2016
+231,Moscow furious after Boris Johnson suggests Russia is guilty of WAR CRIMES over Syria role http http,Daily Express,2,0.0081,0.019,0.9551,0.0179,0.0067,0.2588,0.7345,2016-09-27,Anger,Negative,2016
+232,Is Putin starting a nuclear war? Russian leader accused of using deadly weapons in http http,Daily Express,1,0.0108,0.0253,0.9404,0.0235,0.0073,0.2959,0.6968,2016-09-27,Anger,Negative,2016
+233,Donald Trump's son compared Syrian refugees to poisoned Skittles... @user #Trump2016 http http,Daily Express,3,0.1196,0.0337,0.6165,0.2302,0.0107,0.2985,0.6908,2016-09-20,Anger,Negative,2016
+234,Israel denies claims that Syria shot down one of its war planes and a drone http http,Daily Mail,3,0.0171,0.04,0.8117,0.1312,0.0073,0.2837,0.709,2016-09-13,Anger,Negative,2016
+235,"Taxpayers face £1.7billion bill to take in 20,000 Syrian refugees http",Daily Mail,1,0.0331,0.0886,0.3908,0.4875,0.0257,0.6814,0.2929,2016-09-13,Sadness,Neutral,2016
+236,Three Syrian asylum seekers arrested in Germany on suspicion of plotting ISIS terror attacks http,Daily Mail,27,0.0271,0.0355,0.7699,0.1676,0.008,0.4016,0.5904,2016-09-13,Anger,Negative,2016
+237,"REVEALED: Resettling 20,000 Syrian refugees in Britain 'will cost taxpayers £1.7bn' http http",Daily Express,5,0.0199,0.0801,0.1835,0.7166,0.0149,0.685,0.3001,2016-09-13,Sadness,Neutral,2016
+238,Group of burkini-clad Syrian refugees given police escort to the beach http http,Daily Mail,9,0.4162,0.1544,0.2647,0.1647,0.025,0.9016,0.0734,2016-09-08,Joy,Neutral,2016
+239,"UK finds homes to resettle 20,000 Syrian refugees http",Daily Mail,11,0.2242,0.4009,0.0789,0.2961,0.0421,0.9418,0.0161,2016-09-05,Optimism,Neutral,2016
+240,US Vice President Joe Biden silences heckler after being criticised over war in http http,Daily Express,0,0.0083,0.0215,0.9158,0.0543,0.0266,0.8024,0.171,2016-09-02,Anger,Neutral,2016
+241,Now hopeless Merkel drafts in German army in desperate bid to integrate Syrian http http,Daily Express,1,0.0072,0.0396,0.1103,0.8428,0.0108,0.2225,0.7667,2016-09-02,Sadness,Negative,2016
+242,"Five million migrants including 500,000 Syrian refugees are now living in Egypt http",Daily Mail,12,0.0935,0.0776,0.1033,0.7255,0.0261,0.8632,0.1107,2016-08-31,Sadness,Neutral,2016
+243,"Migrant jailed for claiming £10,000 in UK benefits - while living in Syria http http",Daily Express,6,0.033,0.0419,0.4602,0.4649,0.0125,0.4886,0.4989,2016-08-30,Sadness,Negative,2016
+244,Harrowing pictures reveal the horrors children face in Syria's civil war http http,Daily Mail,61,0.0101,0.0207,0.0297,0.9395,0.0078,0.2091,0.7831,2016-08-23,Sadness,Negative,2016
+245,Harrowing pictures show the child victims of Syrian war http http,Daily Mail,51,0.0096,0.0113,0.0172,0.962,0.006,0.1608,0.8332,2016-08-23,Sadness,Negative,2016
+246,Another tiny victim of Syria's war is carried to safety as his home is bombed http http,Daily Mail,57,0.0099,0.0436,0.093,0.8535,0.0069,0.1407,0.8524,2016-08-19,Sadness,Negative,2016
+247,Haunting video of wounded boy sitting alone in ambulance captures horror of Syrian war http http,Daily Express,2,0.0092,0.0092,0.0381,0.9435,0.0105,0.388,0.6015,2016-08-18,Sadness,Negative,2016
+248,The five-year-old who has become the heartbreaking symbol of Syria's war http http,The Sun,26,0.0085,0.0075,0.0097,0.9743,0.0054,0.1161,0.8785,2016-08-18,Sadness,Negative,2016
+249,The tragedy of the war in Syria captured in a single photograph of a wounded child http http,Daily Mail,138,0.006,0.0127,0.016,0.9654,0.0071,0.1993,0.7936,2016-08-18,Sadness,Negative,2016
+250,'Now EU faces AFRICAN migrant crisis' Angela Merkel issues stark warning amid Syria crisis http http,Daily Express,1,0.0221,0.1276,0.246,0.6044,0.0162,0.5015,0.4822,2016-08-14,Sadness,Neutral,2016
+251,'It is very much us and them' Scottish islanders react as Syrian refugees arrive in Bute http,Daily Express,0,0.1339,0.3151,0.2239,0.3271,0.0285,0.9326,0.0389,2016-08-12,Sadness,Neutral,2016
+252,Honeymooner detained by British airport police for having Syrian war book demands apology http http,Daily Express,1,0.0238,0.0252,0.6488,0.3022,0.0093,0.4405,0.5502,2016-08-04,Anger,Negative,2016
+253,"Volunteer soldier, 22, dies after travelling to Syria to wage war against jihadis http http",The Sun,0,0.0164,0.0574,0.26,0.6663,0.0091,0.2678,0.7232,2016-08-02,Sadness,Negative,2016
+254,Four Syrian refugees living in 'the Jungle' camp in Calais lose legal battle to come to Britain http,Daily Mail,34,0.0144,0.0517,0.5004,0.4335,0.0097,0.5118,0.4786,2016-08-02,Anger,Neutral,2016
+255,Thousands of Syrian migrants arrested for trying to SLIP into the UK http http,Daily Express,6,0.0188,0.0314,0.7507,0.199,0.0087,0.4085,0.5828,2016-07-31,Anger,Negative,2016
+256,Migrant ‘who fled Syria arrested on suspicion of terror after taking pilot lessons in UK’ http http,Daily Express,6,0.0326,0.0575,0.3309,0.579,0.0071,0.3862,0.6067,2016-07-29,Sadness,Negative,2016
+257,'Let them blow themselves up in Syria' LBC host savages Amnesty chief over migrant claim http http,Daily Express,3,0.0073,0.0413,0.884,0.0673,0.0052,0.1816,0.8131,2016-07-26,Anger,Negative,2016
+258,Syrian refugees want to leave safety of Scottish island because ‘it's full of old people’ http http,The Sun,12,0.0133,0.0374,0.1591,0.7903,0.0073,0.2716,0.7211,2016-07-26,Sadness,Negative,2016
+259,'Let them blow themselves up in Syria' Farrari savages Amnesty chief over migrant claim http http,Daily Express,1,0.0071,0.041,0.8978,0.0542,0.0053,0.1789,0.8158,2016-07-26,Anger,Negative,2016
+260,Syrian refugees now living in Scotland say it is 'depressing' and 'full of old people'  http,Daily Express,4,0.007,0.0064,0.0101,0.9766,0.0048,0.1468,0.8484,2016-07-26,Sadness,Negative,2016
+261,Syrian refugees settled on Scottish island say they are now depressed http http,Daily Mail,17,0.0075,0.0058,0.0106,0.976,0.0062,0.1717,0.8221,2016-07-25,Sadness,Negative,2016
+262,Suicide bomber who injured 12 people when he blew himself up in Germany was a Syrian man who was denied asylum http,Daily Mail,19,0.015,0.0258,0.3753,0.5839,0.0051,0.1578,0.837,2016-07-25,Sadness,Negative,2016
+263,"UPDATE: The #Ansbach bomber was a 27-year-old Syrian asylum seeker, interior minister http http",Daily Express,14,0.052,0.0581,0.2809,0.6089,0.0115,0.7389,0.2496,2016-07-25,Sadness,Neutral,2016
+264,Russian war jets pound ‘secret’ anti-ISIS SAS base in Syria with cluster bombs http http,The Sun,17,0.0336,0.0605,0.8112,0.0947,0.0128,0.4608,0.5264,2016-07-24,Anger,Negative,2016
+265,Swedish driver filmed brutally attacking Syrian asylum seeker http http,Daily Mail,10,0.0149,0.0106,0.9096,0.0649,0.0068,0.2519,0.7413,2016-07-21,Anger,Negative,2016
+266,Syrian refugees to be housed by Archbishop of Canterbury http http,Daily Mail,5,0.2717,0.3206,0.1435,0.2642,0.0428,0.9496,0.0076,2016-07-20,Optimism,Neutral,2016
+267,Syrian refugees to be housed in Archbishop of Canterbury's LUXURY Lambeth palace http http,Daily Express,8,0.6237,0.1634,0.0981,0.1149,0.0259,0.9616,0.0125,2016-07-20,Joy,Neutral,2016
+268,Family of Syrian refugees ask to be sent back after being housed in Stoke http http,Daily Express,14,0.03,0.0532,0.0998,0.817,0.0124,0.8058,0.1819,2016-07-13,Sadness,Neutral,2016
+269,Turkey to grant MILLIONS of Syrian refugees citizenship as it ramps up bid to join EU http http,Daily Express,11,0.256,0.5099,0.148,0.086,0.1364,0.8513,0.0123,2016-07-03,Optimism,Neutral,2016
+270,Syrian war has left cities full of single women... but given lesbians freedom to have relationships http,Daily Mail,29,0.0128,0.0664,0.1356,0.7852,0.0218,0.5777,0.4005,2016-06-21,Sadness,Neutral,2016
+271,At least 85 British jihadis and fighters have been killed in Syria's brutal civil war http,Daily Mail,3,0.0138,0.0258,0.767,0.1933,0.0048,0.1425,0.8526,2016-06-16,Anger,Negative,2016
+272,Police and BBC ‘hushed up sex attack on 14-year-old girl by gang of Syrian migrants’ http http,The Sun,7,0.0177,0.0212,0.7917,0.1693,0.0086,0.4381,0.5533,2016-06-14,Anger,Negative,2016
+273,"Child slavery, prostitution and ‘survival sex’ rages among Syrian refugees in Lebanon http http",Daily Mail,13,0.0101,0.0244,0.6085,0.3571,0.0078,0.3738,0.6184,2016-06-13,Anger,Negative,2016
+274,Why did police keep quiet on sex attack by Syrian UK refugees in Newcastle? http http,Daily Mail,12,0.0075,0.0122,0.8315,0.1488,0.0071,0.3926,0.6003,2016-06-12,Anger,Negative,2016
+275,Yvette Cooper grilled on LBC over why she has yet to take in Syrian http http,Daily Express,4,0.0286,0.0415,0.8292,0.1007,0.0091,0.4961,0.4949,2016-06-10,Anger,Neutral,2016
+276,Child refugees become 'the man of the family' after fleeing war in Syria http http,Daily Mail,17,0.0287,0.0959,0.0549,0.8205,0.0264,0.8865,0.0871,2016-06-07,Sadness,Neutral,2016
+277,Gay Syrian asylum seeker is first refugee to appeal to European Court http http,Daily Mail,14,0.0472,0.1522,0.5018,0.2988,0.0683,0.9174,0.0143,2016-06-05,Anger,Neutral,2016
+278,Gay Syrian is first known asylum seeker to be thrown out of Greece under EU migrant deal http,Daily Mail,9,0.022,0.0252,0.3318,0.6211,0.0096,0.4265,0.564,2016-06-03,Sadness,Negative,2016
+279,Growth of tent city at Jordan border reveals incredible scale of Syria's refugee crisis http http,Daily Mail,19,0.1197,0.3949,0.099,0.3865,0.0961,0.8477,0.0562,2016-06-02,Optimism,Neutral,2016
+280,Incredible photos show the Syrians injured in the war against ISIS http http,Daily Mail,13,0.265,0.447,0.0853,0.2026,0.2513,0.6384,0.1103,2016-05-30,Optimism,Neutral,2016
+281,Turkey is accused of sending 'seriously sick' Syrian migrants to Greece http,Daily Mail,13,0.0128,0.0169,0.2794,0.6909,0.0056,0.2567,0.7378,2016-05-24,Sadness,Negative,2016
+282,Shocking footage shows Syrian refugees beaten to death by Turkish border guards http http,Daily Mail,31,0.0157,0.0184,0.5822,0.3838,0.0056,0.1452,0.8492,2016-05-10,Anger,Negative,2016
+283,Air strike kill dozens in Syria refugee camp http http,Daily Express,1,0.0234,0.0339,0.4749,0.4678,0.005,0.1438,0.8512,2016-05-05,Anger,Negative,2016
+284,Syrian war criminals to face trial in Germany http,Daily Mail,19,0.036,0.0628,0.7224,0.1787,0.0177,0.7826,0.1997,2016-05-02,Anger,Neutral,2016
+285,State STOPS taking Syrian refugees because Obama won’t release their security information http http,Daily Express,3,0.0083,0.036,0.641,0.3147,0.0126,0.383,0.6044,2016-04-27,Anger,Negative,2016
+286,Queen Rania of Jordan travels to Lesbos to meet Syrian refugees http http,Daily Mail,30,0.546,0.2152,0.0405,0.1984,0.0626,0.9294,0.008,2016-04-25,Joy,Neutral,2016
+287,Two Brits arrested trying to smuggle 11 Syrian and Afghani migrants across boarder http http,The Sun,11,0.0447,0.0572,0.617,0.281,0.0097,0.6079,0.3825,2016-04-24,Anger,Neutral,2016
+288,MIGRANT CRISIS: Merkel to create ‘safe zones’ to STOP Syrian refugees coming to Europe http http,Daily Express,6,0.0108,0.0665,0.4266,0.4961,0.0157,0.5737,0.4105,2016-04-24,Sadness,Neutral,2016
+289,How Britons have no idea how many #Syrian refugees are in the http http,Daily Express,3,0.0212,0.0357,0.3268,0.6163,0.0183,0.4547,0.527,2016-04-22,Sadness,Negative,2016
+290,Syrian asylum seeker jailed for four years for late night sex attack http http,The Sun,2,0.0533,0.0197,0.4012,0.5258,0.0077,0.3253,0.6669,2016-04-21,Sadness,Negative,2016
+291,"BREAKING: Britain to take in 3,000 more Syrian refugees, Government announces http",Daily Express,3,0.1593,0.3296,0.2698,0.2413,0.0698,0.9197,0.0105,2016-04-21,Optimism,Neutral,2016
+292,Hundreds of Syrian refugees to be housed in UK city plagued by homelessness http http,Daily Express,0,0.0113,0.0361,0.0417,0.9109,0.0143,0.4693,0.5164,2016-04-18,Sadness,Negative,2016
+293,Twelve Syrian refugees board the Pope's jet as Francis gives them a new http http,Daily Mail,114,0.5178,0.313,0.0729,0.0962,0.1098,0.8836,0.0066,2016-04-16,Joy,Neutral,2016
+294,War on terror: Denmark to JAIL people who travel to Syria without authorities permission http http,Daily Express,5,0.0118,0.0546,0.8527,0.0809,0.0138,0.5254,0.4609,2016-04-10,Anger,Neutral,2016
+295,BREAKING NEWS: Pilot captured 'ALIVE' after war plane shot down by Islamist rebels in #Syria http http,Daily Express,0,0.1243,0.2391,0.2156,0.421,0.0328,0.8266,0.1405,2016-04-05,Sadness,Neutral,2016
+296,BREAKING NEWS: War plane shot down by rebel forces in Syria http,Daily Express,1,0.0328,0.05,0.4431,0.4742,0.0095,0.3743,0.6162,2016-04-05,Sadness,Negative,2016
+297,WATCH: Cruel prankster terrifies Syrian war refugee boy with sick bomb joke http http,Daily Express,0,0.0139,0.0116,0.9284,0.0462,0.0073,0.1967,0.796,2016-04-04,Anger,Negative,2016
+298,British aid sent to help war torn areas in Syria is ending up in the hands of jihadis  http,Daily Mail,5,0.0104,0.0455,0.4574,0.4867,0.0058,0.1486,0.8457,2016-04-03,Sadness,Negative,2016
+299,"Mass deportation of Syrian refugees back to Turkey could be illegal, warns top UN official http",Daily Mail,19,0.0121,0.0551,0.6411,0.2918,0.0086,0.3972,0.5941,2016-04-03,Anger,Negative,2016
+300,Greek farmer smashes through Syrian migrants' tents with his TRACTOR after they set up camp http http,Daily Mail,105,0.0089,0.0293,0.9154,0.0463,0.0126,0.3683,0.619,2016-04-01,Anger,Negative,2016
+301,Assad says war in Syria has cost regime more than $200 BILLION http,Daily Mail,17,0.0127,0.0485,0.7207,0.2181,0.0071,0.2588,0.7341,2016-03-30,Anger,Negative,2016
+302,#Putin's chilling warning to the West: #Syria campaign was perfect training for war http http,Daily Express,5,0.0237,0.0761,0.6949,0.2053,0.0271,0.5813,0.3916,2016-03-17,Anger,Neutral,2016
+303,The refugee children who fear for their futures after fleeing from war-torn Syria http http,Daily Mail,31,0.0084,0.0275,0.0409,0.9231,0.0101,0.2762,0.7138,2016-03-16,Sadness,Negative,2016
+304,British intelligence services are compiling a secret dossier of Putin's 'war crimes' in Syria http,Daily Mail,11,0.0828,0.0891,0.6965,0.1317,0.0146,0.6423,0.3432,2016-03-06,Anger,Neutral,2016
+305,Now politician’s attempt to stop officials from rehousing Syrian refugees BLOCKED by judge http http,Daily Express,1,0.0098,0.0586,0.7985,0.1331,0.0091,0.3404,0.6505,2016-03-01,Anger,Negative,2016
+306,Now Indiana governor’s attempt to stop officials from rehousing Syrian refugees BLOCKED http http,Daily Express,5,0.0106,0.0652,0.7655,0.1586,0.0085,0.4065,0.5851,2016-03-01,Anger,Negative,2016
+307,SYRIA CRISIS: Landmark ceasefire begins after almost five years of bloody civil war http http,Daily Express,9,0.0181,0.0353,0.7283,0.2183,0.0087,0.1771,0.8143,2016-02-27,Anger,Negative,2016
+308,Syrian asylum seeker arrested for war crimes in Sweden http,Daily Mail,13,0.0242,0.0293,0.6867,0.2598,0.0073,0.2732,0.7195,2016-02-26,Anger,Negative,2016
+309,Tensions reach boiling point: Russia is committing 'most egregious WAR CRIMES' in http http,Daily Express,2,0.0061,0.019,0.9555,0.0194,0.0069,0.1062,0.887,2016-02-21,Anger,Negative,2016
+310,France's Hollande warns of risk of Turkey-Russia war over Syria http,Daily Mail,12,0.0232,0.1219,0.4587,0.3962,0.018,0.7805,0.2014,2016-02-19,Anger,Neutral,2016
+311,Police arrest man over 'offensive' Facebook posts about Syrian refugees in Scotland http,Daily Mail,3,0.0137,0.0243,0.9004,0.0616,0.0071,0.3772,0.6157,2016-02-17,Anger,Negative,2016
+312,"Russia could be guilty of war crimes for bombing hospitals and school in Syria, says Philip Hammond http",Daily Mail,19,0.0127,0.0524,0.7784,0.1565,0.0071,0.2451,0.7478,2016-02-16,Anger,Negative,2016
+313,"Investigate Russia for war crimes over Syria hospital bombing, says UK foreign secretary http http",Daily Express,3,0.0173,0.0468,0.8491,0.0868,0.0117,0.5983,0.39,2016-02-16,Anger,Neutral,2016
+314,Russia accused of 'obvious war crimes' in Syria after 50 die in hospital and school bombings http http,Daily Mail,24,0.0135,0.0308,0.8127,0.143,0.006,0.2029,0.7912,2016-02-16,Anger,Negative,2016
+315,"Putin DELIBERATELY fuelling migrant crisis by bombing Syria, blasts ex-White House hopeful http",Daily Express,1,0.0204,0.045,0.846,0.0886,0.0076,0.2759,0.7165,2016-02-15,Anger,Negative,2016
+316,Russian Prime Minister on tensions in Syria: 'We have slid into a new Cold War' http,Daily Mail,22,0.0269,0.0959,0.5082,0.3689,0.0109,0.6354,0.3538,2016-02-13,Anger,Neutral,2016
+317,Immigration minister's town snubs request to take Syrian refugees http,Daily Mail,3,0.0148,0.062,0.5043,0.4189,0.0094,0.5143,0.4763,2016-02-12,Anger,Neutral,2016
+318,Russian PM issues starkest warning yet that Syrian conflict will spark World War Three http,Daily Mail,15,0.0164,0.0842,0.77,0.1293,0.0115,0.3838,0.6047,2016-02-12,Anger,Negative,2016
+319,Nowhere Left to Run: We speak to Syrian refugees at the epicentre of the migration crisis http http,The Sun,1,0.0075,0.0427,0.0527,0.8971,0.0224,0.7852,0.1924,2016-02-12,Sadness,Neutral,2016
+320,Councils BANNED from trying to stop Syrian refugees being resettled in judge ruling http http,Daily Express,0,0.0126,0.0585,0.7523,0.1765,0.0089,0.364,0.6271,2016-02-09,Anger,Negative,2016
+321,"Turkey is expecting up to 600,000 Syrian refugees to arrive at its borders http http",Daily Mail,9,0.1252,0.2657,0.372,0.237,0.0283,0.9237,0.0481,2016-02-09,Anger,Neutral,2016
+322,Judge BLOCKS officials from STOPPING Syrian refugees being resettled in their state http http,Daily Express,0,0.0092,0.0533,0.851,0.0865,0.0153,0.5337,0.451,2016-02-09,Anger,Neutral,2016
+323,Turkey will open its border to 35k Syrian refugees 'if necessary' http,Daily Mail,15,0.0867,0.3498,0.3817,0.1819,0.0742,0.9126,0.0132,2016-02-07,Anger,Neutral,2016
+324,Guernsey's chief minister REFUSES to accept Syrian migrants because of 'Islamophobia' http,Daily Mail,22,0.0103,0.064,0.7904,0.1353,0.0054,0.2067,0.7879,2016-02-06,Anger,Negative,2016
+325,REVEALED: More than £7bn pledged to Syrian migrants - and UK one of the HIGHEST http http,Daily Express,1,0.2607,0.5747,0.0775,0.0871,0.6865,0.3079,0.0056,2016-02-04,Optimism,Positive,2016
+326,Turkey braces for more refugees as Syrian government cut supply lines to rebel-held Aleppo http,Daily Mail,7,0.0156,0.0694,0.5015,0.4135,0.0155,0.6647,0.3198,2016-02-04,Anger,Neutral,2016
+327,David Cameron vows to give BILLIONS more to Syrian refugees in bid to ease crisis http http,Daily Express,3,0.0887,0.6337,0.1179,0.1597,0.1574,0.8273,0.0153,2016-02-04,Optimism,Neutral,2016
+328,"Syrian refugee, 17, pleads with world leaders to educate Syria's children http http",Daily Mail,26,0.0353,0.4297,0.1009,0.4341,0.2323,0.7562,0.0115,2016-02-04,Sadness,Neutral,2016
+329,Britain puts ANOTHER £1.2billion on the table for Syrian refugees http,Daily Mail,5,0.1885,0.396,0.22,0.1956,0.0736,0.9079,0.0184,2016-02-04,Optimism,Neutral,2016
+330,"Refugee camp in Jordan opened with 100 families, now home to 80,000 Syrian refugees http http",Daily Mail,59,0.3481,0.183,0.087,0.3819,0.1571,0.8361,0.0067,2016-02-04,Sadness,Neutral,2016
+331,"Astonishing video shows 80,000 Syrian refugees living in giant camp in Jordan http http",Daily Mail,36,0.8643,0.06,0.0359,0.0398,0.0335,0.7529,0.2137,2016-02-03,Joy,Neutral,2016
+332,Syrian refugee 'attempted to throw his three children out an asylum centre window' http http,The Sun,4,0.0308,0.0434,0.459,0.4668,0.0081,0.3979,0.5941,2016-02-03,Sadness,Negative,2016
+333,BREAKING: Dutch declare war on ISIS with vow to send fighter jets to bomb Syria http http,Daily Express,4,0.0399,0.1506,0.7362,0.0733,0.0233,0.7241,0.2526,2016-01-29,Anger,Neutral,2016
+334,Britain to take in hundreds more Syrian child refugees – but only from war-torn region http http,The Sun,3,0.0438,0.1042,0.1641,0.6879,0.0254,0.8832,0.0914,2016-01-28,Sadness,Neutral,2016
+335,"Europe could take MORE migrants from Syria, says UN refugee agency head http http",Daily Express,0,0.0765,0.3859,0.1597,0.3779,0.0622,0.9226,0.0152,2016-01-24,Optimism,Neutral,2016
+336,United Nations urges Britain to air drop food to Syrians amid growing starvation crisis http http,Daily Express,2,0.0117,0.0514,0.1868,0.7502,0.021,0.7265,0.2525,2016-01-20,Sadness,Neutral,2016
+337,Syrian refugees hand out flowers to women and wave placards at Cologne counter-protest http http,Daily Mail,62,0.1796,0.1698,0.5645,0.0861,0.0771,0.9036,0.0193,2016-01-17,Anger,Neutral,2016
+338,Millions of Syrians at risk of starvation as UN warns not to use ‘food as a weapon of war’ http http,Daily Express,2,0.0097,0.076,0.2618,0.6524,0.0091,0.226,0.765,2016-01-15,Sadness,Negative,2016
+339,Stranded Syrian refugees finally get their chance to cross into Jordan http http,Daily Mail,22,0.0508,0.2056,0.0798,0.6638,0.3004,0.6906,0.009,2016-01-15,Sadness,Neutral,2016
+340,Just 0.5% of Syrian migrants were arrested for a crime in Cologne over the last year http,Daily Mail,15,0.0187,0.0316,0.2307,0.719,0.0194,0.6937,0.2869,2016-01-13,Sadness,Neutral,2016
+341,Syrian migrants allegedly rape and assault teenage sisters at German public swimming pool http,Daily Mail,52,0.0219,0.0165,0.8347,0.1269,0.008,0.3195,0.6725,2016-01-12,Anger,Negative,2016
+342,'Syrian refugees' trying to board flight to UK arrested on suspicion of terrorism http http,Daily Express,4,0.0121,0.0374,0.7621,0.1884,0.0077,0.4533,0.539,2016-01-06,Anger,Negative,2016
+343,Young girls forced into 'survival sex' and other truths of child labour for Syrian refugees in Lebanon https://t.co/kJ6lCbdEJV,Daily Mail,16,0.0203,0.0252,0.1377,0.8168,0.0087,0.4308,0.5605,2015-12-26,Sadness,Negative,2015
+344,The shocking truth of child exploitation for Syrian refugees in Lebanon http http,Daily Mail,14,0.0118,0.0172,0.1412,0.8297,0.0061,0.1232,0.8707,2015-12-26,Sadness,Negative,2015
+345,Ex-KGB agent claims Vladimir Putin planted bomb on jet to justify waging war on Syria http,Daily Mail,23,0.018,0.0294,0.9022,0.0504,0.0086,0.3961,0.5953,2015-12-26,Anger,Negative,2015
+346,Ex-KGB agent claims Putin planted holiday jet bomb to justify waging war on Syria http,Daily Mail,32,0.0215,0.033,0.8911,0.0544,0.0082,0.358,0.6338,2015-12-26,Anger,Negative,2015
+347,"Syrian babies born as refugees in 80,000-strong camp in Jordan http http",Daily Mail,19,0.0394,0.0423,0.0607,0.8576,0.0316,0.8875,0.0808,2015-12-20,Sadness,Neutral,2015
+348,UN council backs Syria peace plan towards ending country's bloody civil war in rare show of unity http,Daily Mail,11,0.0583,0.7336,0.1301,0.078,0.2277,0.7433,0.0289,2015-12-19,Optimism,Neutral,2015
+349,Britain is poised to be dragged further into war in Syria by backing new Muslim nations army http http,The Sun,4,0.0139,0.0919,0.7793,0.115,0.0084,0.3185,0.6731,2015-12-16,Anger,Negative,2015
+350,"More than 1,000 Syrian refugees have reached Britain in time for Christmas http",Daily Mail,4,0.7707,0.1318,0.038,0.0594,0.3851,0.6079,0.007,2015-12-16,Joy,Neutral,2015
+351,REVEALED: Dozens of UK councils to warmly welcome Syrian refugees by CHRISTMAS http http,Daily Express,6,0.7017,0.1946,0.0436,0.0602,0.7056,0.2898,0.0047,2015-12-14,Joy,Positive,2015
+352,Refugee whose wife and SEVEN children drowned says 'stay in Syria' http http,Daily Mail,14,0.0112,0.0175,0.0965,0.8748,0.012,0.4582,0.5297,2015-12-13,Sadness,Negative,2015
+353,"Syria might not be a war, but we're still going to win... http http",Daily Express,2,0.0356,0.8297,0.0942,0.0405,0.6734,0.3078,0.0188,2015-12-10,Optimism,Positive,2015
+354,Syrian refugees arriving in Wales will be given lessons in Welsh to help them settle in http http,Daily Express,5,0.4074,0.353,0.117,0.1225,0.0975,0.8959,0.0066,2015-12-09,Joy,Neutral,2015
+355,War veterans threw out their medals in disgust at Syria airstrikes http http,Daily Express,2,0.0079,0.014,0.9391,0.039,0.0065,0.1202,0.8734,2015-12-08,Anger,Negative,2015
+356,TERROR EXCLUSIVE: ISIS fundraising chief flees the UK and heads to Syria to join the war http http,The Sun,2,0.0296,0.0581,0.7691,0.1432,0.0099,0.4853,0.5047,2015-12-06,Anger,Negative,2015
+357,150 British troops fly out to wage war in Syria which is set to last three years http,Daily Mail,17,0.0322,0.0582,0.8566,0.053,0.0129,0.5861,0.401,2015-12-04,Anger,Neutral,2015
+358,RAF fighters wipe 'millions from ISIS war chest' after bombing jihadis' Syria oilfields http http,Daily Mail,4,0.0205,0.0523,0.838,0.0893,0.0137,0.3926,0.5937,2015-12-04,Anger,Negative,2015
+359,Revealed: Syrian refugees arriving in Europe are being recruited by Muslim http http,Daily Express,4,0.2504,0.3551,0.2047,0.1899,0.0245,0.9353,0.0401,2015-12-03,Optimism,Neutral,2015
+360,William Hague warns British troops could be dragged into a ground war in Syria http,Daily Mail,2,0.0176,0.0853,0.7209,0.1762,0.0083,0.4618,0.5299,2015-12-03,Anger,Negative,2015
+361,MPs have voted to take Britain to war in Syria. See how today's #SyriaVote unfolded: http http,Daily Express,3,0.1629,0.3966,0.3318,0.1087,0.0151,0.7434,0.2415,2015-12-02,Optimism,Neutral,2015
+362,Britain at war: MPs vote YES to bombing Isis in Syria http http,The Sun,16,0.0179,0.0783,0.8651,0.0387,0.0243,0.7087,0.267,2015-12-02,Anger,Neutral,2015
+363,"'Secret' German plan to resettle 500,000 Syrian #refugees across Europe unveiled this week http http",Daily Express,6,0.3389,0.3364,0.1753,0.1494,0.0441,0.9428,0.013,2015-12-02,Joy,Neutral,2015
+364,Today's front page: 48 hours from war in Syria? http #MailFrontPages http,Daily Mail,5,0.1153,0.1669,0.3253,0.3924,0.0178,0.9047,0.0775,2015-12-01,Sadness,Neutral,2015
+365,"As Cameron calls for war in Syria, Corbyn gets civil war in his Shadow Cabinet http http",The Sun,5,0.0119,0.048,0.8839,0.0562,0.0144,0.5969,0.3887,2015-11-28,Anger,Neutral,2015
+366,Church boosts Cameron by backing military action in Syria as PM sets out case for war http http,Daily Express,2,0.0555,0.5605,0.3241,0.0599,0.0988,0.8629,0.0382,2015-11-26,Optimism,Neutral,2015
+367,Obama tells US officials they CANNOT block Syrian refugees from settling in states http http,Daily Express,4,0.0117,0.0783,0.8035,0.1065,0.0209,0.6678,0.3113,2015-11-26,Anger,Neutral,2015
+368,Canadian PM announces he'll be slowing flow of Syrian refugees http,Daily Mail,10,0.0172,0.0639,0.3521,0.5669,0.0196,0.9074,0.073,2015-11-25,Sadness,Neutral,2015
+369,Hague admits Iraq War was 'wrong' but calls for British troops to smash ISIS in Syria http http,Daily Express,2,0.0186,0.3156,0.5348,0.131,0.0224,0.6513,0.3262,2015-11-25,Anger,Neutral,2015
+370,The war plane shot down by Turkish military near its border to Syria was Russian http http,Daily Mail,47,0.0225,0.0467,0.6476,0.2833,0.0098,0.5446,0.4456,2015-11-24,Anger,Neutral,2015
+371,Inside Russia's triple decker war room where Putin plans his strikes in Syria http http,Daily Mail,23,0.1194,0.1413,0.6183,0.1211,0.018,0.8938,0.0882,2015-11-23,Anger,Neutral,2015
+372,Now Prince Charles blames the 'horrors' of the Syria war on a failure to tackle climate change http,Daily Mail,9,0.0107,0.0996,0.2473,0.6425,0.01,0.359,0.631,2015-11-23,Sadness,Negative,2015
+373,5 more Syrian refugees turn themselves in at US-Mexico border amid political upheaval over asylum seekers http,Daily Mail,18,0.0202,0.0671,0.429,0.4838,0.0121,0.705,0.2829,2015-11-23,Sadness,Neutral,2015
+374,Britain's war against ISIS: David Cameron wants to launch airstrikes in Syria in TWO WEEKS http http,Daily Express,9,0.0806,0.2749,0.5774,0.0671,0.052,0.8813,0.0667,2015-11-21,Anger,Neutral,2015
+375,"War is “much bigger than party loyalty”, said the man denying his MPs a free vote on Syria http http",The Sun,12,0.0088,0.0589,0.8769,0.0554,0.0072,0.2357,0.757,2015-11-21,Anger,Negative,2015
+376,Majority now back ground war in Syria to wipe out #ISIS with British boots on the ground http http,Daily Express,2,0.0563,0.4731,0.4103,0.0604,0.1131,0.8056,0.0813,2015-11-20,Optimism,Neutral,2015
+377,Amphetamine pills fuel Syria civil war by keeping ISIS fighters going for days at a time http,Daily Mail,16,0.0158,0.0491,0.8553,0.0798,0.0065,0.1975,0.7961,2015-11-20,Anger,Negative,2015
+378,BREAKING: Blow for Obama as US House passes bill tightening security on Syrian http http,Daily Express,5,0.0181,0.072,0.4153,0.4946,0.0613,0.8372,0.1015,2015-11-19,Sadness,Neutral,2015
+379,BREAKING: US House passes bill restricting settlement of Syrian and Iraqi http http,Daily Express,17,0.0396,0.1412,0.513,0.3062,0.019,0.9076,0.0734,2015-11-19,Anger,Neutral,2015
+380,Migrant camp near Calais housing Syrian and Iraqi refugees closed after violent http,Daily Express,4,0.0128,0.0282,0.6025,0.3565,0.0068,0.341,0.6522,2015-11-19,Anger,Negative,2015
+381,POLL: Should we go to war in Syria? http,Daily Mail,14,0.0301,0.193,0.654,0.1229,0.0128,0.7733,0.2138,2015-11-19,Anger,Neutral,2015
+382,Obama hits back at Americans wanting to refuse entry to Syrian http http,Daily Express,3,0.0051,0.0241,0.9394,0.0313,0.0099,0.4399,0.5501,2015-11-18,Anger,Negative,2015
+383,First Syrian refugees flying to Britain land in Glasgow http http,Daily Mail,155,0.6452,0.1434,0.1257,0.0857,0.0417,0.9439,0.0144,2015-11-17,Joy,Neutral,2015
+384,First Syrian refugees flying to the UK amid warnings about the impact on national security http,Daily Mail,6,0.0216,0.149,0.3193,0.5101,0.0146,0.6654,0.32,2015-11-17,Sadness,Neutral,2015
+385,Syrian refugees speak of their shame after terrorists use 'their identities' to sneak into Europe http,Daily Mail,19,0.0113,0.0446,0.3658,0.5783,0.0059,0.2118,0.7823,2015-11-17,Sadness,Negative,2015
+386,Britain urged to welcome Syrian refugees as the first hundred arrive in Glasgow  http http,The Sun,14,0.5235,0.293,0.105,0.0785,0.3344,0.6591,0.0065,2015-11-17,Joy,Neutral,2015
+387,Poland's foreign minister suggests sending Syrian refugees back to 'liberate' their country http,Daily Mail,50,0.0806,0.5085,0.2115,0.1995,0.0271,0.9402,0.0328,2015-11-17,Optimism,Neutral,2015
+388,First group of Syrian refugees to land in Britain http http,Daily Express,0,0.4373,0.2212,0.1472,0.1943,0.0549,0.9329,0.0122,2015-11-17,Joy,Neutral,2015
+389,More than half of US states want to BAN Syrian refugees amid terror fears http http,Daily Express,8,0.0146,0.1005,0.4225,0.4625,0.0111,0.3876,0.6013,2015-11-17,Sadness,Negative,2015
+390,#ParisAttacks jihadis sneaked into France as fake Syrian refugees http http,Daily Mail,259,0.0123,0.0224,0.9063,0.059,0.0052,0.1412,0.8536,2015-11-14,Anger,Negative,2015
+391,Benedict Cumberbatch defends his 4-letter rant about Syrian refugees as he is made CBE http http,Daily Mail,24,0.1968,0.4476,0.2283,0.1272,0.0961,0.8917,0.0122,2015-11-10,Optimism,Neutral,2015
+392,A teenage girl has claimed she was gang raped by Syrian migrants http http,The Sun,2,0.0393,0.0211,0.4926,0.4471,0.0062,0.2229,0.7709,2015-11-07,Anger,Negative,2015
+393,A teen claims she was gang raped at a care home by five young Syrian migrants http http,The Sun,0,0.0313,0.0231,0.44,0.5056,0.0061,0.2187,0.7752,2015-11-06,Sadness,Negative,2015
+394,Teen claims she was gang raped by five young Syrian migrants http,Daily Mail,13,0.0223,0.0172,0.7519,0.2086,0.0072,0.2298,0.763,2015-11-06,Anger,Negative,2015
+395,A teenage girl claims she was gang raped at a care home by five young Syrian migrants http http,The Sun,3,0.0301,0.0216,0.467,0.4813,0.0063,0.2156,0.778,2015-11-06,Sadness,Negative,2015
+396,"MPs warn Cameron that Britain isn't ready to take in 20,000 Syrian refugees http http",Daily Express,3,0.0193,0.0948,0.4858,0.4001,0.009,0.3936,0.5974,2015-10-30,Anger,Negative,2015
+397,Syria peace talks begin in Vienna in bid to bring an end to the war http http,Daily Mail,16,0.0792,0.6204,0.1649,0.1354,0.1047,0.8772,0.0181,2015-10-30,Optimism,Neutral,2015
+398,Syrian toddler saved by a hero fisherman after a refugees' raft floundered. Watch here: http http,The Sun,5,0.1592,0.4374,0.0569,0.3464,0.1286,0.8478,0.0236,2015-10-26,Optimism,Neutral,2015
+399,A hero fisherman has saved a drowning Syrian toddler after a refugees' raft floundered http http,The Sun,3,0.1055,0.3287,0.0532,0.5126,0.2819,0.695,0.0232,2015-10-25,Sadness,Neutral,2015
+400,Women and children fleeing #ISIS killers in #Syria then RAPED in REFUGEE CAMPS http http,Daily Express,1,0.0085,0.0287,0.825,0.1378,0.007,0.2044,0.7886,2015-10-21,Anger,Negative,2015
+401,Syria withdraws seeds from Arctic 'Doomsday Vault' to replenish supplies lost to war http,Daily Mail,20,0.0146,0.123,0.2016,0.6609,0.0139,0.6472,0.3389,2015-10-20,Sadness,Neutral,2015
+402,"REVEALED: Syrian refugees to cost British taxpayers £24,000 each per year http http",Daily Express,3,0.0521,0.1357,0.2342,0.578,0.0181,0.7983,0.1836,2015-10-20,Sadness,Neutral,2015
+403,Bishop who preaches about Syrian refugees but won't take any in http http,Daily Mail,6,0.0147,0.1248,0.5822,0.2782,0.0096,0.4119,0.5785,2015-10-19,Anger,Negative,2015
+404,Parents feared to be heading for Syria criticised for taking five children to a 'war http,Daily Express,1,0.011,0.0431,0.5643,0.3816,0.0071,0.4089,0.584,2015-10-14,Anger,Negative,2015
+405,Now minister REFUSES to reveal how many Syrian refugees have arrived in Britain http http,Daily Express,3,0.123,0.212,0.3433,0.3217,0.0086,0.3813,0.6102,2015-10-14,Anger,Negative,2015
+406,"UK is not taking its fair share of Syrian refugees, charity claims http http",Daily Express,2,0.0109,0.0512,0.4613,0.4766,0.0092,0.3814,0.6094,2015-10-07,Sadness,Negative,2015
+407,Charlotte Church blames Syria's four-year civil war on CLIMATE CHANGE http,Daily Mail,0,0.0141,0.1211,0.6701,0.1947,0.0076,0.3871,0.6053,2015-10-02,Anger,Negative,2015
+408,Moscow war jets ‘kill dozens of civilians’ in Syria http http,The Sun,0,0.0207,0.0406,0.7066,0.232,0.0062,0.2239,0.7699,2015-10-01,Anger,Negative,2015
+409,Trump says he will kick Syrian refugees out of US as they could be Islamic State terrorists http http,Daily Express,11,0.0109,0.0451,0.8406,0.1034,0.011,0.4256,0.5634,2015-10-01,Anger,Negative,2015
+410,Donald Trump says he would kick Syrian refugees out of US as they could be ISIS terrorists http http,Daily Express,7,0.0112,0.0462,0.8378,0.1048,0.0142,0.4826,0.5032,2015-10-01,Anger,Negative,2015
+411,Russia accused of 'pouring gasoline on the fire' of Syria's civil war http http,Daily Mail,11,0.0155,0.0287,0.8966,0.0593,0.0086,0.4533,0.5381,2015-10-01,Anger,Negative,2015
+412,Russia and US to hold urgent talks to ensure they do not end up in 'conflict' in Syria http http,Daily Mail,28,0.0237,0.2817,0.4281,0.2665,0.0363,0.8619,0.1018,2015-10-01,Anger,Neutral,2015
+413,Germany admits a third of migrants who claim to be Syrian are lying http,Daily Mail,32,0.0303,0.054,0.475,0.4408,0.01,0.3098,0.6802,2015-09-25,Anger,Negative,2015
+414,"Forget Syrian migrants, Croatia blocks SERBIANS as tempers flare with ex-Yugoslav nation http http",Daily Express,4,0.0077,0.0204,0.9168,0.0551,0.0236,0.5651,0.4113,2015-09-24,Anger,Neutral,2015
+415,Migrant family demands to be settled in Germany – or they'll go back to Syria http http,Daily Express,1,0.032,0.0653,0.3381,0.5647,0.0155,0.7138,0.2707,2015-09-23,Sadness,Neutral,2015
+416,"First of 20,000 Syrian refugees arrive in the UK http http",Daily Mail,3,0.26,0.1725,0.1903,0.3772,0.0282,0.9437,0.028,2015-09-23,Sadness,Neutral,2015
+417,Founder of 'micro-nation' Liberland welcomes Syrian refugees http http,Daily Mail,10,0.36,0.5053,0.0731,0.0616,0.4726,0.5222,0.0052,2015-09-22,Optimism,Neutral,2015
+418,"BREAKING: First of 120,000 Syrian refugees arrive in Britain http http",Daily Express,2,0.1718,0.1357,0.2853,0.4072,0.0634,0.9233,0.0133,2015-09-22,Sadness,Neutral,2015
+419,REVEALED: Migrants buying fake Syrian passports on FACEBOOK http http,Daily Express,1,0.0859,0.0545,0.4962,0.3634,0.011,0.4148,0.5742,2015-09-22,Anger,Negative,2015
+420,Russia sends '28 war planes' to Syria as it bolsters support for Assad http http,Daily Express,0,0.0552,0.1264,0.759,0.0595,0.0112,0.4767,0.5121,2015-09-22,Anger,Negative,2015
+421,A good idea? @user calls on PM to forge ‘safe havens’ in Syria to end refugee crisis http http,Daily Express,5,0.0436,0.7992,0.0566,0.1006,0.3361,0.6426,0.0213,2015-09-21,Optimism,Neutral,2015
+422,Ministers under fire after REFUSING to say how many Syrian refugees will arrive in the UK this week http,Daily Mail,1,0.0073,0.0239,0.9189,0.05,0.007,0.339,0.654,2015-09-20,Anger,Negative,2015
+423,Saudi offer to build 200 mosques in Germany for Syrian migrants is slammed as 'cynical' http,Daily Mail,24,0.0243,0.063,0.7179,0.1948,0.0126,0.5182,0.4692,2015-09-20,Anger,Neutral,2015
+424,Syrian asylum-seeker 'is filmed boasting of having killed for ISIS' http http,Daily Mail,30,0.1131,0.1495,0.5937,0.1437,0.0091,0.378,0.6129,2015-09-20,Anger,Negative,2015
+425,"Bob Geldof condemns Norway for decision to take in no more than 8,000 Syrian refugees http",Daily Mail,2,0.0131,0.0548,0.5837,0.3484,0.0074,0.438,0.5546,2015-09-19,Anger,Negative,2015
+426,"Just ONE IN FIVE migrants claiming asylum are from Syria, EU figures show http http",Daily Express,6,0.0313,0.111,0.1501,0.7076,0.027,0.9338,0.0392,2015-09-19,Sadness,Neutral,2015
+427,Violence breaks out between Syrian and Afghan migrants as they fight to board trains http http,Daily Mail,24,0.0069,0.021,0.9217,0.0504,0.0052,0.2053,0.7896,2015-09-18,Anger,Negative,2015
+428,Russia in crunch talks with US over Syria conflict as Moscow denies build up of troops http http,Daily Express,4,0.0217,0.0841,0.7141,0.1801,0.0158,0.8436,0.1407,2015-09-18,Anger,Neutral,2015
+429,Jordan's @user calls on Europe to accept more Syrian refugees http,Daily Mail,16,0.1634,0.4749,0.2093,0.1524,0.083,0.9046,0.0125,2015-09-18,Optimism,Neutral,2015
+430,PM looks at Syria 'no-fly' zone as migrant crisis refuses to let-up http http,The Sun,7,0.0129,0.0961,0.4991,0.392,0.0169,0.7672,0.216,2015-09-16,Anger,Neutral,2015
+431,EXCLUSIVE: PM looks at Syria 'no-fly' zone as migrant crisis refuses to let-up http http,The Sun,1,0.0236,0.1475,0.3657,0.4632,0.0248,0.8154,0.1598,2015-09-16,Sadness,Neutral,2015
+432,"Thousands of migrants PRETENDING to be Syrian so they can claim asylum, official warns http http",Daily Express,13,0.0359,0.1805,0.3096,0.4739,0.0216,0.7741,0.2043,2015-09-15,Sadness,Neutral,2015
+433,"Thousands of Syrian refugees have been radicalised by IS, a senior Lebanese minister warns http http",The Sun,1,0.016,0.1014,0.4461,0.4365,0.0063,0.2962,0.6975,2015-09-15,Anger,Negative,2015
+434,"Thousands of Syrian refugees have been radicalised by IS, a senior Lebanese minister warns http http",The Sun,5,0.016,0.1014,0.4461,0.4365,0.0063,0.2962,0.6975,2015-09-15,Anger,Negative,2015
+435,"Two in every 100 Syrian migrants are ISIS fighters, Cameron is warned http http",Daily Mail,35,0.0146,0.1121,0.457,0.4163,0.0144,0.6437,0.3419,2015-09-15,Anger,Neutral,2015
+436,Sun columnist Kelvin Mackenzie on Germany taking in 800k Syrian refugees http http,The Sun,3,0.1508,0.3411,0.168,0.34,0.0196,0.9405,0.0399,2015-09-14,Optimism,Neutral,2015
+437,Cameron makes surprise visit to Lebanon to meet Syrian refugees http http,Daily Mail,23,0.56,0.2046,0.0462,0.1892,0.1513,0.8435,0.0052,2015-09-14,Joy,Neutral,2015
+438,Dark echoes of the past despite warm German welcome to Syrian refugees http http,Daily Mail,15,0.0241,0.0423,0.0387,0.8949,0.0179,0.4389,0.5432,2015-09-13,Sadness,Negative,2015
+439,Millions more Syrians could come to Europe to seek asylum http http,Daily Mail,38,0.0968,0.3347,0.1411,0.4273,0.0561,0.9149,0.029,2015-09-12,Sadness,Neutral,2015
+440,Economic migrants FAKE being Syrian to claim EU asylum and head for Britain http http,Daily Express,3,0.0078,0.0153,0.9137,0.0632,0.0173,0.4662,0.5165,2015-09-11,Anger,Negative,2015
+441,Economic migrants FAKE being Syrian to claim EU asylum and head for Britain http http,Daily Express,9,0.0078,0.0153,0.9137,0.0632,0.0173,0.4662,0.5165,2015-09-10,Anger,Negative,2015
+442,REVEALED: Why oil-rich Arab states have failed to offer a single Syrian #refugee asylum http http,Daily Express,8,0.0105,0.0442,0.4842,0.4611,0.013,0.454,0.5329,2015-09-10,Anger,Negative,2015
+443,Economic migrants are pretending to be Syrian to claim asylum in EU http  #refugeescrisis #Syria http,Daily Express,7,0.0187,0.0316,0.3056,0.6441,0.016,0.7084,0.2756,2015-09-10,Sadness,Neutral,2015
+444,Economic migrants heading to Britain FAKE being Syrian to claim EU asylum http http,Daily Express,12,0.0105,0.0263,0.8096,0.1536,0.0141,0.4587,0.5271,2015-09-09,Anger,Negative,2015
+445,"Syrian refugees have turned Lesbos into a war zone, residents claim http",Daily Mail,12,0.0158,0.0457,0.6713,0.2673,0.0061,0.3163,0.6776,2015-09-09,Anger,Negative,2015
+446,Economic migrants FAKE being Syrian to claim EU asylum and head for Britain http http,Daily Express,1,0.0078,0.0153,0.9137,0.0632,0.0173,0.4662,0.5165,2015-09-09,Anger,Negative,2015
+447,Economic #migrants FAKE being Syrian to claim asylum in Europe http http,Daily Express,35,0.0093,0.0284,0.7347,0.2276,0.0108,0.2746,0.7145,2015-09-08,Anger,Negative,2015
+448,Syrian refugee children brought to Britain could be DEPORTED as soon as they reach 18 http,Daily Mail,3,0.0222,0.0432,0.4208,0.5138,0.0059,0.2376,0.7565,2015-09-08,Sadness,Negative,2015
+449,"Britain to open the doors to 20,000 Syrian refugees by 2020 http",Daily Mail,17,0.1878,0.5922,0.1143,0.1057,0.0681,0.9185,0.0134,2015-09-07,Optimism,Neutral,2015
+450,"David Cameron says UK will take up to 20,000 Syrian refugees by 2020 http",Daily Mail,11,0.1387,0.5167,0.1725,0.1722,0.0284,0.931,0.0406,2015-09-07,Optimism,Neutral,2015
+451,Politicians scramble to offer their homes to Syrian refugees http http,Daily Express,0,0.0239,0.0504,0.4507,0.475,0.03,0.8674,0.1026,2015-09-07,Sadness,Neutral,2015
+452,"Cameron raids foreign aid budget to house up to 10,000 Syrian refugees in Britain http",Daily Mail,6,0.0304,0.1214,0.3277,0.5205,0.0309,0.8872,0.0818,2015-09-07,Sadness,Neutral,2015
+453,Politicians scramble to offer their homes to Syrian refugees http http,Daily Express,0,0.0239,0.0504,0.4507,0.475,0.03,0.8674,0.1026,2015-09-07,Sadness,Neutral,2015
+454,Labour candidates refuse to confirm they will help end refugee crisis by bombing Syria http,Daily Express,1,0.0102,0.0879,0.6514,0.2505,0.0065,0.1916,0.8019,2015-09-07,Anger,Negative,2015
+455,"UK foreign aid budget will be diverted to house up to 15,000 Syrian refugees, says Osborne http",Daily Mail,3,0.0218,0.0816,0.2528,0.6437,0.018,0.8102,0.1717,2015-09-06,Sadness,Neutral,2015
+456,"Britain will take 15,000 Syrian refugees says David Cameron http http",Daily Express,3,0.1125,0.4142,0.2085,0.2648,0.0397,0.9462,0.0141,2015-09-06,Optimism,Neutral,2015
+457,Bono shows support for refugees by changing U2 lyrics in memory of tragic Syrian http http,Daily Express,0,0.0586,0.0779,0.0235,0.8401,0.2426,0.7419,0.0156,2015-09-05,Sadness,Neutral,2015
+458,Britain to give £100m more to Syria refugee camps as Cameron pushes spending past http http,Daily Express,1,0.1653,0.4533,0.2284,0.1529,0.0771,0.8937,0.0292,2015-09-04,Optimism,Neutral,2015
+459,As world mourns tragic Syrian boy it's business as usual for 57 migrants stopped at http http,Daily Express,2,0.0042,0.0074,0.0243,0.9641,0.008,0.2219,0.7701,2015-09-04,Sadness,Negative,2015
+460,BREAKING: David Cameron says we will accept thousands more Syrian refugees #Syria,Daily Mail,45,0.1335,0.5062,0.1617,0.1985,0.3872,0.6046,0.0082,2015-09-04,Optimism,Neutral,2015
+461,"Government considers to allow 4,000 more migrants into UK after drowning of Syrian boys http http",Daily Express,1,0.0355,0.1505,0.1226,0.6914,0.0247,0.8832,0.0921,2015-09-03,Sadness,Neutral,2015
+462,"More than 10,000 Icelanders say they'll welcome Syrian refugees into their homes http",Daily Mail,40,0.2956,0.5348,0.0765,0.0931,0.3317,0.6624,0.0058,2015-09-02,Optimism,Neutral,2015
+463,Merkel hints at bringing back border checks as Syrian refugees flee to Germany http http,Daily Mail,15,0.0271,0.118,0.4448,0.4101,0.0425,0.9382,0.0194,2015-09-01,Anger,Neutral,2015
+464,"Don't hold Syria vote until we FINALLY have Chilcot report on Iraq War, MPs warn Cameron http http",Daily Express,3,0.0202,0.1864,0.6234,0.17,0.0149,0.6275,0.3575,2015-08-25,Anger,Neutral,2015
+465,PICTURED: Syrian migrants pose for SELFIE after landing on Greek island of http http,Daily Express,3,0.5665,0.0855,0.1168,0.2313,0.0382,0.9279,0.0339,2015-08-11,Joy,Neutral,2015
+466,"Newlyweds spent wedding day feeding 4,000 Syrian refugees http http",Daily Mail,99,0.7962,0.1057,0.0208,0.0773,0.3524,0.6384,0.0093,2015-08-05,Joy,Neutral,2015
+467,Newlyweds spend wedding day feeding FOUR THOUSAND Syrian refugees on Turkish border  http http,Daily Mail,117,0.7624,0.0841,0.0395,0.114,0.0721,0.8963,0.0316,2015-08-05,Joy,Neutral,2015
+468,Britain to spend £300 MILLION in Africa and Syria to combat #Mediterranean migrant http http,Daily Express,0,0.0562,0.5036,0.2084,0.2319,0.0368,0.8378,0.1254,2015-07-02,Optimism,Neutral,2015
+469,Clashes break out between Syrian and Afghan refugees in Greece http://t.co/rBqa8xJdrB http,Daily Mail,10,0.016,0.019,0.8808,0.0842,0.0097,0.5559,0.4344,2015-06-16,Anger,Neutral,2015
+470,ISIS intercepts thousands of Syrian refugees trying to escape http http,Daily Mail,16,0.0225,0.0941,0.5817,0.3017,0.0081,0.3643,0.6276,2015-06-13,Anger,Negative,2015
+471,Lesbos is the latest Greek island Syrian refugees are flocking to for safety http http,Daily Mail,13,0.1509,0.2876,0.1761,0.3854,0.1327,0.8547,0.0126,2015-06-02,Sadness,Neutral,2015
+472,Syrian refugees using dinghies to make dangerous trip to Kos http http,Daily Mail,8,0.033,0.0703,0.5691,0.3277,0.0083,0.3096,0.6821,2015-06-01,Anger,Negative,2015
+473,Syrian refugees recall seeing ISIS 'playing with a severed head as if it was a football' http,Daily Mail,4,0.0489,0.0286,0.5758,0.3467,0.0067,0.2822,0.7111,2015-04-08,Anger,Negative,2015
+474,"ISIS set fire to tons of Halal chicken meant for 650,000 starving Syrian refugees http http",Daily Mail,41,0.0157,0.04,0.5997,0.3446,0.0058,0.1724,0.8218,2015-04-02,Anger,Negative,2015
+475,ISIS take control of Palestinian refugee camp in Syria http,Daily Mail,15,0.0277,0.0631,0.5956,0.3136,0.01,0.474,0.5159,2015-04-01,Anger,Negative,2015
+476,Over 1m Syrian refugees being cared for at border hospital in Turkey http http,Daily Mail,20,0.0361,0.0521,0.0639,0.8478,0.0574,0.9278,0.0148,2015-03-23,Sadness,Neutral,2015
+477,Satellite images of Syria shows the true devastation of the civil war http http,Daily Mail,18,0.0255,0.059,0.295,0.6205,0.0124,0.3345,0.6531,2015-03-17,Sadness,Negative,2015
+478,Satellite images reveal 83% of the Syria's lights have gone out due to civil war http http,Daily Mail,14,0.0138,0.0203,0.2065,0.7594,0.0103,0.3161,0.6736,2015-03-12,Sadness,Negative,2015
+479,Study reveals climate change may have triggered war in Syria http,Daily Mail,14,0.0174,0.1107,0.2551,0.6168,0.0094,0.4511,0.5395,2015-03-03,Sadness,Negative,2015
+480,Prince Charles plays football with Syrian refugees http http,Daily Mail,4,0.7781,0.0912,0.0355,0.0951,0.1128,0.8812,0.006,2015-02-08,Joy,Neutral,2015
+481,A look at the increasingly outlandish weaponry being used to wage war in Syria http,Daily Mail,3,0.0289,0.1011,0.8153,0.0547,0.0121,0.4461,0.5418,2014-12-05,Anger,Negative,2014
+482,"World’s most wanted war criminal died in Syria 4 years ago, Nazi hunter believes http",Daily Mail,11,0.0234,0.0447,0.222,0.7099,0.0097,0.2132,0.7771,2014-12-01,Sadness,Negative,2014
+483,Mother takes toddler son to Syria to join IS as another young Briton dies in conflict http,Daily Express,0,0.0104,0.0205,0.0599,0.9092,0.01,0.4769,0.5131,2014-10-28,Sadness,Negative,2014
+484,An undercover reporter for The Sun was 'recruited' to become a bride for a British fighter waging war in Syria for IS http,The Sun,1,0.2464,0.185,0.425,0.1436,0.0123,0.6882,0.2995,2014-10-10,Anger,Neutral,2014
+485,"1,300-year-old prophecy predicted war between Islamic army and 'infidel horde' in Syria http",Daily Mail,17,0.029,0.1769,0.686,0.108,0.0145,0.5861,0.3994,2014-10-09,Anger,Neutral,2014
+486,Syrian refugees continue to flood across border to Turkey http,Daily Mail,4,0.022,0.0543,0.3685,0.5551,0.013,0.7567,0.2303,2014-09-30,Sadness,Neutral,2014
+487,Harvey Weinstein writes for MailOnline about the unbelievable heartbreak of the Syrian refugees http,Daily Mail,4,0.0216,0.0181,0.0115,0.9488,0.0122,0.3178,0.67,2014-09-27,Sadness,Negative,2014
+488,Hundreds of rescued Syrian refugees refuse to leave cruise ship http,Daily Mail,2,0.0187,0.0677,0.3982,0.5154,0.0107,0.458,0.5312,2014-09-26,Sadness,Negative,2014
+489,Cruise ship in rescue bid for 300 Syrian refugees http,Daily Mail,3,0.1661,0.357,0.1024,0.3744,0.0618,0.9214,0.0168,2014-09-25,Sadness,Neutral,2014
+490,"'Executions, beheadings and crucifixions' Islamic State accused of war crimes in Syria http",Daily Express,1,0.0101,0.0245,0.923,0.0425,0.0047,0.1534,0.842,2014-08-27,Anger,Negative,2014
+491,HSBC shuts down accounts of Syrian refugees living in Britain http,Daily Mail,0,0.0178,0.0406,0.4059,0.5356,0.0085,0.4999,0.4916,2014-08-08,Sadness,Neutral,2014
+492,Half-a-million Iraqis flee into areas already overflowing with Syrian refugees http,Daily Mail,4,0.0219,0.0497,0.4154,0.513,0.0121,0.5277,0.4602,2014-06-13,Sadness,Neutral,2014
+493,Russia and China unite to stop UN investigation into Syrian war crimes http,Daily Mail,2,0.0101,0.0504,0.8164,0.1232,0.012,0.5718,0.4162,2014-05-22,Anger,Neutral,2014
+494,British jihadists accused of war crime after video emerges of Syria prisoner's 'execution' http http,Daily Express,1,0.0149,0.0226,0.8943,0.0682,0.0056,0.2705,0.7239,2014-05-02,Anger,Negative,2014
+495,Syria to hold a presidential election in the middle of its civil war http,Daily Mail,7,0.0197,0.0383,0.8153,0.1267,0.0173,0.8551,0.1276,2014-04-21,Anger,Neutral,2014
+496,Tony Blair claims he saved Iraq from Syria-style civil war http,Daily Mail,1,0.0711,0.4767,0.3106,0.1417,0.0797,0.7968,0.1236,2014-04-08,Optimism,Neutral,2014
+497,"Iraq invasion prevented Syria-style civil war, claims Tony Blair http",Daily Mail,1,0.0233,0.1242,0.6615,0.191,0.0317,0.8337,0.1346,2014-04-07,Anger,Neutral,2014
+498,BNP claim Nick Griffin 'literally' stopped a war in Syria http,Daily Express,1,0.1235,0.4216,0.3416,0.1133,0.0621,0.8702,0.0677,2014-03-30,Optimism,Neutral,2014
+499,Syria launches new commercial airline that will fly out of Damascus despite 3 year civil war http,Daily Mail,3,0.1936,0.3806,0.2753,0.1505,0.059,0.9062,0.0348,2014-03-27,Optimism,Neutral,2014
+500,Syrian refugees queue up in their thousands for UN food hand-outs http http,Daily Mail,14,0.0764,0.0947,0.5837,0.2452,0.0414,0.829,0.1296,2014-02-26,Anger,Neutral,2014
+501,Security chief: Terror link to Syrian war is UK's biggest threat since 9/11 http,Daily Mail,0,0.0141,0.0806,0.609,0.2963,0.0102,0.275,0.7148,2014-02-25,Anger,Negative,2014
+502,Fanatics who recruited Brits to war in Syria now complain of jihad 'tourists' http,Daily Mail,0,0.0064,0.018,0.9482,0.0274,0.0062,0.2292,0.7646,2014-02-18,Anger,Negative,2014
+503,Nick Clegg: Most vulnerable Syrian refugees will be welcomed to Britain http,Daily Express,0,0.0664,0.6724,0.0931,0.168,0.486,0.5074,0.0065,2014-01-29,Optimism,Neutral,2014
+504,Home Secretary to announce Britain's plan to open its doors to Syrian refugees http,Daily Mail,1,0.2139,0.5176,0.1612,0.1073,0.1593,0.8332,0.0075,2014-01-28,Optimism,Neutral,2014
+505,"Syria's 5,000 year heritage is being buried under the rubble of war http http",Daily Mail,18,0.0107,0.0364,0.0625,0.8904,0.0077,0.204,0.7882,2014-01-27,Sadness,Negative,2014
+506,Britain on JIHAD alert as UK rebels fighting in Syria return home 'steeled for new war' http,Daily Express,1,0.041,0.2091,0.6445,0.1054,0.0222,0.8466,0.1312,2014-01-25,Anger,Neutral,2014
+507,Pulitzer Prize-winning photographer fired for doctoring Syrian war picture http,Daily Mail,2,0.0498,0.036,0.685,0.2292,0.0088,0.336,0.6551,2014-01-23,Anger,Negative,2014
+508,"Newspaper round-up: Multicultural Britain, Michael Le Vell and Syrian refugees http",Daily Express,0,0.5504,0.257,0.043,0.1496,0.0263,0.9504,0.0233,2014-01-23,Joy,Neutral,2014
+509,"Newspaper round-up: Lib Dem chaos, Syrian war crimes and trial of a serial killer http",Daily Express,0,0.0274,0.0182,0.9071,0.0473,0.0103,0.4125,0.5772,2014-01-21,Anger,Negative,2014
+510,"More than 21,000 Syrian babies have been born since conflict started http",Daily Mail,1,0.0357,0.0445,0.2536,0.6662,0.0322,0.6487,0.3191,2013-12-23,Sadness,Neutral,2013
+511,Israel denies assassinating top Hezbollah commander in Syrian war http,Daily Mail,0,0.0161,0.0333,0.8518,0.0988,0.0095,0.4088,0.5816,2013-12-04,Anger,Negative,2013
+512,"Over 11,000 children have been killed in Syria's civil war http",Daily Mail,5,0.012,0.0253,0.1937,0.769,0.0049,0.1153,0.8799,2013-11-25,Sadness,Negative,2013
+513,Norwegian sisters travel to Syria to join the civil war and 'help Muslims in any way they can' http,Daily Mail,4,0.0647,0.478,0.3182,0.1391,0.0742,0.8545,0.0712,2013-10-21,Optimism,Neutral,2013
+514,Syrian asylum seekers occupy a roof in Calais demanding 'Take us to the UK' http,Daily Mail,0,0.0183,0.0413,0.8764,0.0641,0.0219,0.6792,0.2989,2013-10-05,Anger,Neutral,2013
+515,'Take us to the UK': Syrian refugees go on hunger strike in Calais demanding asylum http,Daily Express,0,0.0106,0.0445,0.6318,0.3131,0.0181,0.6197,0.3622,2013-10-04,Anger,Neutral,2013
+516,Details released on one of the deadliest massacres since the start of Syrian conflict http,Daily Mail,1,0.0129,0.0294,0.698,0.2597,0.007,0.1663,0.8267,2013-09-16,Anger,Negative,2013
+517,Ed and David Miliband ‘at war’ over Syria intervention http,Daily Express,0,0.0145,0.0352,0.9171,0.0332,0.0144,0.736,0.2496,2013-09-05,Anger,Neutral,2013
+518,.@Nigel_Farage welcomes UK aid for Syrian refugees while Irsrael scares Russia by launching test missile in the Med http,Daily Express,0,0.1002,0.3376,0.3779,0.1844,0.1394,0.8239,0.0367,2013-09-03,Anger,Neutral,2013
+519,Syrian civil war forces 2million refugees to flee http,Daily Mail,1,0.0204,0.0438,0.4465,0.4893,0.008,0.4059,0.586,2013-09-03,Sadness,Negative,2013
+520,Cam down: War vote bombshell...PM humiliated as MPs say NO to Syria strikes http,The Sun,1,0.0085,0.0168,0.9187,0.056,0.006,0.1452,0.8488,2013-08-30,Anger,Negative,2013
+521,Government lose vote on war in #Syria as only EIGHT per cent of Brits want urgent strikes http,Daily Express,0,0.0093,0.0434,0.7899,0.1574,0.0078,0.2267,0.7655,2013-08-29,Anger,Negative,2013
+522,War on Assad's evil regime put on hold as Miliband U-turn forces Cameron to halt Syria attack http,The Sun,0,0.0167,0.1317,0.7447,0.1069,0.0181,0.6105,0.3714,2013-08-29,Anger,Neutral,2013
+523,"@user History repeating? As Blair and Campbell back Syria strike, protests are planned by Stop the War. http …",Daily Express,0,0.0061,0.0384,0.9119,0.0436,0.013,0.489,0.498,2013-08-28,Anger,Negative,2013
+524,"@user History repeating? As Blair and Campbell back Syria strike, protests are planned by Stop the War Coalition. http …",Daily Express,0,0.0061,0.0379,0.9096,0.0464,0.0138,0.5425,0.4437,2013-08-28,Anger,Neutral,2013
+525,"History repeating? As Blair and Campbell back Syria strike, protest marches are planned by Stop the War Coalition. http",Daily Express,0,0.0087,0.0677,0.8811,0.0425,0.0229,0.6992,0.2779,2013-08-28,Anger,Neutral,2013
+526,"Brits say NO to war in Syria by huge 2 to 1 majority in exclusive Sun poll, reports @user http",The Sun,4,0.0738,0.4464,0.4038,0.0759,0.1553,0.8211,0.0236,2013-08-27,Optimism,Neutral,2013
+527,Military plans being drawn up for Syria as Tony Blair backs intervening in the civil http,Daily Express,0,0.0861,0.4426,0.3429,0.1284,0.0151,0.6289,0.356,2013-08-27,Optimism,Neutral,2013
+528,Gunmen kidnap Turkish Airlines pilot and co-pilot in attack linked to Syria civil war http,Daily Express,0,0.0158,0.0292,0.7519,0.2031,0.0081,0.3447,0.6472,2013-08-09,Anger,Negative,2013
+529,UK risks war with Syria: Army chief warns Britain must be ‘ready to act’ over crisis... http,Daily Express,0,0.025,0.2512,0.5353,0.1885,0.0132,0.5875,0.3992,2013-07-18,Anger,Neutral,2013
+530,EXCLUSIVE: Britain prepares for Syria war to stop al-Qaeda grabbing chemical weapons.. http,The Sun,4,0.0853,0.1925,0.6031,0.1191,0.0339,0.8856,0.0806,2013-07-17,Anger,Neutral,2013
+531,Sarah Palin courts controversy with claim that Syria conflict 'should be left for Allah to sort out' http,Daily Mail,8,0.0249,0.4568,0.4137,0.1046,0.0125,0.6103,0.3773,2013-06-15,Optimism,Neutral,2013
+532,Could Syria ignite World War 3? http,Daily Mail,4,0.0347,0.1209,0.6298,0.2146,0.0113,0.4364,0.5523,2013-06-14,Anger,Negative,2013
+533,European Union (EU) provides over £42 million aid to help refugees fleeing war torn Syria http,Daily Express,0,0.0885,0.3548,0.1331,0.4236,0.2293,0.7573,0.0134,2013-06-03,Sadness,Neutral,2013
+534,Russia to deliver anti-aircraft missiles to Syria to 'prevent international conflict' http,Daily Express,0,0.0425,0.1961,0.6798,0.0816,0.0489,0.8823,0.0689,2013-05-28,Anger,Neutral,2013
+535,Hezbollah hints Lebanese militia is ready to back President Assad in Syrian war as conflict threatens to spread http,Daily Mail,0,0.0118,0.1009,0.833,0.0543,0.0297,0.7946,0.1757,2013-05-03,Anger,Neutral,2013
+536,If you had to flee your home what would you take? Poignant pictures of Syrian refugees posing with their most ... http,Daily Mail,0,0.0147,0.0472,0.7824,0.1557,0.0509,0.7532,0.1959,2013-03-14,Anger,Neutral,2013
+537,Charles and Camilla meet refugees from Syria's civil war as they visit camp during official trip to Jordan http,Daily Mail,0,0.461,0.1877,0.0909,0.2605,0.0379,0.9432,0.0189,2013-03-13,Joy,Neutral,2013
+538,Syria conflict: Photographer finds himself perilously close to the centre of action in war-torn Damascus http,Daily Mail,0,0.0119,0.0848,0.1031,0.8002,0.0111,0.4246,0.5643,2013-02-01,Sadness,Negative,2013
+539,My battle to save the victims of Syria's bloody civil war: The retired British surgeon who spent five weeks oper... http,Daily Mail,0,0.0128,0.1096,0.1592,0.7185,0.048,0.575,0.3769,2013-01-13,Sadness,Neutral,2013
+540,My battle to save the victims of Syria's bloody civil war: The retired British surgeon who spent five weeks oper... http,Daily Mail,3,0.0128,0.1096,0.1592,0.7185,0.048,0.575,0.3769,2013-01-13,Sadness,Neutral,2013
+541,"'Dozens killed' in gas station attack in Syria as death from conflict hits astonishing 60,000 http",Daily Mail,0,0.0156,0.0249,0.5389,0.4206,0.0063,0.2013,0.7925,2013-01-02,Anger,Negative,2013
+542,Fighting in Aleppo shuts down city's airport as Syria's viscious civil war shows no sign of slowing in 2013 http,Daily Mail,0,0.0116,0.0464,0.5593,0.3827,0.0117,0.4787,0.5095,2013-01-02,Anger,Negative,2013
+582,#Syria and #Iraq are in a state of crisis suffering from a water emergency with a damning report suggesting more than 12 million lives are at http http,Daily Express,3,0.0068,0.0397,0.103,0.8504,0.0054,0.1182,0.8763,2021-08-25,Sadness,Negative,2021
+583,ISIS takes advantage of Covid crisis to launch attacks on military positions in Iraq and oil fields and civilians in Syria http,Daily Mail,10,0.0131,0.051,0.8194,0.1164,0.0075,0.2657,0.7267,2020-05-04,Anger,Negative,2020
+584,Tens of thousands flee Syrian province of Idlib amid fears of a new refugee crisis http,Daily Mail,12,0.0133,0.057,0.1506,0.7792,0.0095,0.4325,0.558,2019-12-26,Sadness,Negative,2019
+585,Tens of thousands flee Syrian province of Idlib amid fears of a new refugee crisis caused by Assad offensive http,Daily Mail,11,0.013,0.0511,0.283,0.6529,0.0083,0.3342,0.6575,2019-12-24,Sadness,Negative,2019
+586,President Erdogan threatens to 'open the gates' to Europe and unleash another migrant crisis unless Turkey receives support for Syrian refugee 'safe zone' http,Daily Mail,23,0.0126,0.0788,0.7493,0.1594,0.0098,0.3493,0.6408,2019-09-05,Anger,Negative,2019
+587,Syria crisis: Assad 'orders CHEMICAL ATTACK' in Idlib as Donald Trump weighs up military response http http,Daily Express,3,0.0101,0.0462,0.8569,0.0869,0.0122,0.5969,0.3908,2018-09-10,Anger,Neutral,2018
+588,Syria crisis: Theresa May says chemical weapons must be STOPPED http http,Daily Express,5,0.0205,0.1259,0.6987,0.1548,0.0189,0.4954,0.4857,2018-04-14,Anger,Neutral,2018
+589,Syria crisis LIVE: Russia claims chemical attack was staged by Britain http,Daily Mail,34,0.021,0.0323,0.8309,0.1158,0.0076,0.3306,0.6618,2018-04-14,Anger,Negative,2018
+590,Syria crisis LIVE: Russia reveals secret phone line set up between Moscow and US to avoid CLASH over Syria http http,Daily Express,8,0.0553,0.1247,0.4547,0.3653,0.0183,0.8267,0.155,2018-04-12,Anger,Neutral,2018
+591,Travel safety warning for Cyprus: Statement issued for UK flights amid Syria crisis http http,Daily Express,0,0.0217,0.1004,0.4248,0.4531,0.0188,0.7327,0.2484,2018-04-11,Sadness,Neutral,2018
+592,Melania Trump shows her face after latest Stormy Daniels news and Syria crisis http http,Daily Express,6,0.1169,0.0714,0.2466,0.565,0.0196,0.8703,0.1101,2018-04-10,Sadness,Neutral,2018
+593,Melania Trump comforts boy in the wake of latest Stormy Daniels news and Syria crisis http http,Daily Express,4,0.0939,0.1075,0.0558,0.7429,0.0622,0.9005,0.0372,2018-04-10,Sadness,Neutral,2018
+594,Middle East CRISIS: France issues warning to Turkey as Erdogan's tanks roll into Syria http http,Daily Express,2,0.0163,0.0516,0.735,0.197,0.0107,0.5003,0.489,2018-01-21,Anger,Neutral,2018
+595,Trump thanks May for support amid Syria crisis http,Daily Mail,13,0.1334,0.6278,0.1136,0.1253,0.5308,0.4576,0.0116,2017-04-11,Optimism,Positive,2017
+596,Theresa May 'REFUSES' to back new Syria strikes after late-night crisis call with Donald Trump http http,Daily Express,3,0.031,0.148,0.62,0.201,0.0178,0.7222,0.26,2017-04-11,Anger,Neutral,2017
+597,May 'REFUSES' to back new Syria strikes after late-night crisis call with Donald Trump http http,Daily Express,7,0.0352,0.1526,0.633,0.1793,0.015,0.69,0.295,2017-04-10,Anger,Neutral,2017
+598,'You CAN answer!' BBC host MOCKS Labour MP for 'philosophical response' to Syrian crisis http http,Daily Express,0,0.0091,0.0747,0.8781,0.0381,0.0732,0.843,0.0838,2017-04-08,Anger,Neutral,2017
+599,Aleppo crisis: Boris Johnson says Assad 'left to do his worst' after Labour blocked Syria action in 2013 http http,Daily Express,2,0.0107,0.0744,0.698,0.217,0.0092,0.424,0.5668,2016-12-13,Anger,Negative,2016
+600,SYRIA CRISIS: '15 million MORE refugees head to Europe'... and rebels say BRITAIN to blame http http,Daily Express,3,0.0105,0.0371,0.2991,0.6532,0.005,0.1439,0.8512,2016-02-12,Sadness,Negative,2016
+601,First Syria refugees land in UK TOMORROW as Home Office says arrivals will be vetted TWICE http http,Daily Express,2,0.1621,0.5234,0.1858,0.1286,0.0968,0.8962,0.007,2015-11-16,Optimism,Neutral,2015
+602,Migrant crisis: Will image of dead Syrian child define our era like Vietnam napalm girl? http http,Daily Express,21,0.0067,0.0152,0.0491,0.9291,0.0078,0.3113,0.6809,2015-09-03,Sadness,Negative,2015
+603,Turkey refugee crisis deepens as Islamic State besieges Syrian border town http,Daily Mail,5,0.0139,0.057,0.4913,0.4378,0.0074,0.2793,0.7133,2014-09-28,Anger,Negative,2014
+604,Cameron to hold emergency talks with Obama over Syria crisis and will target Putin as U.S. plans no-fly zone a... http,Daily Mail,2,0.0307,0.1437,0.6015,0.2241,0.0319,0.9309,0.0372,2013-06-14,Anger,Neutral,2013
+605,'Nothing is off the table': Downing Street reveals Britain may be stepping up response to Syrian crisis http,Daily Express,0,0.0359,0.4691,0.3251,0.1699,0.0963,0.8734,0.0303,2013-06-14,Optimism,Neutral,2013
