@@ -29,7 +29,7 @@ snscrape
 six>=1.14
 joblib
 memoized-property
-termcolor
+termcolorq
 
 # Tweet Trained RoBERTa
 matplotlib
@@ -40,3 +40,4 @@ Transformers
 streamlit
 streamlit-wordcloud
 emoji
+plotly
