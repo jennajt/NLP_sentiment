@@ -14,10 +14,10 @@ def fig_1(data_1):
    fig = px.bar(data_1, y="Newspaper", x=['Positive','Neutral','Negative'],
                 title="Sentiment Across Newspapers Over Time, 2011-2022",orientation='h',
                 color_discrete_sequence=["green", "grey", "red"], animation_frame='year')
-    fig.update_xaxes(showticklabels=False, title=None )
-    fig.update_yaxes( title=None )
-    fig.update_layout(legend_title='Sentiment')
-    fig.show()
+   fig.update_xaxes(showticklabels=False, title=None )
+   fig.update_yaxes( title=None )
+   fig.update_layout(legend_title='Sentiment')
+   fig.show()
 
 #2: Syria: Average Emotions Across Newspapers
 def fig_2(data_2):
@@ -62,3 +62,8 @@ def fig_4(data_4):
                  )
 
     fig.show()
+
+fig_1(data_1)
+fig_2(data_2)
+fig_3(data_3)
+fig_4(data_4)
