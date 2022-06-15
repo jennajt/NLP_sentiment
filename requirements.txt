@@ -29,7 +29,7 @@ snscrape
 six>=1.14
 joblib
 memoized-property
-termcolorq
+termcolor
 
 # Tweet Trained RoBERTa
 matplotlib
