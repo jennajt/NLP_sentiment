@@ -12,7 +12,7 @@ import streamlit.components.v1 as components
 st.set_page_config(layout="wide")
 
 with st.sidebar:
-    selected = option_menu("Main Menu", ["Background", 'Overall Perception of Immigrants', 'Perceptions Across Minority Groups',
+    selected = option_menu("Main Menu", ["Visualising Top2Vec", 'Overall Perception of Immigrants', 'Perceptions Across Minority Groups',
                                          'Relationship with Hate Crime & Key Socio-economic Events', 'Interpretation'],
         default_index=1)
     selected
@@ -50,17 +50,12 @@ st.write(background_image_style(main_bg), unsafe_allow_html=True)
 
 # Content Body
 
-if selected == "Background":
-    st.markdown('<p class="header">Background</p>',unsafe_allow_html=True)
-    st.subheader("Text on the Motivation for the Project")
-    def app():
-        visualisation = 'https://projector.tensorflow.org/?config=config=https://gist.githubusercontent.com/emevans97/39e062dd99a8a4d17c9a974bdbb25ad7/raw/8585d162f1d0afa337e3fed92450e6a829b028b2/unitensor.json'
-        st.write(f"check out this [link]({visualisation})")
-        components.iframe("https://projector.tensorflow.org/", scrolling=False, width=1200, height=800)
-    st.write('''
-    It was the best of times, it was the worst of times, it was
-    the age of wisdom, it was the age of foolishness, (...)
-    ''')
+if selected == "Visualising Top2Vec":
+    st.markdown('<p class="header">Visualising Top2Vec</p>',unsafe_allow_html=True)
+    visualisation = 'https://projector.tensorflow.org/?config=https://gist.githubusercontent.com/emevans97/39e062dd99a8a4d17c9a974bdbb25ad7/raw/8585d162f1d0afa337e3fed92450e6a829b028b2/unitensor.json'
+    st.subheader("TensorFlow Embedding Projector")
+    st.write(f"Check out this [link]({visualisation})")
+    components.iframe("https://projector.tensorflow.org/", scrolling=False, width=1200, height=800)
 
 
 if selected == "Overall Perception of Immigrants":
@@ -177,7 +172,7 @@ if selected == "Perceptions Across Minority Groups":
         image = Image.open('data/Ukraine.png')
         st.image(image, use_column_width=True)
 
-    if new=="2008-2014":
+    if new=="2008":
         if option=='Syria':
             st.subheader('Search Term: Syria')
             image = Image.open('data/syria_1.png')
@@ -515,8 +510,8 @@ if selected == "Relationship with Hate Crime & Key Socio-economic Events":
 
 if selected == "Interpretation":
     st.markdown('<p class="header">Interpretation</p>',unsafe_allow_html=True)
-    st.subheader('.Newspapers produce headlines that refer to migrants and asylum seekers semantically similarly.')
-    st.subheader('.When referring to migrants, refugees or asylum seekers newspapers use language with a semantic association to criminal activities such as stealing, raping and paedophilia. This association is particularly strong between 2014 and 2018.')
-    st.subheader('.Between 2014 and 2018 newspapers portrayed the identity of migrants, refugees and asylum seekers as almost exclusively Muslim.')
-    st.subheader('.From 2018 onwards, newspaper softened their language on migrants, with more emotive words semantically associated to headlines.')
-    st.subheader('.Newspaper headlines’ primary emotions were anger and sadness, during the period explored. The sentiment of the headlines were overhwleming negative or neutral.')
+    st.subheader('Newspapers produce headlines that refer to migrants and asylum seekers in semantically similar ways.')
+    st.subheader('When referring to migrants, refugees or asylum seekers newspapers use language with a semantic association to criminal activities such as stealing, raping and paedophilia. This association is particularly strong between 2014 and 2018.')
+    st.subheader('Between 2014 and 2018 newspapers portrayed the identity of migrants, refugees and asylum seekers as almost exclusively Muslim.')
+    st.subheader('From 2018 onwards, newspaper softened their language on migrants, with more emotive words semantically associated to headlines.')
+    st.subheader('Newspaper headlines’ primary emotions were anger and sadness, during the periods explored. The sentiment of the headlines were overhwleming negative or neutral.')
