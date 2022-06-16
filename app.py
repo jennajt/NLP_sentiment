@@ -2,17 +2,47 @@ import streamlit as st
 import streamlit_wordcloud as wordcloud
 from PIL import Image
 import pandas as pd
-import emoji
+import base64
 import plotly.express as px
 import plotly.graph_objects as go
-#from Muslim_Plotly import muslim_fig_1
 
 st.set_page_config(layout="wide")
 
+# Header Styling 
+st.markdown(""" <style> .header {
+font-size:65px ; font-family: 'American Typewriter';} 
+</style> """, unsafe_allow_html=True)
+
+# Background Image
+
+main_bg = "backgrounds/background_1.png"
+
+@st.cache
+def load_image(path):
+    with open(path, 'rb') as f:
+        data = f.read()
+    encoded = base64.b64encode(data).decode()
+    return encoded
+
+def background_image_style(path):
+    encoded = load_image(path)
+    style = f'''
+    <style>
+    .stApp {{
+        background-image: url("data:image/jpg;base64,{encoded}");
+        background-size: cover
+    }}
+    </style>
+    '''
+    return style
+
+st.write(background_image_style(main_bg), unsafe_allow_html=True)
+
+# Content Body 
 
 def page2():
     st.sidebar.markdown('Page 1')
-    st.header("Background")
+    st.markdown('<p class="header">Background</p>',unsafe_allow_html=True)
     st.subheader("Text on the Motivation for the Project")
     st.write('''
     It was the best of times, it was the worst of times, it was
@@ -21,11 +51,13 @@ def page2():
 
 
 def page3():
+    
     st.sidebar.markdown('Page 2')
-    st.header("Perceptions of Immigrants in the Press")
+    st.markdown('<p class="header">Perceptions of Immigrants in the Press</p>',unsafe_allow_html=True)
+    option = st.selectbox('',('Please Select an Option', 'Asylum', 'Migrant', 'Refugee'))
     options = ["2008-2014", "2014-2017", "2017-2018", "2018-2020", "2020-2022"]
     new = st.select_slider("Please Select Year Range", options=options)
-    option = st.selectbox('Please select search term',('Please Select', 'Asylum', 'Migrant', 'Refugee'))
+    
     
     if new=="2008-2014":
         if option=='Migrant':
@@ -40,8 +72,8 @@ def page3():
             st.subheader('Search Term: Refugee')
             image = Image.open('data/refugee_1.png')
             st.image(image, use_column_width=True)
-        if option=='Please Select':
-            st.write('Please Select an option :pray:')
+        if option=='Please Select an Option':
+            st.write('No Option Selected!')
 
 
     elif new=="2014-2017":
@@ -57,8 +89,8 @@ def page3():
             st.subheader('Search Term: Refugee')
             image = Image.open('data/refugee_2.png')
             st.image(image, use_column_width=True)
-        if option=='Please Select':
-            st.write('Please Select an option :pray:')
+        if option=='Please Select an Option':
+            st.write('No Option Selected!')
 
 
     elif new=="2017-2018":
@@ -74,8 +106,8 @@ def page3():
             st.subheader('Search Term: Refugee')
             image = Image.open('data/refugee_3.png')
             st.image(image, use_column_width=True)
-        if option=='Please Select':
-            st.write('Please Select an option :pray:')
+        if option=='Please Select an Option':
+            st.write('No Option Selected!')
 
     elif new=='2018-2020':
         if option=='Migrant':
@@ -93,8 +125,8 @@ def page3():
             image = Image.open('data/refugee_4.png')
             st.image(image, caption='Refugee 5', use_column_width=True)
                     
-        if option=='Please Select':
-            st.write('Please Select an option :pray:')
+        if option=='Please Select an Option':
+            st.write('No Option Selected!')
 
     elif new=='2020-2022':
         if option=='Migrant':
@@ -112,8 +144,8 @@ def page3():
             image = Image.open('data/refugee_5.png')
             st.image(image, use_column_width=True)
                 
-        if option=='Please Select':
-            st.write('Please Select an option :pray:')
+        if option=='Please Select an Option':
+            st.write('No Option Selected!')
      
 
 
@@ -126,7 +158,7 @@ def page3():
         
 def page4():
     st.sidebar.markdown('Page 3')
-    st.header("Perceptions Across Minority Groups")
+    st.markdown('<p class="header">Perceptions Across Minority Groups</p>',unsafe_allow_html=True)
     option = st.selectbox('Please select search term',('Ukraine', 'Syria', 'Muslim'))
     slider = ["2008-2014", "2014-2017", "2017-2018", "2018-2020", "2020-2022"]
     new = st.select_slider("Please Select Year Range", options=slider)
@@ -289,7 +321,7 @@ def page4():
             
 
 def page5():
-    st.header("Hate Crime and Socio-economic Events")
+    st.markdown('<p class="header">Hate Crime and Socio-economic Events</p>',unsafe_allow_html=True)
     st.sidebar.markdown('Page 4')
     slider = ["2008-2014", "2014-2017", "2017-2018", "2018-2020", "2020-2022"]
     new = st.select_slider("Please Select Year Range", options=slider)
@@ -435,13 +467,12 @@ def page5():
 
 def page6():
     st.sidebar.markdown('Page 5')
-    st.header("Interpretation")
-    st.subheader("Text on our Interpretation")
-    st.markdown('.Newspapers produce headlines that refer to migrants and asylum seekers semantically similarly.')
-    st.markdown('.When referring to migrants, refugees or asylum seekers newspapers use language with a semantic association to criminal activities such as stealing, raping and paedophilia. This association is particularly strong between 2014 and 2018.')
-    st.markdown('.Between 2014 and 2018 newspapers portrayed the identity of migrants, refugees and asylum seekers as almost exclusively Muslim.')
-    st.markdown('.From 2018 onwards, newspaper softened their language on migrants, with more emotive words semantically associated to headlines.')
-    st.markdown('.Newspaper headlines’ primary emotions were anger and sadness, during the period explored. The sentiment of the headlines were overhwleming negative or neutral.')
+    st.markdown('<p class="header">Interpretation</p>',unsafe_allow_html=True)
+    st.subheader('.Newspapers produce headlines that refer to migrants and asylum seekers semantically similarly.')
+    st.subheader('.When referring to migrants, refugees or asylum seekers newspapers use language with a semantic association to criminal activities such as stealing, raping and paedophilia. This association is particularly strong between 2014 and 2018.')
+    st.subheader('.Between 2014 and 2018 newspapers portrayed the identity of migrants, refugees and asylum seekers as almost exclusively Muslim.')
+    st.subheader('.From 2018 onwards, newspaper softened their language on migrants, with more emotive words semantically associated to headlines.')
+    st.subheader('.Newspaper headlines’ primary emotions were anger and sadness, during the period explored. The sentiment of the headlines were overhwleming negative or neutral.')
 
     
 page_names_to_funcs = {
