@@ -6,6 +6,8 @@ import base64
 import plotly.express as px
 import plotly.graph_objects as go
 from streamlit_option_menu import option_menu
+import streamlit.components.v1 as components
+
 
 st.set_page_config(layout="wide")
 
@@ -18,7 +20,7 @@ with st.sidebar:
 
 # Header Styling
 st.markdown(""" <style> .header {
-font-size:65px ; font-family: 'American Typewriter';}
+font-size:65px ; font-family: 'DIN condensed', 'American Typewriter';}
 </style> """, unsafe_allow_html=True)
 
 # Background Image
@@ -51,6 +53,10 @@ st.write(background_image_style(main_bg), unsafe_allow_html=True)
 if selected == "Background":
     st.markdown('<p class="header">Background</p>',unsafe_allow_html=True)
     st.subheader("Text on the Motivation for the Project")
+    def app():
+        visualisation = 'https://projector.tensorflow.org/?config=config=https://gist.githubusercontent.com/emevans97/39e062dd99a8a4d17c9a974bdbb25ad7/raw/8585d162f1d0afa337e3fed92450e6a829b028b2/unitensor.json'
+        st.write(f"check out this [link]({visualisation})")
+        components.iframe("https://projector.tensorflow.org/", scrolling=False, width=1200, height=800)
     st.write('''
     It was the best of times, it was the worst of times, it was
     the age of wisdom, it was the age of foolishness, (...)
@@ -60,11 +66,11 @@ if selected == "Background":
 if selected == "Overall Perception of Immigrants":
     st.markdown('<p class="header">Perceptions of Immigrants in the Press</p>',unsafe_allow_html=True)
     option = st.selectbox('',('Please Select an Option', 'Asylum', 'Migrant', 'Refugee'))
-    options = ["2008-2014", "2014-2017", "2017-2018", "2018-2020", "2020-2022"]
+    options = ["2008", "2014-2017", "2017-2018", "2018-2020", "2022"]
     new = st.select_slider("Please Select Year Range", options=options)
 
 
-    if new=="2008-2014":
+    if new=="2008":
         if option=='Migrant':
             st.subheader('Search Term: Migrant')
             image = Image.open('data/migrant_1.png')
@@ -133,7 +139,7 @@ if selected == "Overall Perception of Immigrants":
         if option=='Please Select an Option':
             st.write('No Option Selected!')
 
-    elif new=='2020-2022':
+    elif new=='2022':
         if option=='Migrant':
             st.subheader('Search Term: Migrant')
             image = Image.open('data/migrant_5.png')
@@ -162,7 +168,7 @@ if selected == "Overall Perception of Immigrants":
 if selected == "Perceptions Across Minority Groups":
     st.markdown('<p class="header">Perceptions Across Minority Groups</p>',unsafe_allow_html=True)
     option = st.selectbox('Please select search term',('Ukraine', 'Syria', 'Muslim'))
-    slider = ["2008-2014", "2014-2017", "2017-2018", "2018-2020", "2020-2022"]
+    slider = ["2008", "2014-2017", "2017-2018", "2018-2020", "2022"]
     new = st.select_slider("Please Select Year Range", options=slider)
 
 
@@ -213,7 +219,7 @@ if selected == "Perceptions Across Minority Groups":
             image3 = Image.open('data/muslim_4.png')
             st.image(image3, use_column_width=True)
 
-    elif new=="2020-2022":
+    elif new=="2022":
         if option=='Muslim':
             st.subheader('Search Term: Muslim')
             image3 = Image.open('data/muslim_5.png')
@@ -238,14 +244,22 @@ if selected == "Perceptions Across Minority Groups":
         if option=='Muslim' or option=='Syria':
             fig_3 = px.line(data_3, x = 'Year', y=["Optimism", "Sadness", "Joy", "Anger"], title='Sentiment of Tweets Over Time',color_discrete_sequence=["yellow", "blue", "green", "red"])
             fig_3.update_layout(xaxis_range=[2008,2022])
-            fig_3.update_layout(showlegend=True,legend_title='Emotion')
+            fig_3.update_layout(showlegend=True,legend_title='Emotion', title_font_family= "American Typewriter",
+                                    title={
+                                           'y':0.9,
+                                           'x':0.5,
+                                           'xanchor': 'center','yanchor': 'top'})
             fig_3.update_xaxes(title='Year' )
             fig_3.update_yaxes( title='Number of tweets' )
 
 
         if option=='Ukraine':
             fig_3 = px.bar(data_3, x = 'Date', y='Optimism', title='Optimism Scores of Tweets Over Time',color_discrete_sequence=["green"])
-            fig_3.update_layout(showlegend=False)
+            fig_3.update_layout(showlegend=False, title_font_family= "American Typewriter",
+                                    title={
+                                           'y':0.9,
+                                           'x':0.5,
+                                           'xanchor': 'center','yanchor': 'top'})
             fig_3.update_xaxes(title='Date' )
             fig_3.update_yaxes( title='Optimism score' )
         st.plotly_chart(fig_3, use_container_width=True)
@@ -258,16 +272,31 @@ if selected == "Perceptions Across Minority Groups":
                                hover_name="Tweet", size_max=80, title = 'Positivity Score by Year, Newspaper and Number of Likes',)
             fig_4.update_yaxes(title='Positivity score' )
             fig_4.update_xaxes(title='Year' )
+            fig_4.update_layout(title_font_family= "American Typewriter",
+                                    title={
+                                           'y':0.9,
+                                           'x':0.5,
+                                           'xanchor': 'center','yanchor': 'top'})
 
         if option=='Syria':
             fig_4 = px.scatter(data_4, x="Date", y="Newspaper", color="Emotion",
                                hover_name="Tweet", size = "Like Count",size_max=100, color_discrete_sequence=["red", "yellow", "blue", "green"],
                                title = 'Tweets by Paper, Date, Emotion and Like Count')
+            fig_4.update_layout(title_font_family= "American Typewriter",
+                                    title={
+                                           'y':0.9,
+                                           'x':0.5,
+                                           'xanchor': 'center','yanchor': 'top'})
 
         if option=='Ukraine':
             fig_4 = px.scatter(data_3, x="Date", y="Newspaper", color="Emotion",
             hover_name="Tweet", size = "Like Count",size_max=100, color_discrete_sequence=["red", "yellow", "blue", "green"],
             title = 'Tweets by Paper, Date, Emotion and Like Count')
+            fig_4.update_layout(title_font_family= "American Typewriter",
+                                    title={
+                                           'y':0.9,
+                                           'x':0.5,
+                                           'xanchor': 'center','yanchor': 'top'})
 
         st.plotly_chart(fig_4, use_container_width=True)
 
@@ -284,14 +313,24 @@ if selected == "Perceptions Across Minority Groups":
                 fig_1 = px.bar(data_1, y="Newspaper", x=['Positive','Neutral','Negative'], title="Sentiment Across Newspapers Over Time, 2011-2022", orientation='h', color_discrete_sequence=["green", "grey", "red"], animation_frame='year')
                 fig_1.update_xaxes(showticklabels=False, title=None )
                 fig_1.update_yaxes( title=None )
-                fig_1.update_layout(legend_title='Sentiment')
+                fig_1.update_layout(legend_title='Sentiment',
+                                    title_font_family= "American Typewriter",
+                                    title={
+                                           'y':0.9,
+                                           'x':0.5,
+                                           'xanchor': 'center','yanchor': 'top'})
 
             if option=='Ukraine':
                 fig_1 = px.bar(data_2, y="Newspaper", x=['Positive','Neutral','Negative'], title="Sentiment across Newspapers, Jan'22 - Jun'22",
                             color_discrete_sequence=["green", "grey", "red"],orientation='h')
                 fig_1.update_xaxes(showticklabels=False, title=None )
                 fig_1.update_yaxes( title=None )
-                fig_1.update_layout(legend_title='Sentiment')
+                fig_1.update_layout(legend_title='Sentiment',
+                                    title_font_family= "American Typewriter",
+                                    title={
+                                           'y':0.9,
+                                           'x':0.5,
+                                           'xanchor': 'center','yanchor': 'top'})
 
             st.plotly_chart(fig_1, use_container_width=True)
 
@@ -315,7 +354,12 @@ if selected == "Perceptions Across Minority Groups":
             ))
 
             fig_2.update_traces(fill='toself')
-            fig_2.update_layout(legend_title='Newspaper', title='Average Emotion Across Newspapers, 2008-2022')
+            fig_2.update_layout(legend_title='Newspaper',
+                                    title_font_family= "American Typewriter",
+                                    title={'text':'Average Emotion Across Newspapers, 2008-2022',
+                                           'y':0.9,
+                                           'x':0.5,
+                                           'xanchor': 'center','yanchor': 'top'})
             st.plotly_chart(fig_2, use_container_width=True)
 
 
@@ -324,14 +368,15 @@ if selected == "Perceptions Across Minority Groups":
 
 if selected == "Relationship with Hate Crime & Key Socio-economic Events":
     st.markdown('<p class="header">Hate Crime and Socio-economic Events</p>',unsafe_allow_html=True)
-    slider = ["2008-2014", "2014-2017", "2017-2018", "2018-2020", "2020-2022"]
-    new = st.select_slider("Please Select Year Range", options=slider)
     crime = pd.read_csv("data/hate_crime.csv")
     # Create figure
     fig = go.Figure()
 
     # Add hate crime
     fig.add_trace(go.Scatter(x=crime['Date'], y=crime['Total offences'], name='Hate Crime'))
+
+    slider = ["2008", "2014-2017", "2017-2018", "2018-2020", "2022"]
+    new = st.select_slider("Please Select Year Range", options=slider)
 
     # Add text
     if new==slider[0]:
@@ -391,6 +436,7 @@ if selected == "Relationship with Hate Crime & Key Socio-economic Events":
                 bgcolor="white",
                 opacity=0.8)
 
+    if new==slider[3]:
         #Chimpanzee
         fig.add_annotation(
                 x='2019-05-9',
@@ -410,7 +456,7 @@ if selected == "Relationship with Hate Crime & Key Socio-economic Events":
                 bgcolor="white",
                 opacity=0.8, arrowcolor="red",)
 
-    if new==slider[3]:
+    if new==slider[4]:
         #BLM
         fig.add_annotation(
                 x='2020-05-28',
@@ -432,7 +478,6 @@ if selected == "Relationship with Hate Crime & Key Socio-economic Events":
         )
 
 
-
     fig.update_layout(
         title={
         'text': "Racially or Religiously Aggravated Offences, England and Wales",
@@ -443,8 +488,10 @@ if selected == "Relationship with Hate Crime & Key Socio-economic Events":
 
     st.plotly_chart(fig, use_container_width=True)
 
+
+
     #Wordclouds
-    if new=="2008-2014":
+    if new=="2008":
         image = Image.open('data/european.png')
         st.image(image, use_column_width=True)
 
@@ -460,7 +507,7 @@ if selected == "Relationship with Hate Crime & Key Socio-economic Events":
         image = Image.open('data/Black.png')
         st.image(image, use_column_width=True)
 
-    elif new=="2020-2022":
+    elif new=="2022":
         image = Image.open('data/BLM.png')
         st.image(image, use_column_width=True)
 
