@@ -1,40 +1,5 @@
 # packaging
-pip>=9
-setuptools>=26
-twine
-wheel>=0.29
-
-# data science
-numpy
-pandas
-scikit-learn
-top2vec
-seaborn
-
-# tests/linter
-black
-coverage
-flake8
-pytest
-yapf
-
-# API
-gcsfs
-google-cloud-storage
-mlflow
-s3fs
-snscrape
-
-# utilities
-six>=1.14
-joblib
-memoized-property
-termcolor
-
-# Tweet Trained RoBERTa
-matplotlib
-scipy
-Transformers
+pandas==1.2.0
 
 # Streamlit
 streamlit
