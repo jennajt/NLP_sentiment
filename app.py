@@ -11,7 +11,6 @@ st.set_page_config(layout="wide")
 
 
 def page2():
-    st.markdown('1. Background')
     st.sidebar.markdown('Page 1')
     st.header("Background")
     st.subheader("Text on the Motivation for the Project")
@@ -22,12 +21,11 @@ def page2():
 
 
 def page3():
-    st.markdown('2. Overall Perceptions of Foreigners')
     st.sidebar.markdown('Page 2')
     st.header("Perceptions of Immigrants in the Press")
     options = ["2008-2014", "2014-2017", "2017-2018", "2018-2020", "2020-2022"]
     new = st.select_slider("Please Select Year Range", options=options)
-    option = st.selectbox('Which type of foreign persons?',('Please Select', 'Asylum', 'Migrant', 'Refugee'))
+    option = st.selectbox('Please select search term',('Please Select', 'Asylum', 'Migrant', 'Refugee'))
     
     if new=="2008-2014":
         if option=='Migrant':
@@ -43,7 +41,7 @@ def page3():
             image = Image.open('data/refugee_1.png')
             st.image(image, use_column_width=True)
         if option=='Please Select':
-            st.write('Please Select a Foreign Type :pray:')
+            st.write('Please Select an option :pray:')
 
 
     elif new=="2014-2017":
@@ -60,7 +58,7 @@ def page3():
             image = Image.open('data/refugee_2.png')
             st.image(image, use_column_width=True)
         if option=='Please Select':
-            st.write('Please Select a Foreign Type :pray:')
+            st.write('Please Select an option :pray:')
 
 
     elif new=="2017-2018":
@@ -77,7 +75,7 @@ def page3():
             image = Image.open('data/refugee_3.png')
             st.image(image, use_column_width=True)
         if option=='Please Select':
-            st.write('Please Select a Foreign Type :pray:')
+            st.write('Please Select an option :pray:')
 
     elif new=='2018-2020':
         if option=='Migrant':
@@ -96,7 +94,7 @@ def page3():
             st.image(image, caption='Refugee 5', use_column_width=True)
                     
         if option=='Please Select':
-            st.write('Please Select a Foreign Type :pray:')
+            st.write('Please Select an option :pray:')
 
     elif new=='2020-2022':
         if option=='Migrant':
@@ -115,24 +113,21 @@ def page3():
             st.image(image, use_column_width=True)
                 
         if option=='Please Select':
-            st.write('Please Select a Foreign Type :pray:')
+            st.write('Please Select an option :pray:')
      
 
 
-    st.subheader("Interpretation Text Here")
-    st.write('''Interpretation Text Here!''')
+    
+    st.write('''The wordclouds represent the most semantically similar words to the search term, based on tweets by The Sun, The Daily Mail UK, The Daily Express and The Mail Online''')
 
     
             
-
-        
-            
+   
         
 def page4():
-    st.markdown('3. Perceptions Across Minority Groups')
     st.sidebar.markdown('Page 3')
     st.header("Perceptions Across Minority Groups")
-    option = st.selectbox('Which minority group would you like to see?',('Ukraine', 'Syria', 'Muslim'))
+    option = st.selectbox('Please select search term',('Ukraine', 'Syria', 'Muslim'))
     slider = ["2008-2014", "2014-2017", "2017-2018", "2018-2020", "2020-2022"]
     new = st.select_slider("Please Select Year Range", options=slider)
 
@@ -242,8 +237,8 @@ def page4():
                 
         st.plotly_chart(fig_4, use_container_width=True)
 
-        st.subheader("Interpretation Text Here")
-        st.write('''Interpretation Text Here!''')
+
+        
 
     with col2:
 
@@ -288,11 +283,13 @@ def page4():
             fig_2.update_traces(fill='toself')
             fig_2.update_layout(legend_title='Newspaper', title='Average Emotion Across Newspapers, 2008-2022')
             st.plotly_chart(fig_2, use_container_width=True)
-    
+
+
+    st.write('''The graphics are based on tweets by The Sun, The Daily Mail UK, The Daily Express and The Mail Online. Wordclouds represent the most semantically similar words to the search terms.''')
             
 
 def page5():
-    st.markdown('4. Hate Crime and Socio-Economic Events')
+    st.header("Hate Crime and Socio-economic Events")
     st.sidebar.markdown('Page 4')
     slider = ["2008-2014", "2014-2017", "2017-2018", "2018-2020", "2020-2022"]
     new = st.select_slider("Please Select Year Range", options=slider)
@@ -433,14 +430,26 @@ def page5():
     elif new=="2020-2022":
         image = Image.open('data/BLM.png')
         st.image(image, use_column_width=True)
-    
+
+    st.write('''The wordclouds represent the most semantically similar words to the search term, based on tweets by The Sun, The Daily Mail UK, The Daily Express and The Mail Online''')
+
+def page6():
+    st.sidebar.markdown('Page 5')
+    st.header("Interpretation")
+    st.subheader("Text on our Interpretation")
+    st.markdown('.Newspapers produce headlines that refer to migrants and asylum seekers semantically similarly.')
+    st.markdown('.When referring to migrants, refugees or asylum seekers newspapers use language with a semantic association to criminal activities such as stealing, raping and paedophilia. This association is particularly strong between 2014 and 2018.')
+    st.markdown('.Between 2014 and 2018 newspapers portrayed the identity of migrants, refugees and asylum seekers as almost exclusively Muslim.')
+    st.markdown('.From 2018 onwards, newspaper softened their language on migrants, with more emotive words semantically associated to headlines.')
+    st.markdown('.Newspaper headlines’ primary emotions were anger and sadness, during the period explored. The sentiment of the headlines were overhwleming negative or neutral.')
 
     
 page_names_to_funcs = {
     "Background": page2,
     "Overall Perception of Immigrants": page3,
     "Perceptions Across Minority Groups": page4,
-    "Relationship with Hate Crime & Key Socio-economic Events": page5}
+    "Relationship with Hate Crime & Key Socio-economic Events": page5,
+    "Interpretation": page6}
 
 selected_page = st.sidebar.selectbox("Select a page", page_names_to_funcs.keys())
 page_names_to_funcs[selected_page]()
