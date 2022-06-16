@@ -41,3 +41,5 @@ streamlit
 streamlit-wordcloud
 emoji
 plotly
+base64
+streamlit-option-menu
