@@ -27,6 +27,7 @@ def page3():
     new = st.select_slider("Please Select Year Range", options=options)
     option = st.selectbox('Please select search term',('Please Select', 'Asylum', 'Migrant', 'Refugee'))
     
+
     if new=="2008-2014":
         if option=='Migrant':
             st.subheader('Search Term: Migrant')
@@ -82,17 +83,17 @@ def page3():
             st.subheader('Search Term: Migrant')
             image = Image.open('data/migrant_4.png')
             st.image(image, use_column_width=True)
-                    
+
         if option== 'Asylum':
             st.subheader('Search Term: Asylum')
             image = Image.open('data/asylum_4.png')
             st.image(image, use_column_width=True)
-                    
+
         if option== 'Refugee':
             st.subheader('Search Term: Refugee')
             image = Image.open('data/refugee_4.png')
             st.image(image, caption='Refugee 5', use_column_width=True)
-                    
+
         if option=='Please Select':
             st.write('Please Select an option :pray:')
 
@@ -101,29 +102,22 @@ def page3():
             st.subheader('Search Term: Migrant')
             image = Image.open('data/migrant_5.png')
             st.image(image, use_column_width=True)
-                    
+
         if option== 'Asylum':
             st.subheader('Search Term: Asylum')
             image = Image.open('data/asylum_5.png')
             st.image(image, use_column_width=True)
-                    
+
         if option== 'Refugee':
             st.subheader('Search Term: Refugee')
             image = Image.open('data/refugee_5.png')
             st.image(image, use_column_width=True)
-                
+
         if option=='Please Select':
-            st.write('Please Select an option :pray:')
-     
-
-
+          st.write('Please Select an option :pray:')
     
     st.write('''The wordclouds represent the most semantically similar words to the search term, based on tweets by The Sun, The Daily Mail UK, The Daily Express and The Mail Online''')
 
-    
-            
-   
-        
 def page4():
     st.sidebar.markdown('Page 3')
     st.header("Perceptions Across Minority Groups")
@@ -136,7 +130,7 @@ def page4():
         st.subheader('Search Term: Ukraine')
         image = Image.open('data/Ukraine.png')
         st.image(image, use_column_width=True)
-    
+
     if new=="2008-2014":
         if option=='Syria':
             st.subheader('Search Term: Syria')
@@ -146,8 +140,8 @@ def page4():
             st.subheader('Search Term: Muslim')
             image = Image.open('data/muslim_1.png')
             st.image(image, use_column_width=True)
-        
-                    
+
+
     elif new=="2014-2017":
         if option=='Syria':
             st.subheader('Search Term: Syria')
@@ -157,8 +151,8 @@ def page4():
             st.subheader('Search Term: Muslim')
             image2 = Image.open('data/muslim_2.png')
             st.image(image2, use_column_width=True)
-                    
-        
+
+
     elif new=="2017-2018":
         if option=='Syria':
             st.subheader('Search Term: Syria')
@@ -184,10 +178,10 @@ def page4():
             st.subheader('Search Term: Muslim')
             image3 = Image.open('data/muslim_5.png')
             st.image(image3, use_column_width=True)
-    
+
 
     col1,col2 = st.columns(2)
-    
+
     with col1:
 
 
@@ -198,7 +192,7 @@ def page4():
             data_4 = pd.read_csv(f'data/{option}_data_4')
 
 
-    
+
         #3 Sentiment of Tweets over Time
 
         if option=='Muslim' or option=='Syria':
@@ -207,7 +201,7 @@ def page4():
             fig_3.update_layout(showlegend=True,legend_title='Emotion')
             fig_3.update_xaxes(title='Year' )
             fig_3.update_yaxes( title='Number of tweets' )
-            
+
 
         if option=='Ukraine':
             fig_3 = px.bar(data_3, x = 'Date', y='Optimism', title='Optimism Scores of Tweets Over Time',color_discrete_sequence=["green"])
@@ -215,16 +209,16 @@ def page4():
             fig_3.update_xaxes(title='Date' )
             fig_3.update_yaxes( title='Optimism score' )
         st.plotly_chart(fig_3, use_container_width=True)
-            
+
         #4 Positivity score by year, newspaper, likes
-    
+
         if option=='Muslim':
             fig_4 = px.scatter(data_4, x="Date", y="Positive",
                                size="Like Count", color="Newspaper",
                                hover_name="Tweet", size_max=80, title = 'Positivity Score by Year, Newspaper and Number of Likes',)
             fig_4.update_yaxes(title='Positivity score' )
             fig_4.update_xaxes(title='Year' )
-            
+
         if option=='Syria':
             fig_4 = px.scatter(data_4, x="Date", y="Newspaper", color="Emotion",
                                hover_name="Tweet", size = "Like Count",size_max=100, color_discrete_sequence=["red", "yellow", "blue", "green"],
@@ -234,7 +228,7 @@ def page4():
             fig_4 = px.scatter(data_3, x="Date", y="Newspaper", color="Emotion",
             hover_name="Tweet", size = "Like Count",size_max=100, color_discrete_sequence=["red", "yellow", "blue", "green"],
             title = 'Tweets by Paper, Date, Emotion and Like Count')
-                
+
         st.plotly_chart(fig_4, use_container_width=True)
 
 
@@ -242,11 +236,11 @@ def page4():
 
     with col2:
 
-            
+
             # 1: Sentiment Across Newspapers Over Time, 2011-2022
-            
+
             if option=='Muslim' or option=='Syria':
-                
+
                 fig_1 = px.bar(data_1, y="Newspaper", x=['Positive','Neutral','Negative'], title="Sentiment Across Newspapers Over Time, 2011-2022", orientation='h', color_discrete_sequence=["green", "grey", "red"], animation_frame='year')
                 fig_1.update_xaxes(showticklabels=False, title=None )
                 fig_1.update_yaxes( title=None )
@@ -258,11 +252,11 @@ def page4():
                 fig_1.update_xaxes(showticklabels=False, title=None )
                 fig_1.update_yaxes( title=None )
                 fig_1.update_layout(legend_title='Sentiment')
-                
+
             st.plotly_chart(fig_1, use_container_width=True)
 
             #2: Average Emotions Across Newspapers
-            
+
             fig_2 = go.Figure()
             fig_2.add_trace(go.Scatterpolar(
                 r=[data_2['Joy'].iloc[0], data_2['Optimism'].iloc[0],data_2['Anger'].iloc[0], data_2['Sadness'].iloc[0]],
@@ -284,16 +278,14 @@ def page4():
             fig_2.update_layout(legend_title='Newspaper', title='Average Emotion Across Newspapers, 2008-2022')
             st.plotly_chart(fig_2, use_container_width=True)
 
-
     st.write('''The graphics are based on tweets by The Sun, The Daily Mail UK, The Daily Express and The Mail Online. Wordclouds represent the most semantically similar words to the search terms.''')
             
-
 def page5():
     st.header("Hate Crime and Socio-economic Events")
     st.sidebar.markdown('Page 4')
     slider = ["2008-2014", "2014-2017", "2017-2018", "2018-2020", "2020-2022"]
     new = st.select_slider("Please Select Year Range", options=slider)
-    crime = pd.read_csv("data/hate_crime.csv") 
+    crime = pd.read_csv("data/hate_crime.csv",engine='python')
     # Create figure
     fig = go.Figure()
 
@@ -319,7 +311,7 @@ def page5():
                 borderpad=4,
                 bgcolor="white",
                 opacity=0.8)
-        
+
     if new==slider[1]:
         #Manchester Bombing
         fig.add_annotation(
@@ -338,7 +330,7 @@ def page5():
                 borderpad=4,
                 bgcolor="white",
                 opacity=0.8)
-        
+
     if new==slider[2]:
         #Bank Robbers
         fig.add_annotation(
@@ -378,7 +370,7 @@ def page5():
                 opacity=0.8, arrowcolor="red",)
 
     if new==slider[3]:
-        #BLM    
+        #BLM
         fig.add_annotation(
                 x='2020-05-28',
                 y=325,
@@ -414,19 +406,19 @@ def page5():
     if new=="2008-2014":
         image = Image.open('data/european.png')
         st.image(image, use_column_width=True)
-        
+
     elif new=="2014-2017":
         image = Image.open('data/Manchester.png')
         st.image(image, use_column_width=True)
-        
+
     elif new=="2017-2018":
         image = Image.open('data/Muslim.png')
         st.image(image, use_column_width=True)
-        
+
     elif new=="2018-2020":
         image = Image.open('data/Black.png')
         st.image(image, use_column_width=True)
-        
+
     elif new=="2020-2022":
         image = Image.open('data/BLM.png')
         st.image(image, use_column_width=True)
@@ -443,7 +435,6 @@ def page6():
     st.markdown('.From 2018 onwards, newspaper softened their language on migrants, with more emotive words semantically associated to headlines.')
     st.markdown('.Newspaper headlines’ primary emotions were anger and sadness, during the period explored. The sentiment of the headlines were overhwleming negative or neutral.')
 
-    
 page_names_to_funcs = {
     "Background": page2,
     "Overall Perception of Immigrants": page3,
@@ -453,5 +444,3 @@ page_names_to_funcs = {
 
 selected_page = st.sidebar.selectbox("Select a page", page_names_to_funcs.keys())
 page_names_to_funcs[selected_page]()
-
-
