@@ -2,18 +2,54 @@ import streamlit as st
 import streamlit_wordcloud as wordcloud
 from PIL import Image
 import pandas as pd
-import emoji
+import base64
 import plotly.express as px
 import plotly.graph_objects as go
-#from Muslim_Plotly import muslim_fig_1
+from streamlit_option_menu import option_menu
 
 st.set_page_config(layout="wide")
 
+with st.sidebar:
+    selected = option_menu("Main Menu", ["Background", 'Overall Perception of Immigrants', 'Perceptions Across Minority Groups',
+                                         'Relationship with Hate Crime & Key Socio-economic Events', 'Interpretation'],
+        default_index=1)
+    selected
 
-def page2():
-    st.markdown('1. Background')
-    st.sidebar.markdown('Page 1')
-    st.header("Background")
+
+# Header Styling
+st.markdown(""" <style> .header {
+font-size:65px ; font-family: 'American Typewriter';}
+</style> """, unsafe_allow_html=True)
+
+# Background Image
+
+main_bg = "backgrounds/background_1.png"
+
+@st.cache
+def load_image(path):
+    with open(path, 'rb') as f:
+        data = f.read()
+    encoded = base64.b64encode(data).decode()
+    return encoded
+
+def background_image_style(path):
+    encoded = load_image(path)
+    style = f'''
+    <style>
+    .stApp {{
+        background-image: url("data:image/jpg;base64,{encoded}");
+        background-size: cover
+    }}
+    </style>
+    '''
+    return style
+
+st.write(background_image_style(main_bg), unsafe_allow_html=True)
+
+# Content Body
+
+if selected == "Background":
+    st.markdown('<p class="header">Background</p>',unsafe_allow_html=True)
     st.subheader("Text on the Motivation for the Project")
     st.write('''
     It was the best of times, it was the worst of times, it was
@@ -21,13 +57,12 @@ def page2():
     ''')
 
 
-def page3():
-    st.markdown('2. Overall Perceptions of Foreigners')
-    st.sidebar.markdown('Page 2')
-    st.header("Perceptions of Immigrants in the Press")
+if selected == "Overall Perception of Immigrants":
+    st.markdown('<p class="header">Perceptions of Immigrants in the Press</p>',unsafe_allow_html=True)
+    option = st.selectbox('',('Please Select an Option', 'Asylum', 'Migrant', 'Refugee'))
     options = ["2008-2014", "2014-2017", "2017-2018", "2018-2020", "2020-2022"]
     new = st.select_slider("Please Select Year Range", options=options)
-    option = st.selectbox('Which type of foreign persons?',('Please Select', 'Asylum', 'Migrant', 'Refugee'))
+
 
     if new=="2008-2014":
         if option=='Migrant':
@@ -42,8 +77,8 @@ def page3():
             st.subheader('Search Term: Refugee')
             image = Image.open('data/refugee_1.png')
             st.image(image, use_column_width=True)
-        if option=='Please Select':
-            st.write('Please Select a Foreign Type :pray:')
+        if option=='Please Select an Option':
+            st.write('No Option Selected!')
 
 
     elif new=="2014-2017":
@@ -59,8 +94,8 @@ def page3():
             st.subheader('Search Term: Refugee')
             image = Image.open('data/refugee_2.png')
             st.image(image, use_column_width=True)
-        if option=='Please Select':
-            st.write('Please Select a Foreign Type :pray:')
+        if option=='Please Select an Option':
+            st.write('No Option Selected!')
 
 
     elif new=="2017-2018":
@@ -76,8 +111,8 @@ def page3():
             st.subheader('Search Term: Refugee')
             image = Image.open('data/refugee_3.png')
             st.image(image, use_column_width=True)
-        if option=='Please Select':
-            st.write('Please Select a Foreign Type :pray:')
+        if option=='Please Select an Option':
+            st.write('No Option Selected!')
 
     elif new=='2018-2020':
         if option=='Migrant':
@@ -95,8 +130,8 @@ def page3():
             image = Image.open('data/refugee_4.png')
             st.image(image, caption='Refugee 5', use_column_width=True)
 
-        if option=='Please Select':
-            st.write('Please Select a Foreign Type :pray:')
+        if option=='Please Select an Option':
+            st.write('No Option Selected!')
 
     elif new=='2020-2022':
         if option=='Migrant':
@@ -114,25 +149,19 @@ def page3():
             image = Image.open('data/refugee_5.png')
             st.image(image, use_column_width=True)
 
-        if option=='Please Select':
-            st.write('Please Select a Foreign Type :pray:')
-
-
-
-    st.subheader("Interpretation Text Here")
-    st.write('''Interpretation Text Here!''')
+        if option=='Please Select an Option':
+            st.write('No Option Selected!')
 
 
 
 
+    st.write('''The wordclouds represent the most semantically similar words to the search term, based on tweets by The Sun, The Daily Mail UK, The Daily Express and The Mail Online''')
 
 
 
-def page4():
-    st.markdown('3. Perceptions Across Minority Groups')
-    st.sidebar.markdown('Page 3')
-    st.header("Perceptions Across Minority Groups")
-    option = st.selectbox('Which minority group would you like to see?',('Ukraine', 'Syria', 'Muslim'))
+if selected == "Perceptions Across Minority Groups":
+    st.markdown('<p class="header">Perceptions Across Minority Groups</p>',unsafe_allow_html=True)
+    option = st.selectbox('Please select search term',('Ukraine', 'Syria', 'Muslim'))
     slider = ["2008-2014", "2014-2017", "2017-2018", "2018-2020", "2020-2022"]
     new = st.select_slider("Please Select Year Range", options=slider)
 
@@ -242,8 +271,8 @@ def page4():
 
         st.plotly_chart(fig_4, use_container_width=True)
 
-        st.subheader("Interpretation Text Here")
-        st.write('''Interpretation Text Here!''')
+
+
 
     with col2:
 
@@ -290,13 +319,14 @@ def page4():
             st.plotly_chart(fig_2, use_container_width=True)
 
 
+    st.write('''The graphics are based on tweets by The Sun, The Daily Mail UK, The Daily Express and The Mail Online. Wordclouds represent the most semantically similar words to the search terms.''')
 
-def page5():
-    st.markdown('4. Hate Crime and Socio-Economic Events')
-    st.sidebar.markdown('Page 4')
+
+if selected == "Relationship with Hate Crime & Key Socio-economic Events":
+    st.markdown('<p class="header">Hate Crime and Socio-economic Events</p>',unsafe_allow_html=True)
     slider = ["2008-2014", "2014-2017", "2017-2018", "2018-2020", "2020-2022"]
     new = st.select_slider("Please Select Year Range", options=slider)
-    crime = pd.read_csv("data/hate_crime.csv",engine='python')
+    crime = pd.read_csv("data/hate_crime.csv")
     # Create figure
     fig = go.Figure()
 
@@ -434,13 +464,12 @@ def page5():
         image = Image.open('data/BLM.png')
         st.image(image, use_column_width=True)
 
+    st.write('''The wordclouds represent the most semantically similar words to the search term, based on tweets by The Sun, The Daily Mail UK, The Daily Express and The Mail Online''')
 
-
-page_names_to_funcs = {
-    "Background": page2,
-    "Overall Perception of Immigrants": page3,
-    "Perceptions Across Minority Groups": page4,
-    "Relationship with Hate Crime & Key Socio-economic Events": page5}
-
-selected_page = st.sidebar.selectbox("Select a page", page_names_to_funcs.keys())
-page_names_to_funcs[selected_page]()
+if selected == "Interpretation":
+    st.markdown('<p class="header">Interpretation</p>',unsafe_allow_html=True)
+    st.subheader('.Newspapers produce headlines that refer to migrants and asylum seekers semantically similarly.')
+    st.subheader('.When referring to migrants, refugees or asylum seekers newspapers use language with a semantic association to criminal activities such as stealing, raping and paedophilia. This association is particularly strong between 2014 and 2018.')
+    st.subheader('.Between 2014 and 2018 newspapers portrayed the identity of migrants, refugees and asylum seekers as almost exclusively Muslim.')
+    st.subheader('.From 2018 onwards, newspaper softened their language on migrants, with more emotive words semantically associated to headlines.')
+    st.subheader('.Newspaper headlines’ primary emotions were anger and sadness, during the period explored. The sentiment of the headlines were overhwleming negative or neutral.')
