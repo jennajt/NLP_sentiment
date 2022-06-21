@@ -12,9 +12,12 @@ import streamlit.components.v1 as components
 st.set_page_config(layout="wide")
 
 with st.sidebar:
-    selected = option_menu("Main Menu", ["Visualising Top2Vec", 'Overall Perception of Immigrants', 'Perceptions Across Minority Groups',
-                                         'Relationship with Hate Crime & Key Socio-economic Events', 'Interpretation'],
-        default_index=1)
+    selected = option_menu("Main Menu", ["Objective & Technical Approach",
+                                         'Perceptions of Immigrants Across Time',
+                                         'Perceptions Across Minority Groups',
+                                         'Hate Crime',
+                                         'Interpretation'],
+        default_index=0)
     selected
 
 
@@ -50,17 +53,37 @@ st.write(background_image_style(main_bg), unsafe_allow_html=True)
 
 # Content Body
 
-if selected == "Visualising Top2Vec":
-    st.markdown('<p class="header">Visualising Top2Vec</p>',unsafe_allow_html=True)
+if selected == "Objective & Technical Approach":
+    st.markdown('<p class="header">Objective & Technical Approach</p>',unsafe_allow_html=True)
     visualisation = 'https://projector.tensorflow.org/?config=https://gist.githubusercontent.com/emevans97/39e062dd99a8a4d17c9a974bdbb25ad7/raw/8585d162f1d0afa337e3fed92450e6a829b028b2/unitensor.json'
-    st.subheader("TensorFlow Embedding Projector")
-    st.write(f"Check out this [link]({visualisation})")
-    components.iframe("https://projector.tensorflow.org/", scrolling=False, width=1200, height=800)
+    st.subheader("Objective")
+    st.markdown('''
+                The objective of this project was to use Natural Language Processing to analyse the attitudes of \
+        key British right-wing publications to immigrants and minority groups. Specifically, to understand:
+        - How immigrants have been portrayed across time
+        - How portrayals vary across minority groups
+        - How key events during peaks of hate crime offences were portrayed in the press
+        ''')
+    st.subheader("Technical Approach")
+    st.write(f"1.3 million unique tweets made by The Sun, The Daily Mail and The Daily Express between 2008 and 2022 \
+        were scraped and pre-processed. Top2Vec was used to identify themes in the data and RoBERTa \
+        Base Emotion was used to identify sentiment and emotion. \n \n The TensorFlow \
+        Embedding Projector below visualises Top2Vec and RoBERTa on a subset of the data used. Also\
+        available [here]({visualisation}).")
+    components.iframe(visualisation, scrolling=False, width=1200, height=800)
+    st.subheader("Project Team")
+    st.write("The project was completed in June 2022 by Jenna Tan, Ewan Evans, Humberto Vega Mendez and Ellis Latham.")
 
 
-if selected == "Overall Perception of Immigrants":
-    st.markdown('<p class="header">Perceptions of Immigrants in the Press</p>',unsafe_allow_html=True)
-    option = st.selectbox('',('Please Select an Option', 'Asylum', 'Migrant', 'Refugee'))
+if selected == "Perceptions of Immigrants Across Time":
+    st.markdown('<p class="header">Perceptions of Immigrants Across Time</p>',unsafe_allow_html=True)
+    st.write("To analyse portrayals of immigrants in the right wing media, Top2Vec was used to identify \
+            themes in tweets. \
+            The wordclouds represent the most semantically similar words to \
+            the selected search term, based on tweets made by The Sun, The Daily Mail UK, The Daily \
+            Express and The Mail Online during the selected timeframe. ")
+    st.markdown("""---""")
+    option = st.selectbox('Please select a search term', ('Migrant', 'Refugee', 'Asylum (Seeker)'))
     options = ["2008", "2014-2017", "2017-2018", "2018-2020", "2022"]
     new = st.select_slider("Please Select Year Range", options=options)
 
@@ -70,8 +93,8 @@ if selected == "Overall Perception of Immigrants":
             st.subheader('Search Term: Migrant')
             image = Image.open('data/migrant_1.png')
             st.image(image, use_column_width=True)
-        if option=='Asylum':
-            st.subheader('Search Term: Asylum')
+        if option=='Asylum (Seeker)':
+            st.subheader('Search Term: Asylum (Seeker)')
             image = Image.open('data/asylum_1.png')
             st.image(image, use_column_width=True)
         if option=='Refugee':
@@ -87,8 +110,8 @@ if selected == "Overall Perception of Immigrants":
             st.subheader('Search Term: Migrant')
             image = Image.open('data/migrant_2.png')
             st.image(image, use_column_width=True)
-        if option=='Asylum':
-            st.subheader('Search Term: Asylum')
+        if option=='Asylum (Seeker)':
+            st.subheader('Search Term: Asylum (Seeker)')
             image = Image.open('data/asylum_2.png')
             st.image(image, use_column_width=True)
         if option=='Refugee':
@@ -104,8 +127,8 @@ if selected == "Overall Perception of Immigrants":
             st.subheader('Search Term: Migrant')
             image = Image.open('data/migrant_3.png')
             st.image(image, use_column_width=True)
-        if option=='Asylum':
-            st.subheader('Search Term: Asylum')
+        if option=='Asylum (Seeker)':
+            st.subheader('Search Term: Asylum (Seeker)')
             image = Image.open('data/asylum_3.png')
             st.image(image, use_column_width=True)
         if option=='Refugee':
@@ -121,8 +144,8 @@ if selected == "Overall Perception of Immigrants":
             image = Image.open('data/migrant_4.png')
             st.image(image, use_column_width=True)
 
-        if option== 'Asylum':
-            st.subheader('Search Term: Asylum')
+        if option== 'Asylum (Seeker)':
+            st.subheader('Search Term: Asylum (Seeker)')
             image = Image.open('data/asylum_4.png')
             st.image(image, use_column_width=True)
 
@@ -140,8 +163,8 @@ if selected == "Overall Perception of Immigrants":
             image = Image.open('data/migrant_5.png')
             st.image(image, use_column_width=True)
 
-        if option== 'Asylum':
-            st.subheader('Search Term: Asylum')
+        if option== 'Asylum (Seeker)':
+            st.subheader('Search Term: Asylum (Seeker)')
             image = Image.open('data/asylum_5.png')
             st.image(image, use_column_width=True)
 
@@ -154,23 +177,21 @@ if selected == "Overall Perception of Immigrants":
             st.write('No Option Selected!')
 
 
-
-
-    st.write('''The wordclouds represent the most semantically similar words to the search term, based on tweets by The Sun, The Daily Mail UK, The Daily Express and The Mail Online''')
-
-
-
 if selected == "Perceptions Across Minority Groups":
     st.markdown('<p class="header">Perceptions Across Minority Groups</p>',unsafe_allow_html=True)
-    option = st.selectbox('Please select search term',('Ukraine', 'Syria', 'Muslim'))
+    st.write('''To analyse portrayals of minority groups in the right wing media, Top2Vec and RoBERTA were used to identify \
+            themes and sentiment in tweets. \
+            The wordclouds represent the most semantically similar words to \
+        the selected search term, based on tweets made by The Sun, The Daily Mail UK, The Daily \
+            Express and The Mail Online during the selected timeframe. The graphics represent the associated sentiment
+            of the tweets, based on the selected search term. \n \n Data for Ukraine was \
+                collected between January 2022 and June 2022, to reflect the timeframe of the on-going Ukrainian Crisis.
+            ''')
+    st.markdown("""---""")
+    option = st.selectbox('Please select a search term',('Muslim', 'Syria', 'Ukraine'))
     slider = ["2008", "2014-2017", "2017-2018", "2018-2020", "2022"]
     new = st.select_slider("Please Select Year Range", options=slider)
 
-
-    if option=='Ukraine':
-        st.subheader('Search Term: Ukraine')
-        image = Image.open('data/Ukraine.png')
-        st.image(image, use_column_width=True)
 
     if new=="2008":
         if option=='Syria':
@@ -219,6 +240,10 @@ if selected == "Perceptions Across Minority Groups":
             st.subheader('Search Term: Muslim')
             image3 = Image.open('data/muslim_5.png')
             st.image(image3, use_column_width=True)
+        if option=='Ukraine':
+            st.subheader('Search Term: Ukraine')
+            image = Image.open('data/Ukraine.png')
+            st.image(image, use_column_width=True)
 
 
     col1,col2 = st.columns(2)
@@ -358,11 +383,15 @@ if selected == "Perceptions Across Minority Groups":
             st.plotly_chart(fig_2, use_container_width=True)
 
 
-    st.write('''The graphics are based on tweets by The Sun, The Daily Mail UK, The Daily Express and The Mail Online. Wordclouds represent the most semantically similar words to the search terms.''')
 
-
-if selected == "Relationship with Hate Crime & Key Socio-economic Events":
-    st.markdown('<p class="header">Hate Crime and Socio-economic Events</p>',unsafe_allow_html=True)
+if selected == "Hate Crime":
+    st.markdown('<p class="header">Hate Crime</p>',unsafe_allow_html=True)
+    st.write('''The graph represents racially or religiously aggravated offenses in England \
+        and Wales between 2015 and 2021. The wordclouds below represent the most semantically similar words to \
+        select Twitter search terms, chosen to reflect key events at the peak of offences.\
+        Tweets were made by The Sun, The Daily Mail UK, The Daily \
+            Express and The Mail Online during the year of the event.
+            ''')
     crime = pd.read_csv("data/hate_crime.csv")
     # Create figure
     fig = go.Figure()
@@ -370,8 +399,8 @@ if selected == "Relationship with Hate Crime & Key Socio-economic Events":
     # Add hate crime
     fig.add_trace(go.Scatter(x=crime['Date'], y=crime['Total offences'], name='Hate Crime'))
 
-    slider = ["2008", "2014-2017", "2017-2018", "2018-2020", "2022"]
-    new = st.select_slider("Please Select Year Range", options=slider)
+    slider = ["EU Referendum", "Manchester Attacks", "Bank Robbers", "Chimpanzee", "Black Lives Matter"]
+    new = st.select_slider("Please Select Event", options=slider)
 
     # Add text
     if new==slider[0]:
@@ -475,7 +504,7 @@ if selected == "Relationship with Hate Crime & Key Socio-economic Events":
 
     fig.update_layout(
         title={
-        'text': "Racially or Religiously Aggravated Offences, England and Wales",
+        'text': "Racially or Religiously Aggravated Offences, England and Wales, 2015-2021",
         'y':0.9,
         'x':0.5,
         'xanchor': 'center',
@@ -486,32 +515,40 @@ if selected == "Relationship with Hate Crime & Key Socio-economic Events":
 
 
     #Wordclouds
-    if new=="2008":
+    if new==slider[0]:
+        st.subheader('Search Term: European')
         image = Image.open('data/european.png')
         st.image(image, use_column_width=True)
 
-    elif new=="2014-2017":
+    elif new==slider[1]:
+        st.subheader('Search Term: Manchester')
         image = Image.open('data/Manchester.png')
         st.image(image, use_column_width=True)
 
-    elif new=="2017-2018":
+    elif new==slider[2]:
+        st.subheader('Search Term: Muslim')
         image = Image.open('data/Muslim.png')
         st.image(image, use_column_width=True)
 
-    elif new=="2018-2020":
+    elif new==slider[3]:
+        st.subheader('Search Term: Black')
         image = Image.open('data/Black.png')
         st.image(image, use_column_width=True)
 
-    elif new=="2022":
+    elif new==slider[4]:
+        st.subheader('Search Term: BLM (Black Lives Matter)')
         image = Image.open('data/BLM.png')
         st.image(image, use_column_width=True)
 
-    st.write('''The wordclouds represent the most semantically similar words to the search term, based on tweets by The Sun, The Daily Mail UK, The Daily Express and The Mail Online''')
+
 
 if selected == "Interpretation":
     st.markdown('<p class="header">Interpretation</p>',unsafe_allow_html=True)
-    st.subheader('Newspapers produce headlines that refer to migrants and asylum seekers in semantically similar ways.')
-    st.subheader('When referring to migrants, refugees or asylum seekers newspapers use language with a semantic association to criminal activities such as stealing, raping and paedophilia. This association is particularly strong between 2014 and 2018.')
-    st.subheader('Between 2014 and 2018 newspapers portrayed the identity of migrants, refugees and asylum seekers as almost exclusively Muslim.')
-    st.subheader('From 2018 onwards, newspaper softened their language on migrants, with more emotive words semantically associated to headlines.')
-    st.subheader('Newspaper headlines’ primary emotions were anger and sadness, during the periods explored. The sentiment of the headlines were overhwleming negative or neutral.')
+    st.markdown('''
+                The ring-wing publications analysed:
+                - Produce headlines that refer to migrants and asylum seekers in semantically similar ways.
+                - Refer to migrants, refugees and asylum seekers with language that have a semantic association to criminal activities. This association is particularly strong between 2014 and 2018.
+                - Portrayed the identity of migrants, refugees and asylum seekers as almost exclusively Muslim between 2014 and 2018.
+                - From 2018 onwards, softened the language on migrants, with more emotive words semantically associated to headlines.
+                - Produce headlines on immigrants and minority groups where the primary emotions are anger and sadness. The sentiment of the headlines were overhwleming negative or neutral.
+                ''')
