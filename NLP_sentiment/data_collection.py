@@ -3,7 +3,8 @@ import snscrape.modules.twitter as sntwitter
 import pandas as pd
 
 def collect_tweets(keywords, username, name, since="2008-07-28", until="2010-07-28"):
-    '''This is a function to scrape tweets from twitter. Takes two lists of search terms and usernames and returns a csv of relevant tweets'''
+    '''This is a function to scrape tweets from twitter. Takes two lists - keywords and username - , a file name as a string, and dates of query/
+    rRturns a csv of relevant tweets'''
     query = " OR ".join(keywords)
 
     tweets_list = []
