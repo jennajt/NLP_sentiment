@@ -9,9 +9,10 @@ from top2vec import Top2Vec
 
 PATH_TO_CSV = input('Enter path to csv: ')
 df = pd.read_csv(f'{PATH_TO_CSV}')
-df.sort_values(by=['Datetime'],inplace=True).reset_index()
+df.sort_values(by=['Datetime'],inplace=True)
+df = df.reset_index()
 
-class Create_Top2Vec():
+class CreateTop2Vec():
     def __init__(self, workers=-1, speed='fast-learn', min_count=100, embedding_model='universal-sentence-encoder'):
         self.workers = workers
         self.speed = speed
@@ -29,6 +30,6 @@ class Create_Top2Vec():
         return model.generate_topic_wordcloud(topic_num=topic_nums[0], background_color='white')
 
 if __name__ == "__main__":
-    top2vec_practise = Create_Top2Vec(min_count=150)
-    top2vec_practise.run_model()
-    top2vec_practise.generate_wordcloud(top2vec_practise.run_model(), "migrant")
+    top2vec_practice = CreateTop2Vec(min_count=150)
+    top2vec_practice.run_model()
+    top2vec_practice.generate_wordcloud(top2vec_practice.run_model(), "migrant")
