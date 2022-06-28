@@ -85,7 +85,7 @@ def preprocessing(col):
 
 # Drop duplicates and turn the dataframe into a clean CSV
 def clean(name):
-    '''
+    '''/Users/jennatan/code/jennajt/NLP_sentiment/NLP_sentiment
     Adds the preprocessed column to the dataframe,
     drops duplicates based on the preprocessed column and
     turns the dataframe into a CSV.

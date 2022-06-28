@@ -7,3 +7,5 @@ streamlit-wordcloud
 emoji
 plotly
 streamlit-option-menu
+
+
