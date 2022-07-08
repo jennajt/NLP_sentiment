@@ -1,74 +1,9 @@
-# Data analysis
-- Document here the project: NLP_sentiment
-- Description: Project Description
-- Data Source:
-- Type of analysis:
+**Natural Language Processing Sentiment Analysis of Immigration Tweets**
 
-Please document the project the better you can.
+A project for Le Wagon Batch #900 by Jenna Tan, Ewan Evans, Humberto Vega Mendez and Ellis Latham.
 
-# Startup the project
+We scraped and pre-processed 1.3 million unique tweets, used Top2Vec to identify themes and RoBERTa to identify sentiment and emotion.
 
-The initial setup.
+The project is showcased at https://share.streamlit.io/jennajt/nlp_sentiment/app.py
 
-Create virtualenv and install the project:
-```bash
-sudo apt-get install virtualenv python-pip python-dev
-deactivate; virtualenv ~/venv ; source ~/venv/bin/activate ;\
-    pip install pip -U; pip install -r requirements.txt
-```
-
-Unittest test:
-```bash
-make clean install test
-```
-
-Check for NLP_sentiment in gitlab.com/{group}.
-If your project is not set please add it:
-
-- Create a new project on `gitlab.com/{group}/NLP_sentiment`
-- Then populate it:
-
-```bash
-##   e.g. if group is "{group}" and project_name is "NLP_sentiment"
-git remote add origin git@github.com:{group}/NLP_sentiment.git
-git push -u origin master
-git push -u origin --tags
-```
-
-Functionnal test with a script:
-
-```bash
-cd
-mkdir tmp
-cd tmp
-NLP_sentiment-run
-```
-
-# Install
-
-Go to `https://github.com/{group}/NLP_sentiment` to see the project, manage issues,
-setup you ssh public key, ...
-
-Create a python3 virtualenv and activate it:
-
-```bash
-sudo apt-get install virtualenv python-pip python-dev
-deactivate; virtualenv -ppython3 ~/venv ; source ~/venv/bin/activate
-```
-
-Clone the project and install it:
-
-```bash
-git clone git@github.com:{group}/NLP_sentiment.git
-cd NLP_sentiment
-pip install -r requirements.txt
-make clean install test                # install and test
-```
-Functionnal test with a script:
-
-```bash
-cd
-mkdir tmp
-cd tmp
-NLP_sentiment-run
-```
+We used https://huggingface.co/cardiffnlp/twitter-roberta-base-emotion to analyse sentiment and emotion.
